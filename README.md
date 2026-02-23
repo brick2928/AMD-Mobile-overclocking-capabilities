@@ -12,7 +12,17 @@ A picture will be provided as proof if applicable.
 
 ## The table
 
-| CPU Generation | Curve Optimizer capable? | Precision Boost Override capable? | Memory overclocking capable? | AOD Exists? |
-| ------------ | ------------- | --------------- |---------|-------------|
-| Ryzen 1000  | Content Cell  | |
-| Ryzen 2000  | Content Cell  | |
+| CPU Generation | Curve Optimizer capable? | Precision Boost Override capable? | Memory overclocking capable? | AOD Exists? | tREFI Chanable?
+| ------------ | ------------- | --------------- |---------|-------------|-----------------------------|
+| Ryzen 2000  | Yes | No | Yes? | No | No |
+| Ryzen 3000 | Yes | No | Yes | No | No | 
+| Ryzen 4000 | Yes | No | Yes | No| No |
+| Ryzen 5000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Only Ryzen 9, HX, and U | Yes | No |
+| Ryzen 6000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Only Ryzen 9, HX, and U | Yes | No |
+| Ryzen 7000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Only Ryzen 9, HX, and U | Yes | No |
+| Ryzen 8000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Only Ryzen 9, HX, and U | Yes | No |
+| Ryzen 9000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Only Ryzen 9, HX, and U | Yes | Yes, with newer AGESA |
+| Rzyne 10 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Only Ryzen 9, HX, and U | Yes | No |
+| Ryzen 100 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Only Ryzen 9, HX, and U | Yes | No|
+| Ryzen 200 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Only Ryzen 9, HX, and U | Yes | No|
+| Ryzen 300 (STXH not included) | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Only Ryzen 9, HX, and U | Yes | No|
