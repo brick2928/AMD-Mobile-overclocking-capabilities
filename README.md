@@ -12,7 +12,7 @@ A picture will be provided as proof if applicable.
 
 ## The table
 
-| CPU Generation | Curve Optimizer capable? | Precision Boost Override capable? | Memory overclocking capable? | AOD Exists? | tREFI Chanable?
+| CPU Generation | Curve Optimizer capable? | Precision Boost Override capable? | Memory overclocking capable? | AOD Exists? | tREFI Changable?
 | ------------ | ------------- | --------------- |---------|-------------|-----------------------------|
 | Ryzen 2000  | Yes | No | Yes? | No | No |
 | Ryzen 3000 | Yes | No | Yes | No | No | 
