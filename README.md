@@ -3,7 +3,7 @@ This github repo is a community project, and is not backened by AMD. All of the 
 
 # Navigation
 If you arent sure what this repo is about, please read the "introduction" part.
-If you want to have quick answer as to what your cpu is capable of, refer to the https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/bricked-branch?tab=readme-ov-file#simplified-table
+If you want to have quick answer as to what your cpu is capable of, refer to the [Simplified Table] (https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/bricked-branch?tab=readme-ov-file#simplified-table)
 
 
 # Introduction
