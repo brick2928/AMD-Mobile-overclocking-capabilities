@@ -14,10 +14,10 @@ A picture will be provided as proof if applicable.
 
 | CPU Generation | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD Exists? | tREFI Changable?|
 | ------------ | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 1000 - mobile doesnt exist | N/A | N/A | N/A | N/A | N/A | N/A |
+| Ryzen 1000 - Mobile doesnt exist | N/A | N/A | N/A | N/A | N/A | N/A |
 | Ryzen 2000  | Yes | No | Yes | Yes? | No | No |
 | Ryzen 3000 | Yes | No | Yes | Yes | No | No | 
-| Ryzen 4000 | Yes | No | Yes | Yes | No| No |
+| Ryzen 4000 | Yes | No | Yes | Yes | Depends on Device | No |
 | Ryzen 5000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unkown | Only Ryzen 9, HX, and U | Yes | No |
 | Ryzen 6000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unkown | Only Ryzen 9, HX, and U | Yes | No |
 | Ryzen 7000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unkown | Only Ryzen 9, HX, and U | Yes | No |
