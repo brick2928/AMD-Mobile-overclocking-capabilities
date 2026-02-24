@@ -1,14 +1,21 @@
 # DISCLAIMER
-This github repo is a community project, and is not backened by AMD. All of the information you can find here was found by end consumers just like you! As much as we are confident in our findings, we can only be so sure as a unofficial source. Please take everything you find with a "grain of salt"
+This github repo is a community project, and is not backened by AMD. All of the information you see here was found by end consumers just like you! As much as we are confident in our findings, we can only be so sure as a unofficial source. Please take everything you find with a "grain of salt"
+
+# Navigation
+If you arent sure what this repo is about, please read the "introduction" part.
+If you want to have quick answer as to what your cpu is capable of, refer to the https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/bricked-branch?tab=readme-ov-file#simplified-table
 
 
+# Introduction
 ##  Why does this exist?
-AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which chips are fused off for what features. Through this github I aim to help people easily figure out what their CPU is technically capable of doing
+AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which chips are fused off for what features. Through this github we aim to help people easily figure out what their CPU is technically capable of doing.
 
 
 ## What is the source of this information?
 The source is just attempt and trial by a lot of people on the internet, we gather information from other peoples experiences and put them here for everyone to have a quick way of accessing this information
 A picture will be provided as proof if applicable.
+
+
 
 
 # Simplified Table
@@ -27,10 +34,10 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 9000 | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA |
 | Ryzen 10 | No | No | Unknown | Unknown | Yes | No |
 | Ryzen 100 | No | No | Unknown | Unknown | Yes | No |
-| Ryzen 200 | Only Ryzen 9 | Only Ryzen 9 | Unknown | Yes | No |
-| Ryzen AI 300 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes | No |
-| Ryzen AI Max 300 | Yes, non-pro | Yes, non-pro | Yes? | Yes | No |
-| Ryzen AI 400 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes | No |
+| Ryzen 200 | Only Ryzen 9 | Only Ryzen 9 | Unknown | Yes | Yes | No |
+| Ryzen AI 300 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes | Yes | No |
+| Ryzen AI Max 300 | Yes, non-pro | Yes, non-pro | Yes? | Yes | Yes | No |
+| Ryzen AI 400 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes |Yes| No |
 
 
 
