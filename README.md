@@ -1,14 +1,22 @@
 # DISCLAIMER
-This github repo is a community project, and is not backened by AMD. All of the information you can find here was found by end consumers just like you! As much as we are confident in our findings, we can only be so sure as a unofficial source. Please take everything you find with a "grain of salt"
+This github repo is a community project, and is not backened by AMD. All of the information you see here was found by end consumers just like you! As much as we are confident in our findings, we can only be so sure as a unofficial source. Please take everything you find with a "grain of salt"
+
+# Navigation
+- If you aren't sure what this repo is about, please read the "introduction" part.
+- If you want to have quick answer as to what your cpu is capable of, refer to the [Simplified Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/bricked-branch?tab=readme-ov-file#simplified-table), it will tell you what your cpu is capable of depending on your cpu generation.
+ - If you want to find the specific information for your CPU, search for your CPU via CTRL+F and write its full name. This will bring you to the Detailed Table where we state what each CPU is capable of instead of generilizing them according to their generation
+ - You can find some proof of our findings at [the proof section](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/bricked-branch?tab=readme-ov-file#proof)
 
 
-##  Why does this exist?
-AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which chips are fused off for what features. Through this github I aim to help people easily figure out what their CPU is technically capable of doing
+# Introduction
+##  Why does this exist? What even is this repo about?
+AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which chips are fused off for what features. Through this github we aim to help people easily figure out what their CPU is technically capable of doing.
 
 
 ## What is the source of this information?
-The source is just attempt and trial by a lot of people on the internet, we gather information from other peoples experiences and put them here for everyone to have a quick way of accessing this information
+Our source is just attempt and trial by a lot of people on the internet. We gather information from other peoples experiences and put them here for everyone to have a quick way of accessing this information.
 A picture will be provided as proof if applicable.
+Keep in mind, newer the generation the less confidence we have! Except in situations where we have direct proof.
 
 
 # Simplified Table
@@ -27,10 +35,10 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 9000 | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA |
 | Ryzen 10 | No | No | Unknown | Unknown | Yes | No |
 | Ryzen 100 | No | No | Unknown | Unknown | Yes | No |
-| Ryzen 200 | Only Ryzen 9 | Only Ryzen 9 | Unknown | Yes | No |
-| Ryzen AI 300 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes | No |
-| Ryzen AI Max 300 | Yes, non-pro | Yes, non-pro | Yes? | Yes | No |
-| Ryzen AI 400 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes | No |
+| Ryzen 200 | Only Ryzen 9 | Only Ryzen 9 | Unknown | Yes | Yes | No |
+| Ryzen AI 300 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes | Yes | No |
+| Ryzen AI Max 300 | Yes, non-pro | Yes, non-pro | Yes? | Limited | Yes | No |
+| Ryzen AI 400 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes |Yes| No |
 
 
 
@@ -108,18 +116,226 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Lucienne (Zen 2/GCN5 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen 7 5700U | No | No | No | Yes | Yes | No
+| Ryzen 5 5500U | No | No | No | Yes | Yes | No
+|  Ryzen 3 5300U | No | No | No | Yes | Yes | No
+
+### Cezanne and Barceló (Zen 3/GCN5 based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen 9 5980HX | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 9 5980HS | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 9 5900HX | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 9 5900HS | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 7 5800H | No | No | No | No | Yes | No
+| Ryzen 7 5800HS | No | No | No | No? | Yes | No
+| Ryzen 7 5825U | No | No | No | Yes | Yes | No
+| Ryzen 7 5800U | No | No | No | Yes | Yes | No
+| Ryzen 5 5600H | No | No | No | No | Yes | No
+| Ryzen 5 5600HS | No | No | No | No? | Yes | No
+| Ryzen 5 5625U | No | No | No | Yes | Yes | No
+| Ryzen 5 5600U | No | No | No | Yes | Yes | No
+| Ryzen 5 5560U | No | No | No | Yes | Yes | No
+| Ryzen 5 5500H | No | No | No | No | Yes | No
+| Ryzen 3 5425U | No | No | No | Yes | Yes | No
+| Ryzen 3 5400U | No | No | No | Yes | Yes | No
+| Ryzen 3 5125C | No | No | No | Yes? | Yes | No
+
+## Ryzen 6000
+### Rembrandt (Zen 3+/RDNA2 based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen 9 6980HX | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 9 6980HS | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 9 6900HX | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 9 6900HS | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 7 6800H | No | No | No | No? | Yes | No
+| Ryzen 7 6800HS | No | No | No | No? | Yes | No
+| Ryzen 7 6800U | No | No | No | Yes | Yes | No
+| Ryzen 5 6600H | No | No | No | No? | Yes | No
+| Ryzen 5 6600HS | No | No | No | No? | Yes | No
+| Ryzen 5 6600U  | No | No | No | Yes | Yes | No
+
+## Ryzen 7000
+### Mendocino (7020 series, Zen 2/RDNA2 based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen 5 7520U | No | No | No | Yes | Yes | No
+| Ryzen 5 7320U | No | No | No | Yes | Yes | No
+
+### Barcelo-R (7030 series, Zen 3/GCN5 based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen 7 PRO 7730U | No | No | No | Yes? | Yes | No
+| Ryzen 7 7730U | No | No | No | Yes | Yes | No
+| Ryzen 5 PRO 7530U | No | No | No | Yes? | Yes | No
+| Ryzen 5 7530U | No | No | No | Yes | Yes | No
+| Ryzen 5 7430U | No | No | No | Yes | Yes | No
+| Ryzen 3 PRO 7330U | No | No | No | Yes? | Yes | No
+| Ryzen 3 7330U | No | No | No | Yes | Yes | No
+
+### Rembrandt-R (7035 series, Zen 3+/RDNA2 based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen 7 7735HS | No | No | No | No? | Yes | No
+| Ryzen 7 7735H | No | No | No | No? | Yes | No
+| Ryzen 7 7736U | No | No | No | Yes | Yes | No
+| Ryzen 7 7735U | No | No | No | Yes | Yes | No
+| Ryzen 7 7435HS | No | No | No | No? | Yes | No
+| Ryzen 7 7435H | No | No | No | No? | Yes | No
+| Ryzen 5 7535HS | No | No | No | No? | Yes | No
+| Ryzen 5 7535H | No | No | No | No? | Yes | No
+| Ryzen 5 7535U | No | No | No | Yes | Yes | No
+| Ryzen 5 7235HS | No | No | No | No? | Yes | No
+| Ryzen 5 7235H | No | No | No | No? | Yes | No
+| Ryzen 3 7335U | No | No | No | Yes | Yes | No
+
+### Phoenix (7040 series, Zen 4/RDNA3/XDNA based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen 9 PRO 7940HS | No | No | No | Yes? | Yes | No
+| Ryzen 9 7940HS | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 9 7940H | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 7 PRO 7840HS | No | No | No | No? | Yes | No
+| Ryzen 7 7840HS | No | No | No | No? | Yes | No
+| Ryzen 7 7840H | No | No | No | No? | Yes | No
+| Ryzen 7 PRO 7840U | No | No | No | Yes? | Yes | No
+| Ryzen 7 7840U | No | No | No | Yes | Yes | No
+| Ryzen 7 7445HS | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 7640HS | No | No | No | No? | Yes | No
+| Ryzen 5 7640HS | No | No | No | No? | Yes | No
+| Ryzen 5 7640H | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 7640U | No | No | No | Yes | Yes | No
+| Ryzen 5 7640U | No | No | No | Yes | Yes | No
+| Ryzen 5 PRO 7545U | No | No | No | Yes | Yes | No
+| Ryzen 5 7545U | No | No | No | Yes | Yes | No
+| Ryzen 5 PRO 7540U | No | No | No | Yes | Yes | No
+| Ryzen 5 7540U | No | No | No | Yes | Yes | No
+| Ryzen 3 7440U | No | No | No | Yes | Yes | No
+
+### Dragon Range (7045 series, Zen 4/RDNA2 based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen 9 7945HX3D | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 9 7945HX | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 9 7940HX | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 9 7845HX | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 7 7840HX | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 7 7745HX | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 5 7645HX | Yes | Yes | Yes? | Yes | Yes | No
+
+## Ryzen 8000
+### Hawk Point (8040 series, Zen 4/RDNA3/XDNA based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen 9 8945HS | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 7 8845HS | No | No | No | No? | Yes | No
+| Ryzen 7 8840HS | No | No | No | No? | Yes | No
+| Ryzen 7 8840U | No | No | No | Yes | Yes | No
+| Ryzen 7 8745HS| No | No | No | No? | Yes | No
+| Ryzen 7 8745H| No | No | No | No? | Yes | No
+| Ryzen 5 8645HS| No | No | No | No? | Yes | No
+| Ryzen 5 8640HS| No | No | No | No? | Yes | No
+| Ryzen 5 8640U | No | No | No | Yes | Yes | No
+| Ryzen 5 8540U | No | No | No | Yes | Yes | No
+| Ryzen 3 8440U | No | No | No | Yes | Yes | No
+
+### Dragon Range (8045 series, Zen4/RDNA2 based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen 9 8945HX | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 9 8940HX | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 7 8840HX | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 7 8745HX | Yes | Yes | Yes? | Yes | Yes | No
+
+## Ryzen 9000
+### Fire Range (Zen 5/RDNA2 based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen 9 9955HX3D | Yes | Yes | Yes? | Yes | Yes | Yes, with newer AGESA
+| Ryzen 9 9955HX | Yes | Yes | Yes? | Yes | Yes | Yes, with newer AGESA
+| Ryzen 9 9950HX | Yes | Yes | Yes? | Yes | Yes | Unkown. Most likely yes, with newer AGESA
+
+## Ryzen 10
+### Mendocino (10 series, Zen 2/RDNA2 based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen 5 40 | No | No | No | Unkown | Yes | No
+| Ryzen 3 30 | No | No | No | Unkown | Yes | No
+
+## Ryzen 100 
+### Rembrandt-R (100 series, Zen 3+/RDNA2 based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen 7 170 | No | No | No | Unkown | Yes | No
+| Ryzen 7 160 | No | No | No | Unkown | Yes | No
+| Ryzen 5 150 | No | No | No | Unkown | Yes | No
+| Ryzen 5 130 | No | No | No | Unkown | Yes | No
+| Ryzen 3 110 | No | No | No | Unkown | Yes | No
+
+## Ryzen 200
+### Hawk Point Refresh (200 series, Zen 4/RDNA3/XDNA based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen 9 270 | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 7 260 | No | No | No | Unkown | Yes | No
+| Ryzen 7 PRO 250 | No | No | No | Unkown | Yes | No
+| Ryzen 7 250 | No | No | No | Unkown | Yes | No
+| Ryzen 5 240 | No | No | No | Unkown | Yes | No
+| Ryzen 5 PRO 230 | No | No | No | Unkown | Yes | No
+| Ryzen 5 230 | No | No | No | Unkown | Yes | No
+| Ryzen 5 PRO 220 | No | No | No | Unkown | Yes | No
+| Ryzen 5 220 | No | No | No | Unkown | Yes | No
+| Ryzen 3 PRO 210 | No | No | No | Unkown | Yes | No
+| Ryzen 3 210 | No | No | No | Unkown | Yes | No
+
+## Ryzen AI 300
+### Strix Point and Krackan Point (Zen 5/RDNA3.5/XDNA2 based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen AI 9 HX PRO 375 | No | No | No | Depends on Memory formfactor | Yes | No
+| Ryzen AI 9 HX 375 | Yes | Yes | Yes? | Depends on Memory formfactor | Yes | No
+| Ryzen AI 9 HX PRO 370 | No | No | No | Depends on Memory formfactor | Yes | No
+| Ryzen AI 9 HX 370 | Yes | Yes | Yes? | Depends on Memory formfactor | Yes | No
+| Ryzen AI 9 HX 365 | Yes | Yes | Yes? | Depends on Memory formfactor | Yes | No
+| Ryzen AI 7 PRO 365 | No | No | No | Depends on Memory formfactor | Yes | No
+| Ryzen AI 7 PRO 350 | No | No | No | Depends on Memory formfactor | Yes | No
+| Ryzen AI 7 350 | No | No | No | Depends on Memory formfactor | Yes | No
+| Ryzen AI 5 PRO 340 | No | No | No | Depends on Memory formfactor | Yes | No
+| Ryzen AI 5 340 | No | No | No | Depends on Memory formfactor | Yes | No
+| Ryzen AI 5 330  | No | No | No | Depends on Memory formfactor | Yes | No
+
+### Strix Halo (Zen 5/RDNA3.5/XDNA2 based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen AI MAX+ PRO 395 | No | No | No | Limited due to LPDDR5 | Yes | No
+| Ryzen AI MAX+ 395 | Yes | Yes | Yes |  Limited due to LPDDR5 | Yes | No
+| Ryzen AI MAX+ 392 | Yes | Yes | Yes |  Limited due to LPDDR5 | Yes | No
+| Ryzen AI MAX PRO 390 | No | No | No | Limited due to LPDDR5 | Yes | No
+| Ryzen AI MAX 390 | Yes? | Yes? | Yes? |  Limited due to LPDDR5 | Yes | No
+| Ryzen AI MAX+ 388 | Yes | Yes | Yes |  Limited due to LPDDR5 | Yes | No
+| Ryzen AI MAX PRO 385 | No | No | No | Limited due to LPDDR5 | Yes | No
+| Ryzen AI MAX 385 | Yes | Yes | Yes |  Limited due to LPDDR5 | Yes | No
+| Ryzen AI MAX PRO 380 | No | No | No | Limited due to LPDDR5 | Yes | No
 
 
-
-
-
-
-
-
-
-
-
-
+## Ryzen AI 400
+### Gorgon Point (Zen 5/RDNA3.5/XDNA2 based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen AI 9 HX PRO 475 | No | No | No | Depends on Memory formfactor| Yes | No
+| Ryzen AI 9 HX 475 | Yes | Yes | Yes? | Depends on Memory formfactor | Yes | No
+| Ryzen AI 9 HX PRO 470 | No | No | No | Depends on Memory formfactor| Yes | No
+| Ryzen AI 9 HX 470 | Yes | Yes | Yes? | Depends on Memory formfactor | Yes | No
+| Ryzen AI 9 PRO 465 | No | No | No | Depends on Memory formfactor| Yes | No
+| Ryzen AI 9 465 | Yes | Yes | Yes? | Depends on Memory formfactor | Yes | No
+| Ryzen AI 7 PRO 450 | No | No | No | Depends on Memory formfactor | Yes | No
+| Ryzen AI 7 450 | No | No | No | Depends on Memory formfactor | Yes | No
+| Ryzen AI 7 445 | No | No | No | Depends on Memory formfactor | Yes | No
+| Ryzen AI 5 PRO 440 | No | No | No | Depends on Memory formfactor | Yes | No
+| Ryzen AI 5 PRO 435 | No | No | No | Depends on Memory formfactor | Yes | No
+| Ryzen AI 5 435 | No | No | No | Depends on Memory formfactor | Yes | No
+| Ryzen AI 5 430 | No | No | No | Depends on Memory formfactor | Yes | No
 
 
 
