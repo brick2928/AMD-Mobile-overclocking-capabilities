@@ -69,7 +69,18 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 |Ryzen 3 3200U|Yes|No|Yes|Yes|No|No|
 
 ### Picasso (Zen+/GCN5 based)
-| CPU  | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
-| ------------ | ------------- | --------------- |---------|-------------|-----------------------------|-|
-|-|-
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+|Ryzen 7 3780U|Yes|No|Yes|Yes|No|No
+|Ryzen 7 3750H|Yes|No|Yes|Yes|No|No
+|Ryzen 7 3700C|Yes?|No|Yes?|Yes?|No|No
+|Ryzen 7 3700U|Yes|No|Yes|Yes|No|No
+|Ryzen 5 3580U|Yes|No|Yes|Yes|No|No
+|Ryzen 5 3550H|Yes|No|Yes|Yes|No|No
+|Ryzen 5 3500C|Yes?|No|Yes?|Yes?|No|No
+|Ryzen 5 3500U|Yes|No|Yes|Yes|No|No
+|Ryzen 5 3450U|Yes|No|Yes|Yes|No|No
+|Ryzen 3 3350U|Yes|No|Yes|Yes|No|No
+|Ryzen 3 3300U|Yes|No|Yes|Yes|No|No
+
 
