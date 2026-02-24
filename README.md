@@ -19,17 +19,18 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 1000 - Mobile doesnt exist | N/A | N/A | N/A | N/A | N/A | N/A |
 | Ryzen 2000  | Yes | No | Yes | Yes? | No | No |
 | Ryzen 3000 | Yes | No | Yes | Yes | No | No | 
-| Ryzen 4000 | Yes | No | Yes | Yes | Depends on Device | No |
-| Ryzen 5000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unkown | Only Ryzen 9, HX, and U | Yes | No |
-| Ryzen 6000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unkown | Only Ryzen 9, HX, and U | Yes | No |
-| Ryzen 7000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unkown | Only Ryzen 9, HX, and U | Yes | No |
-| Ryzen 8000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unkown | Only Ryzen 9, HX, and U | Yes | No |
-| Ryzen 9000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unkown | Only Ryzen 9, HX, and U | Yes | Yes, with newer AGESA |
-| Ryzen 10 | No | No | Only Ryzen 9, HX, and U | No | Yes | No |
-| Ryzen 100 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unkown | Only Ryzen 9, HX, and U | Yes | No|
-| Ryzen 200 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Only Ryzen 9, HX, and U | Yes | No|
-| Ryzen 300 (STXH not included) | Only Ryzen 9 and HX and non-pro | Only Ryzen 9, HX and non-pro | Yes? | Yes | No|
-| Ryzen 400 | Only Ryzen 9 and HX and non-pro | Only Ryzen 9 and HX and non-pro | Yes? | Yes | No|
+| Ryzen 4000 | Yes | No | No | Yes | Depends on Device | No |
+| Ryzen 5000 | Only Ryzen 9 | Only Ryzen 9 and HX | Unknown | Only Ryzen 9, HX, and U | Yes | No |
+| Ryzen 6000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unknown | Only Ryzen 9, HX, and U | Yes | No |
+| Ryzen 7000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unknown | Only Ryzen 9, HX, and U | Yes | No |
+| Ryzen 8000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unknown | Only Ryzen 9, HX, and U | Yes | No |
+| Ryzen 9000 | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA |
+| Ryzen 10 | No | No | Unknown | Unknown | Yes | No |
+| Ryzen 100 | No | No | Unknown | Unknown | Yes | No |
+| Ryzen 200 | Only Ryzen 9 | Only Ryzen 9 | Unknown | Yes | No |
+| Ryzen AI 300 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes | No |
+| Ryzen AI Max 300 | Yes, non-pro | Yes, non-pro | Yes? | Yes | No |
+| Ryzen AI 400 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes | No |
 
 
 
@@ -88,20 +89,20 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-|Ryzen 9 4900H|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 9 4900HS|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 7 4900H|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 7 4900H|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 7 4900H|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 7 4900H|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 7 4900H|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 7 4900H|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 5 4600H|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 5 4600HS|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 5 4680H|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 5 4600u|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 5 4500U|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 3 4300U|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 9 4900H|Yes|No|No|Yes|Depends on device|No
+|Ryzen 9 4900HS|Yes|No|No|Yes|Depends on device|No
+|Ryzen 7 4900H|Yes|No|No|Yes|Depends on device|No
+|Ryzen 7 4900H|Yes|No|No|Yes|Depends on device|No
+|Ryzen 7 4900H|Yes|No|No|Yes|Depends on device|No
+|Ryzen 7 4900H|Yes|No|No|Yes|Depends on device|No
+|Ryzen 7 4900H|Yes|No|No|Yes|Depends on device|No
+|Ryzen 7 4900H|Yes|No|No|Yes|Depends on device|No
+|Ryzen 5 4600H|Yes|No|No|Yes|Depends on device|No
+|Ryzen 5 4600HS|Yes|No|No|Yes|Depends on device|No
+|Ryzen 5 4680H|Yes|No|No|Yes|Depends on device|No
+|Ryzen 5 4600U|Yes|No|No|Yes|Depends on device|No
+|Ryzen 5 4500U|Yes|No|No|Yes|Depends on device|No
+|Ryzen 3 4300U|Yes|No|No|Yes|Depends on device|No
 
 ## Ryzen 5000
 ### Lucienne (Zen 2/GCN5 based)
