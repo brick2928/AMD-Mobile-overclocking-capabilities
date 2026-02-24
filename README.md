@@ -1,6 +1,5 @@
-# AMD-Mobile-overclocking-capabilities
-A repo documenting what each AMD Mobile cpu gen is allowed to do in the area of overclocking.
-Simply making information more accessible.
+# DISCLAIMER
+This github repo is a community project, and is not backened by AMD. All of the information you can find here was found by end consumers just like you! As much as we are confident in our findings, we can only be so sure as a unofficial source. Please take everything you find with a "grain of salt"
 
 ##  Why does this exist?
 AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which chips are fused off for what features. Through this github I aim to help people easily figure out what their CPU is technically capable of doing
@@ -36,6 +35,7 @@ A picture will be provided as proof if applicable.
 ## AOD proof
 Below is a image showcasing 4 different bios files, each from a different generation ranging from 2000 to 5000. The bios files showcase that there is no AOD_SETUP string found in any of the BIOS files until ryzen 5000
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a7d02139-1c38-40d4-95d8-a2bfc03685db" />
+However, there is a exception. Ryzen 9 4000 devices technically have unlocked cpus, it appears with these unlocked higher end cpus the bios does have AOD_SETUP.
 
 
 ## 9955HX/3D capability to increase tREFI with newer AGESA.
