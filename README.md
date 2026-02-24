@@ -83,4 +83,43 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 |Ryzen 3 3350U|Yes|No|Yes|Yes|No|No
 |Ryzen 3 3300U|Yes|No|Yes|Yes|No|No
 
+## Ryzen 4000
+### Renoir (Zen 2/GCN5 based)
+
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+|Ryzen 9 4900H|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 9 4900HS|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 7 4900H|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 7 4900H|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 7 4900H|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 7 4900H|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 7 4900H|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 7 4900H|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 5 4600H|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 5 4600HS|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 5 4680H|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 5 4600u|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 5 4500U|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 3 4300U|Yes|No|Yes|Yes|Depends on device|No
+
+## Ryzen 5000
+### Lucienne (Zen 2/GCN5 based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
