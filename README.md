@@ -29,7 +29,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 100 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unkown | Only Ryzen 9, HX, and U | Yes | No|
 | Ryzen 200 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Only Ryzen 9, HX, and U | Yes | No|
 | Ryzen 300 (STXH not included) | Only Ryzen 9 and HX and non-pro | Only Ryzen 9, HX and non-pro | Yes? | Yes | No|
-| Ryzen 400 | Unkown | Unkown | Unkown | Yes | No|
+| Ryzen 400 | Only Ryzen 9 and HX and non-pro | Only Ryzen 9 and HX and non-pro | Yes? | Yes | No|
 
 
 
