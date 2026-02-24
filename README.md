@@ -17,8 +17,6 @@ AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which ch
 Our source is just attempt and trial by a lot of people on the internet. We gather information from other peoples experiences and put them here for everyone to have a quick way of accessing this information.
 A picture will be provided as proof if applicable.
 
-## How you can contribute to this database
-
 
 # Simplified Table
 This table generilizes cpu's by their generation. Usually the capability of the cpu mostly depends on their generation, but there are exceptions. For better accuracy you can refer to the extended section.
