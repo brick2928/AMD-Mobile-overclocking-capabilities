@@ -16,6 +16,7 @@ AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which ch
 ## What is the source of this information?
 Our source is just attempt and trial by a lot of people on the internet. We gather information from other peoples experiences and put them here for everyone to have a quick way of accessing this information.
 A picture will be provided as proof if applicable.
+Keep in mind, newer the generation the less confidence we have! Except in situations where we have direct proof.
 
 
 # Simplified Table
