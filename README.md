@@ -37,7 +37,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 100 | No | No | Unknown | Unknown | Yes | No |
 | Ryzen 200 | Only Ryzen 9 | Only Ryzen 9 | Unknown | Yes | Yes | No |
 | Ryzen AI 300 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes | Yes | No |
-| Ryzen AI Max 300 | Yes, non-pro | Yes, non-pro | Yes? | Limited | Yes | No |
+| Ryzen AI Max 300 | Yes, non-pro | Yes, non-pro | Yes, non-pro | Limited | Yes | No |
 | Ryzen AI 400 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes |Yes| No |
 
 
@@ -46,7 +46,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 
 ## AOD proof
 Below is a image showcasing 4 different bios files, each from a different generation ranging from 2000 to 5000. The bios files showcase that there is no AOD_SETUP string found in any of the BIOS files until ryzen 5000
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a7d02139-1c38-40d4-95d8-a2bfc03685db" />
+<img width="1919" height="1050" alt="Screenshot_2" src="https://github.com/user-attachments/assets/820be143-4469-4591-9be5-36b2d6f7b13c" />
 However, there is a exception. Ryzen 9 4000 devices technically have unlocked cpus, it appears with these unlocked higher end cpus the bios does have AOD_SETUP.
 
 
