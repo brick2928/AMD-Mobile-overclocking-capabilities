@@ -10,7 +10,7 @@ This github repo is a community project, and is not backened by AMD. All of the 
 
 # Introduction
 ##  Why does this exist? What even is this repo about?
-AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which chips are fused off for what features. Through this github we aim to help people easily figure out what their CPU is technically capable of doing.
+AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which chips are fused off for what features, only the way the cpu is "meant to be used". However some cpus can utilize eatures such as CO, even though AMD says the opposite. Through this github we aim to help people easily figure out what their CPU is technically capable of doing.
 
 
 ## What is the source of this information?
@@ -18,6 +18,9 @@ Our source is just attempt and trial by a lot of people on the internet. We gath
 A picture will be provided as proof if applicable.
 Keep in mind, newer the generation the less confidence we have! Except in situations where we have direct proof.
 
+## Give us a hand!!
+Do you see the question marks? Thats us indicating that we arent sure of our findings, or we are going off of assumptions.
+If you have the hardware for which we have written "unkown" or a question mark please check what your CPU is capable of and share your findings via creating a Issue! 
 
 # Simplified Table
 This table generilizes cpu's by their generation. Usually the capability of the cpu mostly depends on their generation, but there are exceptions. For better accuracy you can refer to the extended section.
@@ -37,7 +40,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 100 | No | No | Unknown | Unknown | Yes | No |
 | Ryzen 200 | Only Ryzen 9 | Only Ryzen 9 | Unknown | Yes | Yes | No |
 | Ryzen AI 300 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes | Yes | No |
-| Ryzen AI Max 300 | Yes, non-pro | Yes, non-pro | Yes, non-pro | Limited | Yes | No |
+| Ryzen AI Max 300 | Yes, non-pro | Yes, non-pro | Yes? | Limited | Yes | No |
 | Ryzen AI 400 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes |Yes| No |
 
 
