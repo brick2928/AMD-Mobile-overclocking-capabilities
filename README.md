@@ -13,11 +13,12 @@ This github repo is a community project, and is not backened by AMD. All of the 
 AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which chips are fused off for what features. Through this github we aim to help people easily figure out what their CPU is technically capable of doing.
 
 
-## What is the source of this information?
+## What is your source?
 Our source is just attempt and trial by a lot of people on the internet. We gather information from other peoples experiences and put them here for everyone to have a quick way of accessing this information.
 A picture will be provided as proof if applicable.
 Keep in mind, newer the generation the less confidence we have! Except in situations where we have direct proof.
 
+We got help from [this wikipedia page](https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Mobile_processors) to get the full list of Mobile AMD Ryzen processors. 
 
 # Simplified Table
 This table generilizes cpu's by their generation. Usually the capability of the cpu mostly depends on their generation, but there are exceptions. For better accuracy you can refer to the extended section.
@@ -83,14 +84,14 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 |Ryzen 7 3780U|Yes|No|Yes|Yes|No|No
 |Ryzen 7 3750H|Yes|No|Yes|Yes|No|No
 |Ryzen 7 3700C|Yes?|No|Yes?|Yes?|No|No
-|Ryzen 7 3700U|Yes|No|Yes|Yes|No|No
-|Ryzen 5 3580U|Yes|No|Yes|Yes|No|No
+|Ryzen 7 3700U|Yes|No|Yes, up to 3200MT/s|Yes|No|No
+|Ryzen 5 3580U|Yes|No|Yes, up to 3200MT/s|Yes|No|No
 |Ryzen 5 3550H|Yes|No|Yes|Yes|No|No
 |Ryzen 5 3500C|Yes?|No|Yes?|Yes?|No|No
-|Ryzen 5 3500U|Yes|No|Yes|Yes|No|No
-|Ryzen 5 3450U|Yes|No|Yes|Yes|No|No
-|Ryzen 3 3350U|Yes|No|Yes|Yes|No|No
-|Ryzen 3 3300U|Yes|No|Yes|Yes|No|No
+|Ryzen 5 3500U|Yes|No|Yes, up to 3200MT/s|Yes|No|No
+|Ryzen 5 3450U|Yes|No|Yes, up to 3200MT/s|Yes|No|No
+|Ryzen 3 3350U|Yes|No|Yes, up to 3200MT/s|Yes|No|No
+|Ryzen 3 3300U|Yes|No|Yes, up to 3200MT/s|Yes|No|No
 
 ## Ryzen 4000
 ### Renoir (Zen 2/GCN5 based)
@@ -99,26 +100,25 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 |Ryzen 9 4900H|Yes|No|No|Yes|Depends on device|No
 |Ryzen 9 4900HS|Yes|No|No|Yes|Depends on device|No
-|Ryzen 7 4900H|Yes|No|No|Yes|Depends on device|No
-|Ryzen 7 4900H|Yes|No|No|Yes|Depends on device|No
-|Ryzen 7 4900H|Yes|No|No|Yes|Depends on device|No
-|Ryzen 7 4900H|Yes|No|No|Yes|Depends on device|No
-|Ryzen 7 4900H|Yes|No|No|Yes|Depends on device|No
-|Ryzen 7 4900H|Yes|No|No|Yes|Depends on device|No
-|Ryzen 5 4600H|Yes|No|No|Yes|Depends on device|No
-|Ryzen 5 4600HS|Yes|No|No|Yes|Depends on device|No
-|Ryzen 5 4680H|Yes|No|No|Yes|Depends on device|No
-|Ryzen 5 4600U|Yes|No|No|Yes|Depends on device|No
-|Ryzen 5 4500U|Yes|No|No|Yes|Depends on device|No
-|Ryzen 3 4300U|Yes|No|No|Yes|Depends on device|No
+|Ryzen 7 4800H|Yes|No|No|Yes, up to 4400MT/s|Depends on device|No
+|Ryzen 7 4800HS|Yes|No|No|Yes, up to 4400MT/s|Depends on device|No
+|Ryzen 7 4980U|Yes|No|No|Yes|Depends on device|No
+|Ryzen 7 4800U|Yes|No|No|Yes|Depends on device|No
+|Ryzen 7 4700U|Yes|No|No|Yes|Depends on device|No
+|Ryzen 5 4600H|Yes|No|No|Yes, up to 4400MT/s|Depends on device|No
+|Ryzen 5 4600HS|Yes|No|No|Yes, up to 4400MT/s|Depends on device|No
+|Ryzen 5 4680U|Yes|No|No|Yes, up to 3200MT/s|Depends on device|No
+|Ryzen 5 4600U|Yes|No|No|Yes, up to 3200MT/s|Depends on device|No
+|Ryzen 5 4500U|Yes|No|No|Yes, up to 3200MT/s|Depends on device|No
+|Ryzen 3 4300U|Yes|No|No|Yes, up to 3200MT/s|Depends on device|No
 
 ## Ryzen 5000
 ### Lucienne (Zen 2/GCN5 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 7 5700U | No | No | No | Yes | Yes | No
-| Ryzen 5 5500U | No | No | No | Yes | Yes | No
-|  Ryzen 3 5300U | No | No | No | Yes | Yes | No
+| Ryzen 7 5700U | No | No | No | Yes, up to 3200MT/s | Yes | No
+| Ryzen 5 5500U | No | No | No | Yes, up to 3200MT/s | Yes | No
+|  Ryzen 3 5300U | No | No | No | Yes, up to 3200MT/s | Yes | No
 
 ### Cezanne and Barceló (Zen 3/GCN5 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
@@ -129,16 +129,16 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen 9 5900HS | Yes | Yes | Yes? | Yes | Yes | No
 | Ryzen 7 5800H | No | No | No | No | Yes | No
 | Ryzen 7 5800HS | No | No | No | No? | Yes | No
-| Ryzen 7 5825U | No | No | No | Yes | Yes | No
-| Ryzen 7 5800U | No | No | No | Yes | Yes | No
+| Ryzen 7 5825U | No | No | No | Yes, up to 3200MT/s | Yes | No
+| Ryzen 7 5800U | No | No | No | Yes, up to 3200MT/s | Yes | No
 | Ryzen 5 5600H | No | No | No | No | Yes | No
 | Ryzen 5 5600HS | No | No | No | No? | Yes | No
-| Ryzen 5 5625U | No | No | No | Yes | Yes | No
-| Ryzen 5 5600U | No | No | No | Yes | Yes | No
-| Ryzen 5 5560U | No | No | No | Yes | Yes | No
+| Ryzen 5 5625U | No | No | No | Yes, up to 3200MT/s | Yes | No
+| Ryzen 5 5600U | No | No | No | Yes, up to 3200MT/s | Yes | No
+| Ryzen 5 5560U | No | No | No | Yes, up to 3200MT/s | Yes | No
 | Ryzen 5 5500H | No | No | No | No | Yes | No
-| Ryzen 3 5425U | No | No | No | Yes | Yes | No
-| Ryzen 3 5400U | No | No | No | Yes | Yes | No
+| Ryzen 3 5425U | No | No | No | Yes, up to 3200MT/s | Yes | No
+| Ryzen 3 5400U | No | No | No | Yes, up to 3200MT/s | Yes | No
 | Ryzen 3 5125C | No | No | No | Yes? | Yes | No
 
 ## Ryzen 6000
