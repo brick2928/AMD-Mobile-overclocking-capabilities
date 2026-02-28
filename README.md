@@ -22,7 +22,8 @@ We got help from [this wikipedia page](https://en.wikipedia.org/wiki/List_of_AMD
 
 ## Please contribute!!
 Do you see the question marks? That is us indicating that we arent sure of our findings, or we are going off of assumptions.
-If you have the hardware for which we have written "unknown" or a question mark please, you can check what your CPU is capable of and share your findings via creating a Issue!
+If you have the hardware for which we have written "unknown" or a question mark, you can check what your CPU is capable of and share your findings via creating a Issue!
+If you think 
 
 
 # Simplified Table
