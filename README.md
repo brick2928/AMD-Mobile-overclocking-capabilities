@@ -4,8 +4,8 @@ This github repo is a community project, and is not backened by AMD. All of the 
 # Navigation
 - If you aren't sure what this repo is about, please read the "introduction" part.
 - If you want to have quick answer as to what your cpu is capable of, refer to the [Simplified Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/bricked-branch?tab=readme-ov-file#simplified-table), it will tell you what your cpu is capable of depending on your cpu generation.
- - If you want to find the specific information for your CPU, search for your CPU via CTRL+F and write its full name. This will bring you to the Detailed Table where we state what each CPU is capable of instead of generilizing them according to their generation
- - You can find some proof of our findings at [the proof section](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/bricked-branch?tab=readme-ov-file#proof)
+- If you want to find the specific information for your CPU, search for your CPU via CTRL+F and write its full name. This will bring you to the Detailed Table where we state what each CPU is capable of instead of generilizing them according to their generation
+- You can find some proof of our findings at [the proof section](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/bricked-branch?tab=readme-ov-file#proof)
 
 
 # Introduction
@@ -34,7 +34,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 1000 - Mobile doesnt exist | N/A | N/A | N/A | N/A | N/A | N/A |
 | Ryzen 2000  | Yes | No | Yes | Yes? | No | No |
 | Ryzen 3000 | Yes | No | Yes | Yes | No | No | 
-| Ryzen 4000 | Yes | No | No | Yes | Depends on Device | No |
+| Ryzen 4000 | Yes | No | Yes | Yes | Depends on Device | No |
 | Ryzen 5000 | Only Ryzen 9 | Only Ryzen 9 and HX | Unknown | Only Ryzen 9, HX, and U | Yes | No |
 | Ryzen 6000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unknown | Only Ryzen 9, HX, and U | Yes | No |
 | Ryzen 7000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unknown | Only Ryzen 9, HX, and U | Yes | No |
@@ -104,19 +104,19 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-|Ryzen 9 4900H|Yes|No|No|Yes|Depends on device|No
-|Ryzen 9 4900HS|Yes|No|No|Yes|Depends on device|No
-|Ryzen 7 4800H|Yes|No|No|Yes, up to 4400MT/s|Depends on device|No
-|Ryzen 7 4800HS|Yes|No|No|Yes, up to 4400MT/s|Depends on device|No
-|Ryzen 7 4980U|Yes|No|No|Yes|Depends on device|No
-|Ryzen 7 4800U|Yes|No|No|Yes|Depends on device|No
-|Ryzen 7 4700U|Yes|No|No|Yes|Depends on device|No
-|Ryzen 5 4600H|Yes|No|No|Yes, up to 4400MT/s|Depends on device|No
-|Ryzen 5 4600HS|Yes|No|No|Yes, up to 4400MT/s|Depends on device|No
-|Ryzen 5 4680U|Yes|No|No|Yes, up to 3200MT/s|Depends on device|No
-|Ryzen 5 4600U|Yes|No|No|Yes, up to 3200MT/s|Depends on device|No
-|Ryzen 5 4500U|Yes|No|No|Yes, up to 3200MT/s|Depends on device|No
-|Ryzen 3 4300U|Yes|No|No|Yes, up to 3200MT/s|Depends on device|No
+|Ryzen 9 4900H|Yes|Yes|Yes|Yes|Depends on device|No
+|Ryzen 9 4900HS|Yes|Yes|Yes|Yes|Depends on device|No
+|Ryzen 7 4800H|Yes|No|Yes|Yes, up to 4400MT/s|Depends on device|No
+|Ryzen 7 4800HS|Yes|No|Yes|Yes, up to 4400MT/s|Depends on device|No
+|Ryzen 7 4980U|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 7 4800U|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 7 4700U|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 5 4600H|Yes|No|Yes|Yes, up to 4400MT/s|Depends on device|No
+|Ryzen 5 4600HS|Yes|No|Yes|Yes, up to 4400MT/s|Depends on device|No
+|Ryzen 5 4680U|Yes|No|Yes|Yes, up to 3200MT/s|Depends on device|No
+|Ryzen 5 4600U|Yes|No|Yes|Yes, up to 3200MT/s|Depends on device|No
+|Ryzen 5 4500U|Yes|No|Yes|Yes, up to 3200MT/s|Depends on device|No
+|Ryzen 3 4300U|Yes|No|Yes|Yes, up to 3200MT/s|Depends on device|No
 
 ## Ryzen 5000
 ### Lucienne (Zen 2/GCN5 based)
