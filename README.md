@@ -10,7 +10,7 @@ This github repo is a community project, and is not backened by AMD. All of the 
 
 # Introduction
 ##  Why does this exist? What even is this repo about?
-AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which chips are fused off for what features. Through this github we aim to help people easily figure out what their CPU is technically capable of doing.
+AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which chips are fused off for what features, only the way the cpu is "meant to be used". However some cpus can utilize eatures such as CO, even though AMD says the opposite. Through this github we aim to help people easily figure out what their CPU is technically capable of doing.
 
 
 ## What is your source?
@@ -19,6 +19,11 @@ A picture will be provided as proof if applicable.
 Keep in mind, newer the generation the less confidence we have! Except in situations where we have direct proof.
 
 We got help from [this wikipedia page](https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Mobile_processors) to get the full list of Mobile AMD Ryzen processors. 
+
+## Please contribute!!
+Do you see the question marks? That is us indicating that we arent sure of our findings, or we are going off of assumptions.
+If you have the hardware for which we have written "unknown" or a question mark please, you can check what your CPU is capable of and share your findings via creating a Issue!
+
 
 # Simplified Table
 This table generilizes cpu's by their generation. Usually the capability of the cpu mostly depends on their generation, but there are exceptions. For better accuracy you can refer to the extended section.
@@ -47,7 +52,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 
 ## AOD proof
 Below is a image showcasing 4 different bios files, each from a different generation ranging from 2000 to 5000. The bios files showcase that there is no AOD_SETUP string found in any of the BIOS files until ryzen 5000
-<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/a7d02139-1c38-40d4-95d8-a2bfc03685db" />
+<img width="1919" height="1050" alt="Screenshot_2" src="https://github.com/user-attachments/assets/820be143-4469-4591-9be5-36b2d6f7b13c" />
 However, there is a exception. Ryzen 9 4000 devices technically have unlocked cpus, it appears with these unlocked higher end cpus the bios does have AOD_SETUP.
 
 
@@ -267,43 +272,43 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Rembrandt-R (100 series, Zen 3+/RDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 7 170 | No | No | No | Unkown | Yes | No
-| Ryzen 7 160 | No | No | No | Unkown | Yes | No
-| Ryzen 5 150 | No | No | No | Unkown | Yes | No
-| Ryzen 5 130 | No | No | No | Unkown | Yes | No
-| Ryzen 3 110 | No | No | No | Unkown | Yes | No
+| Ryzen 7 170 | No | No | No | Unknown | Yes | No
+| Ryzen 7 160 | No | No | No | Unknown | Yes | No
+| Ryzen 5 150 | No | No | No | Unknown | Yes | No
+| Ryzen 5 130 | No | No | No | Unknown | Yes | No
+| Ryzen 3 110 | No | No | No | Unknown | Yes | No
 
 ## Ryzen 200
 ### Hawk Point Refresh (200 series, Zen 4/RDNA3/XDNA based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 | Ryzen 9 270 | Yes | Yes | Yes? | Yes | Yes | No
-| Ryzen 7 260 | No | No | No | Unkown | Yes | No
-| Ryzen 7 PRO 250 | No | No | No | Unkown | Yes | No
-| Ryzen 7 250 | No | No | No | Unkown | Yes | No
-| Ryzen 5 240 | No | No | No | Unkown | Yes | No
-| Ryzen 5 PRO 230 | No | No | No | Unkown | Yes | No
-| Ryzen 5 230 | No | No | No | Unkown | Yes | No
-| Ryzen 5 PRO 220 | No | No | No | Unkown | Yes | No
-| Ryzen 5 220 | No | No | No | Unkown | Yes | No
-| Ryzen 3 PRO 210 | No | No | No | Unkown | Yes | No
-| Ryzen 3 210 | No | No | No | Unkown | Yes | No
+| Ryzen 7 260 | No | No | No | Unknown | Yes | No
+| Ryzen 7 PRO 250 | No | No | No | Unknown | Yes | No
+| Ryzen 7 250 | No | No | No | Unknown | Yes | No
+| Ryzen 5 240 | No | No | No | Unknown | Yes | No
+| Ryzen 5 PRO 230 | No | No | No | Unknown | Yes | No
+| Ryzen 5 230 | No | No | No | Unknown | Yes | No
+| Ryzen 5 PRO 220 | No | No | No | Unknown | Yes | No
+| Ryzen 5 220 | No | No | No | Unknown | Yes | No
+| Ryzen 3 PRO 210 | No | No | No | Unknown | Yes | No
+| Ryzen 3 210 | No | No | No | Unknown | Yes | No
 
 ## Ryzen AI 300
 ### Strix Point and Krackan Point (Zen 5/RDNA3.5/XDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen AI 9 HX PRO 375 | No | No | No | Depends on Memory formfactor | Yes | No
-| Ryzen AI 9 HX 375 | Yes | Yes | Yes? | Depends on Memory formfactor | Yes | No
-| Ryzen AI 9 HX PRO 370 | No | No | No | Depends on Memory formfactor | Yes | No
-| Ryzen AI 9 HX 370 | Yes | Yes | Yes? | Depends on Memory formfactor | Yes | No
-| Ryzen AI 9 HX 365 | Yes | Yes | Yes? | Depends on Memory formfactor | Yes | No
-| Ryzen AI 7 PRO 365 | No | No | No | Depends on Memory formfactor | Yes | No
-| Ryzen AI 7 PRO 350 | No | No | No | Depends on Memory formfactor | Yes | No
-| Ryzen AI 7 350 | No | No | No | Depends on Memory formfactor | Yes | No
-| Ryzen AI 5 PRO 340 | No | No | No | Depends on Memory formfactor | Yes | No
-| Ryzen AI 5 340 | No | No | No | Depends on Memory formfactor | Yes | No
-| Ryzen AI 5 330  | No | No | No | Depends on Memory formfactor | Yes | No
+| Ryzen AI 9 HX PRO 375 | No | No | No | Depends on Memory form factor | Yes | No
+| Ryzen AI 9 HX 375 | Yes | Yes | Yes? | Depends on Memory form factor | Yes | No
+| Ryzen AI 9 HX PRO 370 | No | No | No | Depends on Memory form factor | Yes | No
+| Ryzen AI 9 HX 370 | Yes | Yes | Yes? | Depends on Memory form factor | Yes | No
+| Ryzen AI 9 HX 365 | Yes | Yes | Yes? | Depends on Memory form factor | Yes | No
+| Ryzen AI 7 PRO 365 | No | No | No | Depends on Memory form factor | Yes | No
+| Ryzen AI 7 PRO 350 | No | No | No | Depends on Memory form factor | Yes | No
+| Ryzen AI 7 350 | No | No | No | Depends on Memory form factor | Yes | No
+| Ryzen AI 5 PRO 340 | No | No | No | Depends on Memory form factor | Yes | No
+| Ryzen AI 5 340 | No | No | No | Depends on Memory form factor | Yes | No
+| Ryzen AI 5 330  | No | No | No | Depends on Memory form factor | Yes | No
 
 ### Strix Halo (Zen 5/RDNA3.5/XDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
@@ -323,19 +328,19 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Gorgon Point (Zen 5/RDNA3.5/XDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen AI 9 HX PRO 475 | No | No | No | Depends on Memory formfactor| Yes | No
-| Ryzen AI 9 HX 475 | Yes | Yes | Yes? | Depends on Memory formfactor | Yes | No
-| Ryzen AI 9 HX PRO 470 | No | No | No | Depends on Memory formfactor| Yes | No
-| Ryzen AI 9 HX 470 | Yes | Yes | Yes? | Depends on Memory formfactor | Yes | No
-| Ryzen AI 9 PRO 465 | No | No | No | Depends on Memory formfactor| Yes | No
-| Ryzen AI 9 465 | Yes | Yes | Yes? | Depends on Memory formfactor | Yes | No
-| Ryzen AI 7 PRO 450 | No | No | No | Depends on Memory formfactor | Yes | No
+| Ryzen AI 9 HX PRO 475 | No | No | No | Depends on Memory form factor| Yes | No
+| Ryzen AI 9 HX 475 | Yes | Yes | Yes? | Depends on Memory form factor | Yes | No
+| Ryzen AI 9 HX PRO 470 | No | No | No | Depends on Memory form factor| Yes | No
+| Ryzen AI 9 HX 470 | Yes | Yes | Yes? | Depends on Memory form factor | Yes | No
+| Ryzen AI 9 PRO 465 | No | No | No | Depends on Memory form factor| Yes | No
+| Ryzen AI 9 465 | Yes | Yes | Yes? | Depends on Memory form factor | Yes | No
+| Ryzen AI 7 PRO 450 | No | No | No | Depends on Memory form factor | Yes | No
 | Ryzen AI 7 450 | No | No | No | Depends on Memory formfactor | Yes | No
 | Ryzen AI 7 445 | No | No | No | Depends on Memory formfactor | Yes | No
-| Ryzen AI 5 PRO 440 | No | No | No | Depends on Memory formfactor | Yes | No
-| Ryzen AI 5 PRO 435 | No | No | No | Depends on Memory formfactor | Yes | No
-| Ryzen AI 5 435 | No | No | No | Depends on Memory formfactor | Yes | No
-| Ryzen AI 5 430 | No | No | No | Depends on Memory formfactor | Yes | No
+| Ryzen AI 5 PRO 440 | No | No | No | Depends on Memory form factor | Yes | No
+| Ryzen AI 5 PRO 435 | No | No | No | Depends on Memory form factor | Yes | No
+| Ryzen AI 5 435 | No | No | No | Depends on Memory form factor | Yes | No
+| Ryzen AI 5 430 | No | No | No | Depends on Memory form factor | Yes | No
 
 
 
