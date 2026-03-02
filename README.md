@@ -89,14 +89,14 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 |Ryzen 7 3780U|Yes|No|Yes|Yes|No|No
 |Ryzen 7 3750H|Yes|No|Yes|Yes|No|No
 |Ryzen 7 3700C|Yes?|No|Yes?|Yes?|No|No
-|Ryzen 7 3700U|Yes|No|Yes, up to 3200MT/s|Yes|No|No
-|Ryzen 5 3580U|Yes|No|Yes, up to 3200MT/s|Yes|No|No
+|Ryzen 7 3700U|Yes|No|Yes, up to 3200MT/s|Yes, up to 3200MT/s|No|No
+|Ryzen 5 3580U|Yes|No|Yes, up to 3200MT/s|Yes, up to 3200MT/s|No|No
 |Ryzen 5 3550H|Yes|No|Yes|Yes|No|No
 |Ryzen 5 3500C|Yes?|No|Yes?|Yes?|No|No
-|Ryzen 5 3500U|Yes|No|Yes, up to 3200MT/s|Yes|No|No
-|Ryzen 5 3450U|Yes|No|Yes, up to 3200MT/s|Yes|No|No
-|Ryzen 3 3350U|Yes|No|Yes, up to 3200MT/s|Yes|No|No
-|Ryzen 3 3300U|Yes|No|Yes, up to 3200MT/s|Yes|No|No
+|Ryzen 5 3500U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
+|Ryzen 5 3450U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
+|Ryzen 3 3350U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
+|Ryzen 3 3300U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 
 ## Ryzen 4000
 ### Renoir (Zen 2/GCN5 based)
