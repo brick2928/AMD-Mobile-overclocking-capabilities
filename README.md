@@ -47,7 +47,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 200 | Only Ryzen 9 | Only Ryzen 9 | Unknown | Yes | Yes | No |
 | Ryzen AI 300 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes | Yes | No |
 | Ryzen AI Max 300 | Yes, non-pro | Yes, non-pro | Yes? | Limited | Yes | No |
-| Ryzen AI 400 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes |Yes| No |
+| Ryzen AI 400 | Only Ryzen 9 | Only Ryzen 9 | Yes? | Yes |Yes| No |
 
 
 
@@ -57,11 +57,6 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 Below is a image showcasing 4 different bios files, each from a different generation ranging from 2000 to 5000. The bios files showcase that there is no AOD_SETUP string found in any of the BIOS files until ryzen 5000
 <img width="1919" height="1050" alt="Screenshot_2" src="https://github.com/user-attachments/assets/820be143-4469-4591-9be5-36b2d6f7b13c" />
 However, there is a exception. Ryzen 9 4000 devices technically have unlocked cpus, it appears with these unlocked higher end cpus the bios does have AOD_SETUP.
-
-
-## 9955HX/3D capability to increase tREFI with newer AGESA.
-Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture can be found in Legion Series Discord Server: https://discord.com/channels/761178912230473768/958336296621867038/1466577982289219697
-<img width="2548" height="1599" alt="image" src="https://github.com/user-attachments/assets/8b3841de-265f-4a98-837a-6d4deb614a9a" />
 
 
 # Detailed Table
@@ -153,10 +148,10 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Rembrandt (Zen 3+/RDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 6980HX | Yes | Yes | Yes? | Yes | Yes | No
-| Ryzen 9 6980HS | Yes | Yes | Yes? | Yes | Yes | No
-| Ryzen 9 6900HX | Yes | Yes | Yes? | Yes | Yes | No
-| Ryzen 9 6900HS | Yes | Yes | Yes? | Yes | Yes | No
+| Ryzen 9 6980HX | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 9 6980HS | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 9 6900HX | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 9 6900HS | Yes | Yes | Yes | Yes | Yes | No
 | Ryzen 7 6800H | No | No | No | No? | Yes | No
 | Ryzen 7 6800HS | No | No | No | No? | Yes | No
 | Ryzen 7 6800U | No | No | No | Yes | Yes | No
@@ -244,10 +239,10 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen 7 8845HS | No | No | No | No? | Yes | No
 | Ryzen 7 8840HS | No | No | No | No? | Yes | No
 | Ryzen 7 8840U | No | No | No | Yes | Yes | No
-| Ryzen 7 8745HS| No | No | No | No? | Yes | No
-| Ryzen 7 8745H| No | No | No | No? | Yes | No
-| Ryzen 5 8645HS| No | No | No | No? | Yes | No
-| Ryzen 5 8640HS| No | No | No | No? | Yes | No
+| Ryzen 7 8745HS | No | No | No | No? | Yes | No
+| Ryzen 7 8745H | No | No | No | No? | Yes | No
+| Ryzen 5 8645HS | No | No | No | No? | Yes | No
+| Ryzen 5 8640HS | No | No | No | No? | Yes | No
 | Ryzen 5 8640U | No | No | No | Yes | Yes | No
 | Ryzen 5 8540U | No | No | No | Yes | Yes | No
 | Ryzen 3 8440U | No | No | No | Yes | Yes | No
@@ -271,7 +266,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ## 9955HX/3D capability to increase tREFI with newer AGESA.
 Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture can be found in Legion Series Discord Server: https://discord.com/channels/761178912230473768/958336296621867038/1466577982289219697
 <img width="2548" height="1599" alt="image" src="https://github.com/user-attachments/assets/8b3841de-265f-4a98-837a-6d4deb614a9a" />
-a
+
 ## Ryzen 10
 ### Mendocino (10 series, Zen 2/RDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
@@ -307,7 +302,7 @@ a
 | Ryzen 3 PRO 210 | No | No | No | Unknown | Yes | No
 | Ryzen 3 210 | No | No | No | Unknown | Yes | No
 ## Notes
-- Memory overclocking capability depends on memory formfactor, DDR5 will have all the options, LPDDR5 will lack some.
+- Memory overclocking capability depends on memory form factor, DDR5 will have all the options, LPDDR5 will lack some.
 - Pro CPUs might be incapable of Memory Overclocking
 
 ## Ryzen AI 300
@@ -324,9 +319,9 @@ a
 | Ryzen AI 7 350 | No | No | No | Refer to Notes | Yes | No
 | Ryzen AI 5 PRO 340 | No | No | No | Refer to Notes | Yes | No
 | Ryzen AI 5 340 | No | No | No | Refer to Notes | Yes | No
-| Ryzen AI 5 330  | No | No | No | Refer to Notes | Yes | No
+| Ryzen AI 5 330 | No | No | No | Refer to Notes | Yes | No
 ## Notes
-- Memory overclocking capability depends on memory formfactor, DDR5 will have all the options, LPDDR5 will lack some.
+- Memory overclocking capability depends on memory form factor, DDR5 will have all the options, LPDDR5 will lack some.
 - Pro CPUs might be incapable of Memory Overclocking
 
 ### Strix Halo (Zen 5/RDNA3.5/XDNA2 based)
@@ -363,7 +358,7 @@ a
 | Ryzen AI 5 435 | No | No | No | Refer to Notes | Yes | No
 | Ryzen AI 5 430 | No | No | No | Refer to Notes | Yes | No
 ## Notes
-- Memory overclocking capability depends on memory formfactor, DDR5 will have all the options, LPDDR5 will lack some.
+- Memory overclocking capability depends on memory form factor, DDR5 will have all the options, LPDDR5 will lack some.
 - Pro CPUs might be incapable of Memory Overclocking
 
 
