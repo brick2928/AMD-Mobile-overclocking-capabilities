@@ -58,7 +58,7 @@ However, there is a exception. Ryzen 9 4000 devices technically have unlocked cp
 
 
 ## 9955HX/3D capability to increase tREFI with newer AGESA.
-Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture can be found in Legion Series Discord Server: https://discord.com/channels/761178912230473768/958336296621867038/1466577982289219697
+Folowing picture shows a 9955HX3D system with higher tREFI than JEDEC. Original picture can be found in Legion Series Discord Server: https://discord.com/channels/761178912230473768/958336296621867038/1466577982289219697
 <img width="2548" height="1599" alt="image" src="https://github.com/user-attachments/assets/8b3841de-265f-4a98-837a-6d4deb614a9a" />
 
 
