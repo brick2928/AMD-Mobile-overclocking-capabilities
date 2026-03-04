@@ -10,7 +10,7 @@ This github repo is a community project, and is not backened by AMD. All of the 
 
 # Introduction
 ##  Why does this exist? What even is this repo about?
-AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which chips are fused off for what features, only the way the cpu is "meant to be used". However some cpus can use features such as CO, even though AMD says the opposite. Through this github we aim to help people easily figure out what their CPU is technically capable of doing.
+AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which chips are fused off from which features, only the way the cpu is "meant to be used". However some cpus can use features such as CO, even though AMD says the opposite. Through this github we aim to help people easily figure out what their CPU is technically capable of doing.
 
 
 ## What is your source?
