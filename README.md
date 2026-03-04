@@ -45,7 +45,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 200 | Only Ryzen 9 | Only Ryzen 9 | Unknown | Yes | Yes | No |
 | Ryzen AI 300 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes | Yes | No |
 | Ryzen AI Max 300 | Yes, non-pro | Yes, non-pro | Yes? | Limited | Yes | No |
-| Ryzen AI 400 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes |Yes| No |
+| Ryzen AI 400 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes | Yes | No |
 
 
 
@@ -181,7 +181,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen 3 7330U | No | No | No | Yes | Yes | No
 ## Notes
 - Pro CPUs are fused off from overclocking features
-- 
+  
 ### Rembrandt-R (7035 series, Zen 3+/RDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
@@ -189,9 +189,10 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen 7 7735H | No | No | No | No? | Yes | No
 | Ryzen 7 7736U | No | No | No | Yes | Yes | No
 | Ryzen 7 7735U | No | No | No | Yes | Yes | No
-| Ryzen 7 7435HS | No | No | No | No? | Yes | No
+| Ryzen 7 7435HS | No | No | N/A | No? | Yes | No
 | Ryzen 7 7435H | No | No | No | No? | Yes | No
 | Ryzen 5 7535HS | No | No | No | No? | Yes | No
+| Ryzen 5 7533HS | No | No | No | No? | Yes | No
 | Ryzen 5 7535H | No | No | No | No? | Yes | No
 | Ryzen 5 7535U | No | No | No | Yes | Yes | No
 | Ryzen 5 7235HS | No | No | No | No? | Yes | No
@@ -242,10 +243,10 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen 7 8845HS | No | No | No | No? | Yes | No
 | Ryzen 7 8840HS | No | No | No | No? | Yes | No
 | Ryzen 7 8840U | No | No | No | Yes | Yes | No
-| Ryzen 7 8745HS| No | No | No | No? | Yes | No
-| Ryzen 7 8745H| No | No | No | No? | Yes | No
-| Ryzen 5 8645HS| No | No | No | No? | Yes | No
-| Ryzen 5 8640HS| No | No | No | No? | Yes | No
+| Ryzen 7 8745HS | No | No | No | No? | Yes | No
+| Ryzen 7 8745H | No | No | No | No? | Yes | No
+| Ryzen 5 8645HS | No | No | No | No? | Yes | No
+| Ryzen 5 8640HS | No | No | No | No? | Yes | No
 | Ryzen 5 8640U | No | No | No | Yes | Yes | No
 | Ryzen 5 8540U | No | No | No | Yes | Yes | No
 | Ryzen 3 8440U | No | No | No | Yes | Yes | No
@@ -270,8 +271,8 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Mendocino (10 series, Zen 2/RDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 5 40 | No | No | No | Unkown | Yes | No
-| Ryzen 3 30 | No | No | No | Unkown | Yes | No
+| Ryzen 5 40 | No | No | No | Unknown | Yes | No
+| Ryzen 3 30 | No | No | No | Unknown | Yes | No
 
 ## Ryzen 100 
 ### Rembrandt-R (100 series, Zen 3+/RDNA2 based)
