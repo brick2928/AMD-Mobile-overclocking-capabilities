@@ -10,13 +10,13 @@ This github repo is a community project, and is not backened by AMD. All of the 
 
 # Introduction
 ##  Why does this exist? What even is this repo about?
-AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which chips are fused off for what features, only the way the cpu is "meant to be used". However some cpus can utilize eatures such as CO, even though AMD says the opposite. Through this github we aim to help people easily figure out what their CPU is technically capable of doing.
+AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which chips are fused off for what features, only the way the cpu is "meant to be used". However some cpus can use features such as CO, even though AMD says the opposite. Through this github we aim to help people easily figure out what their CPU is technically capable of doing.
 
 
 ## What is your source?
 Our source is just attempt and trial by a lot of people on the internet. We gather information from other peoples experiences and put them here for everyone to have a quick way of accessing this information.
 A picture will be provided as proof if applicable.
-Keep in mind, newer the generation the less confidence we have! Except in situations where we have direct proof.
+Keep in mind: newer the generation of the cpu, the less confidence we have! Except in situations where we have direct proof - contributions matter to us.
 
 We got help from [this wikipedia page](https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Mobile_processors) to get the full list of Mobile AMD Ryzen processors. 
 
