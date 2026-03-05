@@ -33,7 +33,6 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 
 | CPU Generation | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ------------ | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 1000 - Mobile doesnt exist | N/A | N/A | N/A | N/A | N/A | N/A |
 | Ryzen 2000  | Yes | No | Yes | Yes? | No | No |
 | Ryzen 3000 | Yes | No | Yes | Yes | No | No | 
 | Ryzen 4000 | Yes | No | Yes | Yes | Depends on Device | No |
@@ -302,7 +301,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen 3 PRO 210 | No | No | No | Unknown | Yes | No
 | Ryzen 3 210 | No | No | No | Unknown | Yes | No
 ## Notes
-- Memory overclocking capability depends on memory form factor, DDR5 will have all the options, LPDDR5 will lack some.
+- LPDDR5 lacks tCMD and tRFC2, tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
 
 ## Ryzen AI 300
@@ -321,23 +320,23 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen AI 5 340 | No | No | No | Refer to Notes | Yes | No
 | Ryzen AI 5 330 | No | No | No | Refer to Notes | Yes | No
 ## Notes
-- Memory overclocking capability depends on memory form factor, DDR5 will have all the options, LPDDR5 will lack some.
+- LPDDR5 lacks tCMD and tRFC2, tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
 
 ### Strix Halo (Zen 5/RDNA3.5/XDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen AI MAX+ PRO 395 | Unknown | Unknown | Unknown | Limited due to LPDDR5 | Yes | No
-| Ryzen AI MAX+ 395 | Yes | Yes | Yes | Limited due to LPDDR5 | Yes | No
-| Ryzen AI MAX+ 392 | Yes | Yes | Yes | Limited due to LPDDR5 | Yes | No
-| Ryzen AI MAX PRO 390 | Unknown | Unknown | Unknown | Limited due to LPDDR5 | Yes | No
-| Ryzen AI MAX 390 | Yes | Yes | Yes | Limited due to LPDDR5 | Yes | No
-| Ryzen AI MAX+ 388 | Yes | Yes | Yes | Limited due to LPDDR5 | Yes | No
-| Ryzen AI MAX PRO 385 | Unknown | Unknown | Unknown | Limited due to LPDDR5 | Yes | No
-| Ryzen AI MAX 385 | Yes | Yes | Yes | Limited due to LPDDR5 | Yes | No
-| Ryzen AI MAX PRO 380 | Unknown | Unknown | Unknown | Limited due to LPDDR5 | Yes | No
+| Ryzen AI MAX+ PRO 395 | Unknown | Unknown | Unknown | Yes | Yes | No
+| Ryzen AI MAX+ 395 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI MAX+ 392 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI MAX PRO 390 | Unknown | Unknown | Unknown | Yes | Yes | No
+| Ryzen AI MAX 390 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI MAX+ 388 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI MAX PRO 385 | Unknown | Unknown | Unknown | Yes | Yes | No
+| Ryzen AI MAX 385 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI MAX PRO 380 | Unknown | Unknown | Unknown | Yes | Yes | No
 ## Notes
-- LPDDR5 lacks some overclocking control
+- LPDDR5 lacks tCMD and tRFC2, tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
 
 ## Ryzen AI 400
@@ -350,15 +349,15 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen AI 9 HX 470 | Yes | Yes | Yes | Refer to Notes | Yes | No
 | Ryzen AI 9 PRO 465 | Unknown | Unknown | Unknown | Refer to Notes | Yes | No
 | Ryzen AI 9 465 | Yes | Yes | Yes | Refer to Notes  | Yes | No
-| Ryzen AI 7 PRO 450 | No | No | No | Refer to Notes | Yes | No
-| Ryzen AI 7 450 | No | No | No | Refer to Notes | Yes | No
-| Ryzen AI 7 445 | No | No | No | Refer to Notes | Yes | No
-| Ryzen AI 5 PRO 440 | No | No | No | Refer to Notes | Yes | No
-| Ryzen AI 5 PRO 435 | No | No | No | Refer to Notes | Yes | No
-| Ryzen AI 5 435 | No | No | No | Refer to Notes | Yes | No
-| Ryzen AI 5 430 | No | No | No | Refer to Notes | Yes | No
+| Ryzen AI 7 PRO 450 | No | No | No | Unknown | Yes | No
+| Ryzen AI 7 450 | No | No | No | Unknown | Yes | No
+| Ryzen AI 7 445 | No | No | No | Unknown | Yes | No
+| Ryzen AI 5 PRO 440 | No | No | No | Unknown | Yes | No
+| Ryzen AI 5 PRO 435 | No | No | No | Unknown | Yes | No
+| Ryzen AI 5 435 | No | No | No | Unknown | Yes | No
+| Ryzen AI 5 430 | No | No | No | Unknown | Yes | No
 ## Notes
-- Memory overclocking capability depends on memory form factor, DDR5 will have all the options, LPDDR5 will lack some.
+- LPDDR5 lacks tCMD and tRFC2, tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
 
 
