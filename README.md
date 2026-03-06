@@ -1,5 +1,6 @@
 # DISCLAIMER
-This github repo is a community project, and is not backened by AMD. All of the information you see here was found by end consumers just like you! As much as we are confident in our findings, we can only be so sure as a unofficial source. Please take everything you find with a "grain of salt"
+This github repo is a community project, and is not backened by AMD. All of the information you see here was found by end consumers just like you! As much as we are confident in our findings, we can only be so sure as a unofficial source. Please take everything you find with a "grain of salt"  
+**This github repo assumes that your OEM has done no customization to your device and has just hidden all of the advanced options without touching them. Any of this information is bound to be false if your OEM decides to remove any of these options. This is very unlikely on laptops, though always possible. This more often happens on desktop motherboards with cheaper/weaker chipsets**
 
 If you have any PRO variant CPUs Please contribute!
 
@@ -94,6 +95,7 @@ However, there is a exception. Ryzen 9 4000 devices technically have unlocked cp
 |Ryzen 5 3450U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 3 3350U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 3 3300U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
+
 
 ## Ryzen 4000
 ### Renoir (Zen 2/GCN5 based)
@@ -261,7 +263,7 @@ However, there is a exception. Ryzen 9 4000 devices technically have unlocked cp
 | Ryzen 9 9955HX3D | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
 | Ryzen 9 9955HX | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
 | Ryzen 9 9950HX | Yes | Yes | Yes | Yes | Yes | Unkown. Most likely yes, with newer AGESA
-## Notes
+## Notes  
 ## 9955HX/3D capability to increase tREFI with newer AGESA.
 Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture can be found in Legion Series Discord Server: https://discord.com/channels/761178912230473768/958336296621867038/1466577982289219697
 <img width="2548" height="1599" alt="image" src="https://github.com/user-attachments/assets/8b3841de-265f-4a98-837a-6d4deb614a9a" />
@@ -301,7 +303,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen 3 PRO 210 | No | No | No | Unknown | Yes | No
 | Ryzen 3 210 | No | No | No | Unknown | Yes | No
 ## Notes
-- LPDDR5 lacks tCMD and tRFC2, tRFC4 control
+- LPDDR5 lacks tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
 
 ## Ryzen AI 300
@@ -320,7 +322,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen AI 5 340 | No | No | No | Refer to Notes | Yes | No
 | Ryzen AI 5 330 | No | No | No | Refer to Notes | Yes | No
 ## Notes
-- LPDDR5 lacks tCMD and tRFC2, tRFC4 control
+- LPDDR5 lacks tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
 
 ### Strix Halo (Zen 5/RDNA3.5/XDNA2 based)
@@ -336,7 +338,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen AI MAX 385 | Yes | Yes | Yes | Yes | Yes | No
 | Ryzen AI MAX PRO 380 | Unknown | Unknown | Unknown | Yes | Yes | No
 ## Notes
-- LPDDR5 lacks tCMD and tRFC2, tRFC4 control
+- LPDDR5 lacks tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
 
 ## Ryzen AI 400
@@ -357,7 +359,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen AI 5 435 | No | No | No | Unknown | Yes | No
 | Ryzen AI 5 430 | No | No | No | Unknown | Yes | No
 ## Notes
-- LPDDR5 lacks tCMD and tRFC2, tRFC4 control
+- LPDDR5 lacks tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
 
 
