@@ -47,7 +47,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 200 | Only Ryzen 9 | Only Ryzen 9 | Unknown | Yes | Yes | No |
 | Ryzen AI 300 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes | Yes | No |
 | Ryzen AI Max 300 | Yes, non-pro | Yes, non-pro | Yes? | Limited | Yes | No |
-| Ryzen AI 400 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes | Yes | No |
+| Ryzen AI 400 | Only Ryzen 9 | Only Ryzen 9 | Yes? | Yes | Yes | No |
 
 
 
@@ -176,8 +176,6 @@ However, there is a exception. Ryzen 9 4000 devices technically have unlocked cp
 | Ryzen 5 7430U | No | No | No | Yes | Yes | No
 | Ryzen 3 PRO 7330U | No | No | No | No | Yes | No
 | Ryzen 3 7330U | No | No | No | Yes | Yes | No
-## Notes
-- Pro CPUs are fused off from overclocking features
   
 ### Rembrandt-R (7035 series, Zen 3+/RDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
