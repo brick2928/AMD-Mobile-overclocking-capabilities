@@ -263,7 +263,7 @@ However, there is a exception. Ryzen 4000 series technically have unlocked cpus 
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 | Ryzen 9 9955HX3D | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
 | Ryzen 9 9955HX | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
-| Ryzen 9 9950HX | Yes | Yes | Yes | Yes | Yes | Unkown. Most likely yes, with newer AGESA
+| Ryzen 9 9950HX | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
 ## Notes  
 ### 9955HX/3D capability to increase tREFI with newer AGESA.
 Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture can be found in Legion Series Discord Server: https://discord.com/channels/761178912230473768/958336296621867038/1466577982289219697
