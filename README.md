@@ -26,8 +26,9 @@ We got help from [this wikipedia page](https://en.wikipedia.org/wiki/List_of_AMD
 ## Please contribute!!
 Do you see the question marks? That is us indicating that we arent sure of our findings, or we are going off of assumptions.
 If you have the hardware for which we have written "unknown" or a question mark, you can check what your CPU is capable of and share your findings via creating a Issue!
-If you think anything is false or wrong, create an issue so we can talk it out.
+If you think anything is false or wrong, create an issue so we can talk it out.  
 
+[Here](https://github.com/brick2928/Check-Ryzen-Mobile-Capability?tab=readme-ov-file#cpu-undervolting) is a quick guide telling you how to test what your device is capable of!
 
 # Simplified Table
 This table generilizes cpu's by their generation. Usually the capability of the cpu mostly depends on their generation, but there are exceptions. For better accuracy you can refer to the extended section.
