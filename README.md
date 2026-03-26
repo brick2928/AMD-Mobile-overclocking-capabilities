@@ -39,13 +39,13 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 2000  | Yes | No | Yes | Yes? | No | No |
 | Ryzen 3000 | Yes | No | Yes | Yes | No | No | 
 | Ryzen 4000 | Yes | No | Yes | Yes | Depends on Device | No |
-| Ryzen 5000 | Only Ryzen 9 | Only Ryzen 9 and HX | Unknown | Only Ryzen 9, HX, and U | Yes | No |
-| Ryzen 6000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unknown | Only Ryzen 9, HX, and U | Yes | No |
-| Ryzen 7000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unknown | Only Ryzen 9, HX, and U | Yes | No |
-| Ryzen 8000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | Unknown | Only Ryzen 9, HX, and U | Yes | No |
+| Ryzen 5000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/bricked-branch?tab=readme-ov-file#ryzen-5000) | Only Ryzen 9, HX, and U | Yes | No |
+| Ryzen 6000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/bricked-branch?tab=readme-ov-file#ryzen-6000) | Only Ryzen 9, HX, and U | Yes | No |
+| Ryzen 7000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/bricked-branch?tab=readme-ov-file#ryzen-7000) | Only Ryzen 9, HX, and U | Yes | No |
+| Ryzen 8000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/bricked-branch?tab=readme-ov-file#ryzen-8000) | Only Ryzen 9, HX, and U | Yes | No |
 | Ryzen 9000 | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA |
-| Ryzen 10 | No | No | Unknown | Unknown | Yes | No |
-| Ryzen 100 | No | No | Unknown | Unknown | Yes | No |
+| Ryzen 10 | No | No | No | Unknown | Yes | No |
+| Ryzen 100 | No | No | No | Unknown | Yes | No |
 | Ryzen 200 | Only Ryzen 9 | Only Ryzen 9 | Unknown | Yes | Yes | No |
 | Ryzen AI 300 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Yes | Yes | No |
 | Ryzen AI Max 300 | Yes, non-pro | Yes, non-pro | Yes? | Yes | Yes | No |
@@ -58,7 +58,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 ## AOD proof
 Below is a image showcasing 4 different bios files, each from a different generation ranging from 2000 to 5000. The bios files showcase that there is no AOD_SETUP string found in any of the BIOS files until ryzen 5000
 <img width="1919" height="1050" alt="Screenshot_2" src="https://github.com/user-attachments/assets/820be143-4469-4591-9be5-36b2d6f7b13c" />
-However, there is a exception. Ryzen 9 4000 devices technically have unlocked cpus, it appears with these unlocked higher end cpus the bios does have AOD_SETUP.
+However, there is a exception. Ryzen 4000 series technically have unlocked cpus like the ryzen 9 4900h, it appears with these unlocked higher end cpus the bios does have AOD_SETUP.
 
 
 # Detailed Table
@@ -263,9 +263,9 @@ However, there is a exception. Ryzen 9 4000 devices technically have unlocked cp
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 | Ryzen 9 9955HX3D | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
 | Ryzen 9 9955HX | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
-| Ryzen 9 9950HX | Yes | Yes | Yes | Yes | Yes | Unkown. Most likely yes, with newer AGESA
+| Ryzen 9 9950HX | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
 ## Notes  
-## 9955HX/3D capability to increase tREFI with newer AGESA.
+### 9955HX/3D capability to increase tREFI with newer AGESA.
 Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture can be found in Legion Series Discord Server: https://discord.com/channels/761178912230473768/958336296621867038/1466577982289219697
 <img width="2548" height="1599" alt="image" src="https://github.com/user-attachments/assets/8b3841de-265f-4a98-837a-6d4deb614a9a" />
 
