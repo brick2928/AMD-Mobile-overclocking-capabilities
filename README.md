@@ -148,9 +148,6 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 3 5425U | No | No | No | Yes, up to 3200MT/s | Yes | No
 | Ryzen 3 5400U | No | No | No | Yes, up to 3200MT/s | Yes | No
 | Ryzen 3 5125C | No | No | No | Yes? | Yes | No
-## Notes
-- Smokeless CPU Confirms H series processors (Specifically the 5800H) fail to boot with custom timings/freq  
-  <img width="651" height="231" alt="image" src="https://github.com/user-attachments/assets/fc15e72b-ba70-45af-9d2e-72e082034064" />
 
   
 ## Ryzen 6000
