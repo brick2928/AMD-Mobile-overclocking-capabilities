@@ -40,9 +40,9 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 2000  | Yes | No | Yes | Yes? | No | No |
 | Ryzen 3000 | Yes | No | Yes | Yes | No | No | 
 | Ryzen 4000 | Yes | No | Yes | Yes | Depends on Device | No |
-| Ryzen 5000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main-branch?tab=readme-ov-file#ryzen-5000) | Only Ryzen 9, HX, and U | Yes | No |
-| Ryzen 6000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main-branch?tab=readme-ov-file#ryzen-6000) | Only Ryzen 9, HX, and U | Yes | No |
-| Ryzen 7000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main-branch?tab=readme-ov-file#ryzen-7000) | Only Ryzen 9, HX, and U | Yes | No |
+| Ryzen 5000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/edit/main-branch/README.md#miscellaneous) | Only Ryzen 9, HX, and U | Yes | No |
+| Ryzen 6000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/edit/main-branch/README.md#miscellaneous) | Only Ryzen 9, HX, and U | Yes | No |
+| Ryzen 7000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/edit/main-branch/README.md#miscellaneous) | Only Ryzen 9, HX, and U | Yes | No |
 | Ryzen 8000 | Only Ryzen 9 and HX | Only Ryzen 9 and HX | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main-branch?tab=readme-ov-file#ryzen-8000) | Only Ryzen 9, HX, and U | Yes | No |
 | Ryzen 9000 | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA |
 | Ryzen 10 | No | No | No | Unknown | Yes | No |
