@@ -308,7 +308,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen 3 PRO 210 | No | No | No | Unknown | Yes | No
 | Ryzen 3 210 | No | No | No | Unknown | Yes | No
 ## Notes
-- LPDDR5 lacks tCMD, tRFC2 and tRFC4 control
+- LPDDR5 lacks frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
 
 ## Ryzen AI 300
@@ -327,7 +327,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen AI 5 340 | No | No | No | Refer to Notes | Yes | No
 | Ryzen AI 5 330 | No | No | No | Refer to Notes | Yes | No
 ## Notes
-- LPDDR5 lacks tCMD, tRFC2 and tRFC4 control
+- LPDDR5 lacks frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
 - [Example of R9 HX370 overclocking instance 1](https://www.youtube.com/watch?v=4dGn8DQI5pM) Credits: Eta Prime on youtube
 - [Example of R9 HX370 overclocking instance 2](https://www.youtube.com/watch?v=6gp495r-wxI) Credits: Iceberg Tech on youtube
@@ -346,7 +346,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen AI MAX 385 | Yes | Yes | Yes | Yes | Yes | No
 | Ryzen AI MAX PRO 380 | Unknown | Unknown | Unknown | Yes | Yes | No
 ## Notes
-- LPDDR5 lacks tCMD, tRFC2 and tRFC4 control
+- LPDDR5 lacks frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
 - [Example of R AI MAX+ 395 overclocking](https://www.youtube.com/watch?v=OK2Bq1GBi0g) Credits: Eta Prime
 
@@ -368,7 +368,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen AI 5 435 | No | No | No | Unknown | Yes | No
 | Ryzen AI 5 430 | No | No | No | Unknown | Yes | No
 ## Notes
-- LPDDR5 lacks tCMD, tRFC2 and tRFC4 control
+- LPDDR5 lacks frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
 
 
