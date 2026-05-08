@@ -374,7 +374,19 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 
 # Miscellaneous
 ## Random
-- All R9 and HX CPUs are unlocked for overclocking out of the factory. If you have such a cpu, you can enable Precision boost override (+200 MHz) via AMD Adrenalin
+- All R9 and HX CPUs are (in regards of fuses) unlocked for overclocking out of the factory. If you have such a cpu, you can enable Precision boost override (+200 MHz) via AMD Adrenalin software
+  ### Soldered DDR (Not LPDDR)
+   Not all soldered ram is LPDDR, its possible to have soldered normal DDR ram. Here is everything you should know about them:
+   ### Power down mode
+    - Power down mode: Soldered DDR has a constantly activated power-down mode.
+    - This power-down mode cannot be disabled via Smokeless UMAF becuase soldered DDR appears to ignore the DDR overclock menu until a second so-dimm stick is added.
+    - Adding a second So-Dimm stick (if possible) will bring the memory back to its normal behaviour (conservative power down mode, not ignoring DDR overclock options).
+   ### Overclocking
+    - Any SPD reading software will not work to grab the information of the soldered DDR, as the SPD information is stored in the firmware. Your best bet on amd is using zentimings.
+    - Unless you have really bad dies soldered to your system, usually soldered ram will outperform its so-dimm counterpart.
+    - If you mix soldered DDR and so-dimm, the soldered ram should not bottleneck you in regards of memory frequency overclocking (as long as you dont have some top of the line so-dimm stick like samsung b-die).
+    - 
+    - Here are pictures of what I have achieved on my system:
 
 ## AOD proof
 Below is a image showcasing 4 different bios files, each from a different generation ranging from 2000 to 5000. The bios files showcase that there is no AOD_SETUP string found in any of the BIOS files until ryzen 5000
