@@ -354,13 +354,13 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Gorgon Point (Zen 5/RDNA3.5/XDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen AI 9 HX PRO 475 | Unknown | Unknown | Unknown | Refer to Notes | Yes | No
-| Ryzen AI 9 HX 475 | Yes | Yes | Yes | Refer to Notes | Yes | No
-| Ryzen AI 9 HX PRO 470 | Unknown | Unknown | Unknown | Refer to Notes | Yes | No
-| Ryzen AI 9 HX 470 | Yes | Yes | Yes | Refer to Notes | Yes | No
-| Ryzen AI 9 PRO 465 | Unknown | Unknown | Unknown | Refer to Notes | Yes | No
-| Ryzen AI 9 465 | Yes | Yes | Yes | Refer to Notes  | Yes | No
-| Ryzen AI 7 PRO 450 | No | No | No | Unknown | Yes | No
+| [Ryzen AI 9 HX PRO 475](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-9-hx-pro-475.html) | No (according to amd) | No (according to amd) | No (according to amd) | Refer to Notes | Yes | No
+| [Ryzen AI 9 HX 475](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-hx-475.html) | Yes | Yes | Yes | Refer to Notes | Yes | No
+| [Ryzen AI 9 HX PRO 470](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-9-hx-pro-470.html) | No (according to amd) | No (according to amd) | No (according to amd) | Refer to Notes | Yes | No
+| [Ryzen AI 9 HX 470](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-hx-470.html) | Yes | Yes | Yes | Refer to Notes | Yes | No
+| [Ryzen AI 9 PRO 465](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-9-pro-465.html) | No (according to amd) | No (according to amd) | No (according to amd) | Refer to Notes | Yes | No
+| [Ryzen AI 9 465](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-465.html) | Yes | Yes | Yes | Refer to Notes  | Yes | No
+| Ryzen AI 7 PRO 450 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
 | Ryzen AI 7 450 | No | No | No | Unknown | Yes | No
 | Ryzen AI 7 445 | No | No | No | Unknown | Yes | No
 | Ryzen AI 5 PRO 440 | No | No | No | Unknown | Yes | No
@@ -375,6 +375,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 # Miscellaneous
 ## Random
 - All R9 and HX CPUs are (in regards of fuses) unlocked for overclocking out of the factory. If you have such a cpu, you can enable Precision boost override (+200 MHz) via AMD Adrenalin software
+- There are cases where we simply do not have much information regarding specific kind of CPUs (e.g.: Ryzen PRO). In such cases we might source AMD's spec sheet for our information. If that is the case, we will clearly state so. Reliability of these spec sheets are questionable, as there are many cases where amd states a CPU is incapable of a feature even though it is not. Please do not take such information as of our own.
   ### Soldered DDR (Not LPDDR)
    Not all soldered ram is LPDDR, its possible to have soldered normal DDR ram. Here is everything you should know about them:
    ### Power down mode
@@ -382,10 +383,10 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
     - This power-down mode cannot be disabled via Smokeless UMAF becuase soldered DDR appears to ignore the DDR overclock menu until a second so-dimm stick is added.
     - Adding a second So-Dimm stick (if possible) will bring the memory back to its normal behaviour (conservative power down mode, not ignoring DDR overclock options).
    ### Overclocking
-    - Any SPD reading software will not work to grab the information of the soldered DDR, as the SPD information is stored in the firmware. Your best bet on amd is using zentimings.
+    - Unlike LPDDR, Soldered DDR can accept so-dimm sticks on top of them meaning you can run a mix of soldered DDR and so-dimm (if the motherboard has a so-dimm slot). 
+    - Any SPD reading software will not work to grab the information of the soldered DDR, as the SPD information is stored in the firmware. Your best bet on AMD is using zentimings.
     - Unless you have really bad dies soldered to your system, usually soldered ram will outperform its so-dimm counterpart.
     - If you mix soldered DDR and so-dimm, the soldered ram should not bottleneck you in regards of memory frequency overclocking (as long as you dont have some top of the line so-dimm stick like samsung b-die).
-    - 
     - Here are pictures of what I have achieved on my system:
 
 ## AOD proof
