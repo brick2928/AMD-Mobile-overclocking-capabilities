@@ -320,7 +320,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | [Ryzen AI 9 HX PRO 370](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-9-hx-pro-370.html) | Unknown | Unknown | Unknown | Unknown | Yes | No
 | [Ryzen AI 9 HX 370](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-9-hx-370.html) | Yes | Yes | Yes | Refer to Notes | Yes | No
 | [Ryzen AI 9 365](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-9-365.html) | Yes | Yes | Yes | Refer to Notes | Yes | No
-| [Ryzen AI 7 PRO 365](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-7-pro-365.html) | No | No | No | Refer to Notes | Yes | No
+| [Ryzen AI 7 PRO 360](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-7-pro-360.html) | No | No | No | Refer to Notes | Yes | No
 | [Ryzen AI 7 PRO 350](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-7-pro-350.html) | No | No | No | Refer to Notes | Yes | No
 | [Ryzen AI 7 350](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-7-350.html) | No | No | No | Refer to Notes | Yes | No
 | [Ryzen AI 5 PRO 340](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-5-pro-340.html) | No | No | No | Refer to Notes | Yes | No
