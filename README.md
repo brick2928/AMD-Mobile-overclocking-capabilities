@@ -296,17 +296,17 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Hawk Point Refresh (200 series, Zen 4/RDNA3/XDNA based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 270 | Yes | Yes | Yes | Yes? | Yes | No
-| Ryzen 7 260 | No | No | No | Unknown | Yes | No
-| Ryzen 7 PRO 250 | No | No | No | Unknown | Yes | No
-| Ryzen 7 250 | No | No | No | Unknown | Yes | No
-| Ryzen 5 240 | No | No | No | Unknown | Yes | No
-| Ryzen 5 PRO 230 | No | No | No | Unknown | Yes | No
-| Ryzen 5 230 | No | No | No | Unknown | Yes | No
-| Ryzen 5 PRO 220 | No | No | No | Unknown | Yes | No
-| Ryzen 5 220 | No | No | No | Unknown | Yes | No
-| Ryzen 3 PRO 210 | No | No | No | Unknown | Yes | No
-| Ryzen 3 210 | No | No | No | Unknown | Yes | No
+| [Ryzen 9 270](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-9-270.html) | Yes | Yes | Yes | Yes? | Yes | No
+| [Ryzen 7 260](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-7-260.html) | No | No | No | Unknown | Yes | No
+| [Ryzen 7 PRO 250](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-7-pro-250.html) | No | No | No | Unknown | Yes | No
+| [Ryzen 7 250](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-7-250.html) | No | No | No | Unknown | Yes | No
+| [Ryzen 5 240](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-240.html) | No | No | No | Unknown | Yes | No
+| [Ryzen 5 PRO 230](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-7-pro-230.html) | No | No | No | Unknown | Yes | No
+| [Ryzen 5 230](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-230.html) | No | No | No | Unknown | Yes | No
+| [Ryzen 5 PRO 220](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-7-pro-220.html) | No | No | No | Unknown | Yes | No
+| [Ryzen 5 220](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-220.html) | No | No | No | Unknown | Yes | No
+| [Ryzen 3 PRO 210](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-3-pro-210.html) | No | No | No | Unknown | Yes | No
+| [Ryzen 3 210](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-9-210.html) | No | No | No | Unknown | Yes | No
 ## Notes
 - LPDDR5 lacks frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
