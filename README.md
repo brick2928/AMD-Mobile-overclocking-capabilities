@@ -301,9 +301,9 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | [Ryzen 7 PRO 250](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-7-pro-250.html) | No | No | No | Unknown | Yes | No
 | [Ryzen 7 250](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-7-250.html) | No | No | No | Unknown | Yes | No
 | [Ryzen 5 240](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-240.html) | No | No | No | Unknown | Yes | No
-| [Ryzen 5 PRO 230](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-7-pro-230.html) | No | No | No | Unknown | Yes | No
+| [Ryzen 5 PRO 230](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-5-pro-230.html) | No | No | No | Unknown | Yes | No
 | [Ryzen 5 230](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-230.html) | No | No | No | Unknown | Yes | No
-| [Ryzen 5 PRO 220](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-7-pro-220.html) | No | No | No | Unknown | Yes | No
+| [Ryzen 5 PRO 220](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-5-pro-220.html) | No | No | No | Unknown | Yes | No
 | [Ryzen 5 220](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-220.html) | No | No | No | Unknown | Yes | No
 | [Ryzen 3 PRO 210](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-3-pro-210.html) | No | No | No | Unknown | Yes | No
 | [Ryzen 3 210](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-3-210.html) | No | No | No | Unknown | Yes | No
