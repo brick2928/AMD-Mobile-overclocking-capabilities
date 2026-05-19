@@ -241,9 +241,9 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 ### Hawk Point (8040 series, Zen 4/RDNA3/XDNA based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 8945HS | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 7 8845HS | No | No | No | No? | Yes | No
-| Ryzen 7 8840HS | No | No | No | No? | Yes | No
+| [Ryzen 9 8945HS](https://www.amd.com/de/products/processors/laptop/ryzen/8000-series/amd-ryzen-9-8945hs.html) | Yes | Yes | Yes | Yes | Yes | No
+| [Ryzen 7 8845HS](https://www.amd.com/de/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8845hs.html) | No | No | No | No? | Yes | No
+| [Ryzen 7 8840HS](https://www.amd.com/de/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8840hs.html) | No | No | No | No? | Yes | No
 | Ryzen 7 8840U | No | No | No | Yes | Yes | No
 | Ryzen 7 8745HS | No | No | No | No? | Yes | No
 | Ryzen 7 8745H | No | No | No | No? | Yes | No
@@ -256,21 +256,21 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 ### Dragon Range (8045 series, Zen4/RDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 8945HX | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 9 8940HX | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 7 8840HX | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 7 8745HX | Yes | Yes | Yes | Yes | Yes | No
+| [Ryzen 9 8945HX](https://www.amd.com/de/products/processors/laptop/ryzen/8000-series/amd-ryzen-9-8945hx.html) | Yes | Yes | Yes | Yes | Yes | No
+| [Ryzen 9 8940HX](https://www.amd.com/de/products/processors/laptop/ryzen/8000-series/amd-ryzen-9-8940hx.html) | Yes | Yes | Yes | Yes | Yes | No
+| [Ryzen 7 8840HX](https://www.amd.com/de/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8840hx.html) | Yes | Yes | Yes | Yes | Yes | No
+| [Ryzen 7 8745HX](https://www.amd.com/de/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8745hx.html) | Yes | Yes | Yes | Yes | Yes | No
 
 ## Ryzen 9000
 ### Fire Range (Zen 5/RDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 9955HX3D | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
-| Ryzen 9 9955HX | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
-| Ryzen 9 9950HX | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
+| [Ryzen 9 9955HX3D](https://www.amd.com/de/products/processors/laptop/ryzen/9000-series/amd-ryzen-9-9955hx3d.html) | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
+| [Ryzen 9 9955HX](https://www.amd.com/de/products/processors/laptop/ryzen/9000-series/amd-ryzen-9-9955hx.html) | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
+| [Ryzen 9 9950HX](https://www.amd.com/de/products/processors/laptop/ryzen/9000-series/amd-ryzen-9-9950hx.html) | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
 ## Notes  
 ### 9955HX/3D capability to increase tREFI with newer AGESA.
-Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture can be found in Legion Series Discord Server: https://discord.com/channels/761178912230473768/958336296621867038/1466577982289219697
+Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture can be found in [Legion Series Discord Server](https://discord.com/channels/761178912230473768/958336296621867038/1466577982289219697)
 <img width="2548" height="1599" alt="image" src="https://github.com/user-attachments/assets/8b3841de-265f-4a98-837a-6d4deb614a9a" />
 
 ## Ryzen 10
