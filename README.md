@@ -277,8 +277,8 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Mendocino (10 series, Zen 2/RDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 5 40 | No | No | No | Unknown | Yes | No
-| Ryzen 3 30 | No | No | No | Unknown | Yes | No
+| [Ryzen 5 40](https://www.amd.com/de/products/processors/laptop/ryzen/10-series/amd-ryzen-5-40.html) | No | No | No | Unknown | Yes | No
+| [Ryzen 3 30](https://www.amd.com/de/products/processors/laptop/ryzen/10-series/amd-ryzen-3-30.html) | No | No | No | Unknown | Yes | No
 
 ## Ryzen 100 
 ### Rembrandt-R (100 series, Zen 3+/RDNA2 based)
