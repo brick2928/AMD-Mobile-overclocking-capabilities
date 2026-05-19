@@ -284,11 +284,11 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Rembrandt-R (100 series, Zen 3+/RDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 7 170 | No | No | No | Unknown | Yes | No
-| Ryzen 7 160 | No | No | No | Unknown | Yes | No
-| Ryzen 5 150 | No | No | No | Unknown | Yes | No
-| Ryzen 5 130 | No | No | No | Unknown | Yes | No
-| Ryzen 3 110 | No | No | No | Unknown | Yes | No
+| [Ryzen 7 170](https://www.amd.com/de/products/processors/laptop/ryzen/100-series/amd-ryzen-7-170.html) | No | No | No | Unknown | Yes | No
+| [Ryzen 7 160](https://www.amd.com/de/products/processors/laptop/ryzen/100-series/amd-ryzen-7-160.html) | No | No | No | Unknown | Yes | No
+| [Ryzen 5 150](https://www.amd.com/de/products/processors/laptop/ryzen/100-series/amd-ryzen-5-150.html) | No | No | No | Unknown | Yes | No
+| [Ryzen 5 130](https://www.amd.com/de/products/processors/laptop/ryzen/100-series/amd-ryzen-5-130.html) | No | No | No | Unknown | Yes | No
+| [Ryzen 3 110](https://www.amd.com/de/products/processors/laptop/ryzen/100-series/amd-ryzen-3-110.html) | No | No | No | Unknown | Yes | No
 ## Notes
 
 
