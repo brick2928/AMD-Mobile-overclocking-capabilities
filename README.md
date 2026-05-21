@@ -387,7 +387,9 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
     - Any SPD reading software will not work to grab the information of the soldered DDR, as the SPD information is stored in the firmware. Your best bet on AMD is using zentimings.
     - Unless you have really bad dies soldered to your system, usually soldered ram will outperform its so-dimm counterpart.
     - If you mix soldered DDR and so-dimm, the soldered ram should not bottleneck you in regards of memory frequency overclocking (as long as you dont have some top of the line so-dimm stick like samsung b-die).
-    - Here are pictures of what I have achieved on my system:
+    - Here is a picture of what I have achieved on my system:  
+      <img width="450" height="650" alt="image" src="https://github.com/user-attachments/assets/48309684-3504-4e27-b96b-504d0e6d2039" />
+
 
 ## AOD proof
 Below is a image showcasing 4 different bios files, each from a different generation ranging from 2000 to 5000. The bios files showcase that there is no AOD_SETUP string found in any of the BIOS files until ryzen 5000
