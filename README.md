@@ -296,17 +296,17 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Hawk Point Refresh (200 series, Zen 4/RDNA3/XDNA based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| [Ryzen 9 270](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-9-270.html) | Yes | Yes | Yes | Yes? | Yes | No
-| [Ryzen 7 260](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-7-260.html) | No | No | No | Unknown | Yes | No
-| [Ryzen 7 PRO 250](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-7-pro-250.html) | No | No | No | Unknown | Yes | No
-| [Ryzen 7 250](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-7-250.html) | No | No | No | Unknown | Yes | No
-| [Ryzen 5 240](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-240.html) | No | No | No | Unknown | Yes | No
-| [Ryzen 5 PRO 230](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-5-pro-230.html) | No | No | No | Unknown | Yes | No
-| [Ryzen 5 230](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-230.html) | No | No | No | Unknown | Yes | No
-| [Ryzen 5 PRO 220](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-5-pro-220.html) | No | No | No | Unknown | Yes | No
-| [Ryzen 5 220](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-220.html) | No | No | No | Unknown | Yes | No
-| [Ryzen 3 PRO 210](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-3-pro-210.html) | No | No | No | Unknown | Yes | No
-| [Ryzen 3 210](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-3-210.html) | No | No | No | Unknown | Yes | No
+| [Ryzen 9 270](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-9-270.html) | Yes | Yes | Yes | Yes? Refer to Notes | Yes | No
+| [Ryzen 7 260](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-7-260.html) | No | No | No | No? Refer to Notes | Yes | No
+| [Ryzen 7 PRO 250](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-7-pro-250.html) | No | No | No | No? Refer to Notes | Yes | No
+| [Ryzen 7 250](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-7-250.html) | No | No | No | No? Refer to Notes | Yes | No
+| [Ryzen 5 240](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-240.html) | No | No | No | No? Refer to Notes | Yes | No
+| [Ryzen 5 PRO 230](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-5-pro-230.html) | No | No | No | No? Refer to Notes | Yes | No
+| [Ryzen 5 230](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-230.html) | No | No | No | No? Refer to Notes | Yes | No
+| [Ryzen 5 PRO 220](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-5-pro-220.html) | No | No | No | No? Refer to Notes | Yes | No
+| [Ryzen 5 220](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-220.html) | No | No | No | No? Refer to Notes | Yes | No
+| [Ryzen 3 PRO 210](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-3-pro-210.html) | No | No | No | No? Refer to Notes | Yes | No
+| [Ryzen 3 210](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-3-210.html) | No | No | No | No? Refer to Notes | Yes | No
 ## Notes
 - LPDDR5 lacks frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
@@ -316,16 +316,16 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 | [Ryzen AI 9 HX PRO 375](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-9-hx-pro-375.html) | Unknown | Unknown | Unknown | Unknown | Yes | No
-| [Ryzen AI 9 HX 375](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-9-hx-375.html) | Yes | Yes | Yes | Refer to Notes | Yes | No
+| [Ryzen AI 9 HX 375](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-9-hx-375.html) | Yes | Yes | Yes | Yes? Refer to Notes | Yes | No
 | [Ryzen AI 9 HX PRO 370](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-9-hx-pro-370.html) | Unknown | Unknown | Unknown | Unknown | Yes | No
-| [Ryzen AI 9 HX 370](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-9-hx-370.html) | Yes | Yes | Yes | Refer to Notes | Yes | No
-| [Ryzen AI 9 365](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-9-365.html) | Yes | Yes | Yes | Refer to Notes | Yes | No
-| [Ryzen AI 7 PRO 360](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-7-pro-360.html) | No | No | No | Refer to Notes | Yes | No
-| [Ryzen AI 7 PRO 350](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-7-pro-350.html) | No | No | No | Refer to Notes | Yes | No
-| [Ryzen AI 7 350](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-7-350.html) | No | No | No | Refer to Notes | Yes | No
-| [Ryzen AI 5 PRO 340](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-5-pro-340.html) | No | No | No | Refer to Notes | Yes | No
-| [Ryzen AI 5 340](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-5-340.html) | No | No | No | Refer to Notes | Yes | No
-| [Ryzen AI 5 330](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-5-330.html) | No | No | No | Refer to Notes | Yes | No
+| [Ryzen AI 9 HX 370](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-9-hx-370.html) | Yes | Yes | Yes | Yes? Refer to Notes | Yes | No
+| [Ryzen AI 9 365](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-9-365.html) | Yes | Yes | Yes | Yes? Refer to Notes | Yes | No
+| [Ryzen AI 7 PRO 360](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-7-pro-360.html) | No | No | No | No? Refer to Notes | Yes | No
+| [Ryzen AI 7 PRO 350](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-7-pro-350.html) | No | No | No | No? Refer to Notes | Yes | No
+| [Ryzen AI 7 350](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-7-350.html) | No | No | No | No? Refer to Notes | Yes | No
+| [Ryzen AI 5 PRO 340](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-5-pro-340.html) | No | No | No | No? Refer to Notes | Yes | No
+| [Ryzen AI 5 340](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-5-340.html) | No | No | No | No? Refer to Notes | Yes | No
+| [Ryzen AI 5 330](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-5-330.html) | No | No | No | No? Refer to Notes | Yes | No
 ## Notes
 - LPDDR5 lacks frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
@@ -354,10 +354,10 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Gorgon Point (Zen 5/RDNA3.5/XDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| [Ryzen AI 9 HX PRO 475](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-9-hx-pro-475.html) | No (according to amd) | No (according to amd) | No (according to amd) | Refer to Notes | Yes | No
-| [Ryzen AI 9 HX 475](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-hx-475.html) | Yes | Yes | Yes | Refer to Notes | Yes | No
-| [Ryzen AI 9 HX PRO 470](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-9-hx-pro-470.html) | No (according to amd) | No (according to amd) | No (according to amd) | Refer to Notes | Yes | No
-| [Ryzen AI 9 HX 470](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-hx-470.html) | Yes | Yes | Yes | Refer to Notes | Yes | No
+| Ryzen AI 9 <br> HX PRO 475<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-9-hx-pro-475.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-hx-pro-475.c4313) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-HX-PRO-475-Processor-Benchmarks-and-Specs.1198880.0.html)</sup> | No (according to amd) | No (according to amd) | No (according to amd) | Refer to Notes | Yes | No
+| Ryzen AI 9 HX 475<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-hx-475.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-hx-475.c4319) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-HX-475-Processor-Benchmarks-and-Specs.1197731.0.html)</sup> | Yes | Yes | Yes | Refer to Notes | Yes | No
+| Ryzen AI 9 HX PRO 470<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-9-hx-pro-470.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-hx-pro-470.c4314) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-HX-PRO-470-Processor-Benchmarks-and-Specs.1198881.0.html)</sup> | No (according to amd) | No (according to amd) | No (according to amd) | Refer to Notes | Yes | No
+| Ryzen AI 9 HX 470 <sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-hx-470.html) [2](url2) [3](url3)</sup>  | Yes | Yes | Yes | Refer to Notes | Yes | No
 | [Ryzen AI 9 PRO 465](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-9-pro-465.html) | No (according to amd) | No (according to amd) | No (according to amd) | Refer to Notes | Yes | No
 | [Ryzen AI 9 465](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-465.html) | Yes | Yes | Yes | Refer to Notes  | Yes | No
 | [Ryzen AI 7 PRO 450](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-7-pro-450.html) | No | No | No | Unknown | Yes | No
