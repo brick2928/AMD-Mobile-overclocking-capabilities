@@ -1,4 +1,4 @@
-# DISCLAIMER
+https://www.notebookcheck.net/AMD-Ryzen-AI-9-HX-470-Processor-Benchmarks-and-Specs.1197753.0.html# DISCLAIMER
 This github repo is a community project, and is not backed by AMD. All of the information you see here was found by end consumers just like you! As much as we are confident in our findings, we can only be so sure as a unofficial source. Please take everything you find with a "grain of salt"  
 
 **This github repo assumes that your OEM has done no customization to your device and has just hidden all of the advanced options without touching them. Any of this information is bound to be false if your OEM decides to remove any of these options. This is very unlikely on laptops, though always possible. This more often happens on desktop motherboards with cheaper/weaker chipsets**
@@ -357,7 +357,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen AI 9 <br> HX PRO 475<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-9-hx-pro-475.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-hx-pro-475.c4313) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-HX-PRO-475-Processor-Benchmarks-and-Specs.1198880.0.html)</sup> | No (according to amd) | No (according to amd) | No (according to amd) | Refer to Notes | Yes | No
 | Ryzen AI 9 HX 475<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-hx-475.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-hx-475.c4319) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-HX-475-Processor-Benchmarks-and-Specs.1197731.0.html)</sup> | Yes | Yes | Yes | Refer to Notes | Yes | No
 | Ryzen AI 9 HX PRO 470<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-9-hx-pro-470.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-hx-pro-470.c4314) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-HX-PRO-470-Processor-Benchmarks-and-Specs.1198881.0.html)</sup> | No (according to amd) | No (according to amd) | No (according to amd) | Refer to Notes | Yes | No
-| Ryzen AI 9 HX 470 <sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-hx-470.html) [2](url2) [3](url3)</sup>  | Yes | Yes | Yes | Refer to Notes | Yes | No
+| Ryzen AI 9 HX 470 <sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-hx-470.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-hx-470.c4320) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-HX-470-Processor-Benchmarks-and-Specs.1197753.0.html)</sup>  | Yes | Yes | Yes | Refer to Notes | Yes | No
 | Ryzen AI 9 PRO 465<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-9-pro-465.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-pro-465.c4315) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-PRO-465-Processor-Benchmarks-and-Specs.1198882.0.html)</sup> | No (according to amd) | No (according to amd) | No (according to amd) | Refer to Notes | Yes | No
 | Ryzen AI 9 465<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-465.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-465.c4321) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-465-Processor-Benchmarks-and-Specs.1197759.0.html)</sup> | Yes | Yes | Yes | Refer to Notes  | Yes | No
 | Ryzen AI 7 PRO 450<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-7-pro-450.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-7-pro-450.c4316) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-7-PRO-450-Processor-Benchmarks-and-Specs.1198883.0.html)</sup> | No | No | No | Unknown | Yes | No
@@ -370,7 +370,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ## Notes
 - LPDDR5 lacks frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
-
+<sup>[1](url1) [2](url2) [3](url3)</sup>
 
 # Miscellaneous
 ## Random
