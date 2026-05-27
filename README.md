@@ -10,6 +10,7 @@ If you have any PRO variant CPUs Please contribute!
 - If you want to have quick answer as to what your cpu is capable of, refer to the [Simplified Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#simplified-table), it will tell you what your cpu is capable of depending on your cpu generation.
 - If you want to find the specific information for your CPU, search for your CPU via CTRL+F and write its full name. This will bring you to the Detailed Table where we state what each CPU is capable of instead of generilizing them according to their generation
 - Most of our proof is in the "Notes" section under whichever CPU generation you are looking at. Information which does not belong to a specific kind of CPU generation will be put under the [Miscellaneous](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#miscellaneous) section at the bottom.
+- The [Miscellaneous](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#miscellaneous) holds interestting information, we recommend everyone to have a quick look at it.
 
 
 # Introduction
@@ -32,25 +33,25 @@ If you think anything is false or wrong, create an issue so we can talk it out.
 [Here](https://github.com/brick2928/Check-Ryzen-Mobile-Capability?tab=readme-ov-file#cpu-undervolting) is a quick guide telling you how to test what your device is capable of!
 
 # Simplified Table
-This table generilizes cpu's by their generation. Usually the capability of the cpu mostly depends on their generation, but there are exceptions. For better accuracy you can refer to the extended section.
+This table generilizes cpu's by their generation. Usually the capability of the cpu mostly depends on their generation, but there are exceptions. For better accuracy you can refer to the extended section by clicking the CPU generation you are interested in.
 ## Ryzen
 
 | CPU Generation | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ------------ | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 2000  | Yes | No | Yes | Yes? | No | No |
-| Ryzen 3000 | Yes | No | Yes | Yes | No | No | 
-| Ryzen 4000 | Yes | No | Yes | Yes | Depends on Device | No |
-| Ryzen 5000 | Only Ryzen 9 or HX | Only Ryzen 9 or HX | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities?tab=readme-ov-file#ryzen-5000) | Only Ryzen 9, HX, or U | Yes | No |
-| Ryzen 6000 | Only Ryzen 9 or HX | Only Ryzen 9 or HX | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities?tab=readme-ov-file#ryzen-6000) | Only Ryzen 9, HX, or U | Yes | No |
-| Ryzen 7000 | Only Ryzen 9 or HX | Only Ryzen 9 or HX | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities?tab=readme-ov-file#ryzen-7000) | Only Ryzen 9, HX, or U | Yes | No |
-| Ryzen 8000 | Only Ryzen 9 or HX | Only Ryzen 9 or HX | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities?tab=readme-ov-file#ryzen-8000) | Only Ryzen 9, HX, or U | Yes | No |
-| Ryzen 9000 | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA |
-| Ryzen 10 | No | No | No | Unknown | Yes | No |
-| Ryzen 100 | No | No | No | Unknown | Yes | No |
-| Ryzen 200 | Only Ryzen 9 | Only Ryzen 9 | Only Ryzen 9 | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-200) | Yes | No |
-| Ryzen AI 300 | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-ai-300) | Yes | No |
-| Ryzen AI Max 300 | Yes, non-pro | Yes, non-pro | Yes? | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#strix-halo-zen-5rdna35xdna2-based) | Yes | No |
-| Ryzen AI 400 | Only Ryzen 9 | Only Ryzen 9 | Yes? | [Refer to the Detailed Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-ai-400) | Yes | No |
+| [Ryzen 2000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-2000)  | Yes | No | Yes | Yes? | No | No |
+| [Ryzen 3000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-3000) | Yes | No | Yes | Yes | No | No | 
+| [Ryzen 4000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-4000) | Yes | No | Yes | Yes | Depends on Device | No |
+| [Ryzen 5000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-5000) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Refer to the Detailed Table | Only Ryzen 9, HX, or U | Yes | No |
+| [Ryzen 6000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-6000) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Refer to the Detailed Table | Only Ryzen 9, HX, or U | Yes | No |
+| [Ryzen 7000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-7000) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Refer to the Detailed Table | Only Ryzen 9, HX, or U | Yes | No |
+| [Ryzen 8000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-8000) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Refer to the Detailed Table | Only Ryzen 9, HX, or U | Yes | No |
+| [Ryzen 9000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-9000) | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA |
+| [Ryzen 10](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-10) | No | No | No | Unknown | Yes | No |
+| [Ryzen 100](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-100) | No | No | No | Unknown | Yes | No |
+| [Ryzen 200](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-200) | Only Ryzen 9 | Only Ryzen 9 | Only Ryzen 9 | Refer to the Detailed Table | Yes | No |
+| [Ryzen AI 300](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-ai-300) | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Refer to the Detailed Table | Yes | No |
+| [Ryzen AI MAX(+) 300](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#strix-halo-zen-5rdna35xdna2-based) | Yes, non-pro | Yes, non-pro | Yes? | Refer to the Detailed Table | Yes | No |
+| [Ryzen AI 400](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-ai-400) | Only Ryzen 9 | Only Ryzen 9 | Yes? | Refer to the Detailed Table | Yes | No |
 
 
 # Detailed Table (Ryzen)
