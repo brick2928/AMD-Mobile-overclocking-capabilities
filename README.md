@@ -14,18 +14,18 @@ If you have any PRO variant CPUs Please contribute!
 
 
 # Introduction
-##  Why does this exist? What even is this repo about?
+###  Why does this exist? What even is this repo about?
 AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which chips are fused off from which features, only the way the cpu is "meant to be used". However some cpus can use features such as CO, even though AMD says the opposite. Through this github we aim to help people easily figure out what their CPU is technically capable of doing.
 
 
-## What is your source?
+### What is your source?
 Our source is just attempt and trial by a lot of people on the internet. We gather information from other peoples experiences and put them here for everyone to have a quick way of accessing this information.
 A picture will be provided as proof in the "Notes" section if applicable.
 Keep in mind: newer the generation of the cpu, the less confidence we have! Except in situations where we have direct proof - contributions matter to us.
 
 We got help from [this wikipedia page](https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Mobile_processors) to get the full list of Mobile AMD Ryzen processors. 
 
-## Please contribute!!
+### Please contribute!!
 Do you see the question marks? That is us indicating that we arent sure of our findings, or we are going off of assumptions.
 If you have the hardware for which we have written "unknown" or a question mark, you can check what your CPU is capable of and share your findings via creating a Issue!
 If you think anything is false or wrong, create an issue so we can talk it out.  
@@ -34,7 +34,7 @@ If you think anything is false or wrong, create an issue so we can talk it out.
 
 # Simplified Table
 This table generilizes cpu's by their generation. Usually the capability of the cpu mostly depends on their generation, but there are exceptions. For better accuracy you can refer to the extended section by clicking the CPU generation you are interested in.
-## Ryzen
+### Ryzen
 
 | CPU Generation | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ------------ | ------------- | --------------- |---------|-------------|-----------------------------|-|
