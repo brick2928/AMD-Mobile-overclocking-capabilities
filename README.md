@@ -268,7 +268,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 | [Ryzen 9 9955HX3D](https://www.amd.com/de/products/processors/laptop/ryzen/9000-series/amd-ryzen-9-9955hx3d.html) | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
 | [Ryzen 9 9955HX](https://www.amd.com/de/products/processors/laptop/ryzen/9000-series/amd-ryzen-9-9955hx.html) | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
-| [Ryzen 9 9950HX](https://www.amd.com/de/products/processors/laptop/ryzen/9000-series/amd-ryzen-9-9950hx.html) | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
+| [Ryzen 9 9850HX](https://www.amd.com/de/products/processors/laptop/ryzen/9000-series/amd-ryzen-9-9950hx.html) | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
 ## Notes  
 ### 9955HX/3D capability to increase tREFI with newer AGESA.
 Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture can be found in [Legion Series Discord Server](https://discord.com/channels/761178912230473768/958336296621867038/1466577982289219697)
