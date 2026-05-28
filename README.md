@@ -309,7 +309,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen 3 PRO 210<sup> <br> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-3-pro-210.html) [3](https://www.notebookcheck.net/AMD-Ryzen-3-PRO-210-Processor-Benchmarks-and-Specs.946376.0.html)</sup> | No | No | No | No? | Yes | No
 | Ryzen 3 210<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-3-210.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-3-210.c4015) [3](https://www.notebookcheck.net/AMD-Ryzen-3-210-Processor-Benchmarks-and-Specs.946313.0.html)</sup> | No | No | No | No? | Yes | No
 ## Notes
-- LPDDR5 lacks frequency, tCMD, tRFC2 and tRFC4 control
+- LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
 
 ## Ryzen AI 300
@@ -329,7 +329,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen AI 5 340 <sup>[1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-5-340.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-5-340.c4005) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-5-340-Processor-Benchmarks-and-Specs.950403.0.html)</sup> | No | No | No | No? Refer to Notes | Yes | No
 | Ryzen AI 5 330 <sup>[1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-5-330.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-5-330.c4225) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-5-330-Processor-Benchmarks-and-Specs.1049553.0.html)</sup> | No | No | No | No? Refer to Notes | Yes | No
 ## Notes
-- LPDDR5 lacks frequency, tCMD, tRFC2 and tRFC4 control
+- LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
 - [Example of R9 HX370 overclocking instance 1](https://www.youtube.com/watch?v=4dGn8DQI5pM) Credits: Eta Prime on youtube
 - [Example of R9 HX370 overclocking instance 2](https://www.youtube.com/watch?v=6gp495r-wxI) Credits: Iceberg Tech on youtube
@@ -348,7 +348,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen AI MAX 385<sup> <br> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-385.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-max-385.c3996) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-Max-385-Processor-Benchmarks-and-Specs.944052.0.html) </sup> | Yes | Yes | Yes | Yes | Yes | No
 | Ryzen AI MAX PRO 380<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-max-pro-300-series/amd-ryzen-ai-max-pro-380.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-max-pro-380.c4002) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-Max-PRO-380-Processor-Benchmarks-and-Specs.944131.0.html)</sup> | Unknown | Unknown | Unknown | Yes | Yes | No
 ## Notes
-- LPDDR5 lacks frequency, tCMD, tRFC2 and tRFC4 control
+- LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
 - [Example of R AI MAX+ 395 overclocking](https://www.youtube.com/watch?v=OK2Bq1GBi0g) Credits: Eta Prime
 
@@ -370,7 +370,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen AI 5 435<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-5-435.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-5-435.c4324) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-5-435-Processor-Benchmarks-and-Specs.1197770.0.html)</sup> | No | No | No | Unknown | Yes | No
 | Ryzen AI 5 430<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-5-430.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-5-430.c4325) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-5-430-Processor-Benchmarks-and-Specs.1197827.0.html)</sup> | No | No | No | Unknown | Yes | No
 ## Notes
-- LPDDR5 lacks frequency, tCMD, tRFC2 and tRFC4 control
+- LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
 <sup>[1](url1) [2](url2) [3](url3)</sup>
 
