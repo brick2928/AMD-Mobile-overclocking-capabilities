@@ -204,54 +204,51 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 ### Phoenix (7040 series, Zen 4/RDNA3/XDNA based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 PRO 7940HS | Unkown | Unkown | Unkown | Unkown | Yes | No
-| Ryzen 9 7940HS | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 9 7940H | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 7 PRO 7840HS | No | No | No | No | Yes | No
-| Ryzen 7 7840HS | No | No | No | No? | Yes | No
-| Ryzen 7 7840H | No | No | No | No? | Yes | No
-| Ryzen 7 PRO 7840U | No | No | No | No | Yes | No
-| Ryzen 7 7840U | No | No | No | Yes | Yes | No
-| Ryzen 7 7445HS | No | No | No | No? | Yes | No
-| Ryzen 5 PRO 7640HS | No | No | No | No | Yes | No
-| Ryzen 5 7640HS | No | No | No | No? | Yes | No
-| Ryzen 5 7640H | No | No | No | No? | Yes | No
-| Ryzen 5 PRO 7640U | No | No | No | No | Yes | No
-| Ryzen 5 7640U | No | No | No | Yes | Yes | No
-| Ryzen 5 PRO 7545U | No | No | No | No | Yes | No
-| Ryzen 5 7545U | No | No | No | Yes | Yes | No
-| Ryzen 5 PRO 7540U | No | No | No | No | Yes | No
-| Ryzen 5 7540U | No | No | No | Yes | Yes | No
-| Ryzen 3 7440U | No | No | No | Yes | Yes | No
+| Ryzen 9 PRO 7940HS<sup> [1](url1) [2](url2) [3](https://www.notebookcheck.net/AMD-Ryzen-9-PRO-7940HS-Processor-Benchmarks-and-Specs.725627.0.html)</sup> | Unkown | Unkown | Unkown | Unkown | Yes | No
+| Ryzen 9 7940HS<sup> [1](url1) [2](url2) [3](https://www.notebookcheck.net/AMD-Ryzen-9-7940HS-Processor-Benchmarks-and-Specs.680599.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 7 PRO 7840HS<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No | Yes | No
+| Ryzen 7 7840HS<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No? | Yes | No
+| Ryzen 7 7840H<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No? | Yes | No
+| Ryzen 7 PRO 7840U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No | Yes | No
+| Ryzen 7 7840U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | Yes | Yes | No
+| Ryzen 7 7445HS<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 7640HS<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No | Yes | No
+| Ryzen 5 7640HS<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No? | Yes | No
+| Ryzen 5 7640H<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 7640U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No | Yes | No
+| Ryzen 5 7640U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | Yes | Yes | No
+| Ryzen 5 PRO 7545U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No | Yes | No
+| Ryzen 5 7545U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | Yes | Yes | No
+| Ryzen 5 PRO 7540U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No | Yes | No
+| Ryzen 5 7540U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | Yes | Yes | No
+| Ryzen 3 7440U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | Yes | Yes | No
 ## Notes
 - [Example of R9 7940HS Overclocking](https://www.youtube.com/watch?v=RfuNeC0gbBA) Credits: Eta Prime on youtube
 
 ### Dragon Range (7045 series, Zen 4/RDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 7945HX3D | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 9 7945HX | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 9 7940HX | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 9 7845HX | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 7 7840HX | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 7 7745HX | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 5 7645HX | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 9 7945HX3D<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-9-7950hx3d.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-7945hx3d.c3263) [3](https://www.notebookcheck.net/AMD-Ryzen-9-7945HX3D-Processor-Benchmarks-and-Specs.738915.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 9 7945HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-9-7945hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-7945hx.c3027) [3](https://www.notebookcheck.net/AMD-Ryzen-9-7945HX-Processor-Benchmarks-and-Specs.679953.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 9 7940HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-9-7940hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-7940hx.c4239) [3](https://www.notebookcheck.net/AMD-Ryzen-9-7940HX-Processor-Benchmarks-and-Specs.825457.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 9 7845HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-9-7845hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-7845hx.c3026) [3](https://www.notebookcheck.net/AMD-Ryzen-9-7845HX-Processor-Benchmarks-and-Specs.680189.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 7 7840HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7840hx.html) [3](https://www.notebookcheck.net/AMD-Ryzen-9-7840HX-Processor-Benchmarks-and-Specs.825856.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 7 7745HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7745hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-7745hx.c3025) [3](https://www.notebookcheck.net/AMD-Ryzen-7-7745HX-Processor-Benchmarks-and-Specs.680194.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 5 7645HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7645hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-7645hx.c3021) [3](https://www.notebookcheck.net/AMD-Ryzen-5-7645HX-Processor-Benchmarks-and-Specs.680213.0.html)</sup>   | Yes | Yes | Yes | Yes | Yes | No
 
 ## Ryzen 8000
 ### Hawk Point (8040 series, Zen 4/RDNA3/XDNA based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 8945HS<sup> [1](url1) [2](url2) [3](https://www.notebookcheck.net/AMD-Ryzen-9-8945HS-Processor-Benchmarks-and-Specs.780993.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 7 8845HS<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No? | Yes | No
-| Ryzen 7 8840HS<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No? | Yes | No
-| Ryzen 7 8840U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | Yes | Yes | No
-| Ryzen 7 8745HS<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No? | Yes | No
-| Ryzen 7 8745H<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No? | Yes | No
-| Ryzen 5 8645HS<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No? | Yes | No
-| Ryzen 5 8640HS<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No? | Yes | No
-| Ryzen 5 8640U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | Yes | Yes | No
-| Ryzen 5 8540U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | Yes | Yes | No
-| Ryzen 3 8440U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | Yes | Yes | No
+| Ryzen 9 8945HS<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-9-8945hs.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-8945hs.c3399) [3](https://www.notebookcheck.net/AMD-Ryzen-9-8945HS-Processor-Benchmarks-and-Specs.780993.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 7 8845HS<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8845hs.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-8845hs.c3400) [3](https://www.notebookcheck.net/AMD-Ryzen-7-8845HS-Processor-Benchmarks-and-Specs.780991.0.html)</sup> | No | No | No | No? | Yes | No
+| Ryzen 7 8840HS<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8840hs.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-8840hs.c3401) [3](https://www.notebookcheck.net/AMD-Ryzen-7-8840HS-Processor-Benchmarks-and-Specs.780985.0.html)</sup> | No | No | No | No? | Yes | No
+| Ryzen 7 8840U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8840u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-8840u.c3402) [3](https://www.notebookcheck.net/AMD-Ryzen-7-8840U-Processor-Benchmarks-and-Specs.780980.0.html)</sup> | No | No | No | Yes | Yes | No
+| Ryzen 5 8645HS<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-5-8645hs.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-8645hs.c3403) [3](https://www.notebookcheck.net/AMD-Ryzen-5-8645HS-Processor-Benchmarks-and-Specs.780989.0.html)</sup> | No | No | No | No? | Yes | No
+| Ryzen 5 8640HS<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-5-8640hs.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-8640hs.c3404) [3](https://www.notebookcheck.net/AMD-Ryzen-5-8640HS-Processor-Benchmarks-and-Specs.780987.0.html)</sup> | No | No | No | No? | Yes | No
+| Ryzen 5 8640U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-5-8640u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-8640u.c3405) [3](https://www.notebookcheck.net/AMD-Ryzen-5-8640U-Processor-Benchmarks-and-Specs.780976.0.html)</sup> | No | No | No | Yes | Yes | No
+| Ryzen 5 8540U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-5-8540u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-8540u.c3406) [3](https://www.notebookcheck.net/AMD-Ryzen-5-8540U-Processor-Benchmarks-and-Specs.780975.0.html)</sup> | No | No | No | Yes | Yes | No
+| Ryzen 3 8440U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-3-8440u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-3-8440u.c3407) [3](https://www.notebookcheck.net/AMD-Ryzen-3-8440U-Processor-Benchmarks-and-Specs.780972.0.html)</sup> | No | No | No | Yes | Yes | No
 
 ### Dragon Range (8045 series, Zen4/RDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
@@ -370,7 +367,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ## Notes
 - LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
-<sup>[1](url1) [2](url2) [3](url3)</sup>
+<sup> [1](url1) [2](url2) [3](url3)</sup>
 
 # Miscellaneous
 ## Random
