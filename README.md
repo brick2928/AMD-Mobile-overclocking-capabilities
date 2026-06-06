@@ -50,7 +50,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | [Ryzen 100](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-100) | No | No | No | Unknown | Yes | No |
 | [Ryzen 200](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-200) | Only Ryzen 9 | Only Ryzen 9 | Only Ryzen 9 | Refer to the Detailed Table | Yes | No |
 | [Ryzen AI 300](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-ai-300) | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Refer to the Detailed Table | Yes | No |
-| [Ryzen AI MAX(+) 300](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#strix-halo-zen-5rdna35xdna2-based) | Yes, non-pro | Yes, non-pro | Yes? | Refer to the Detailed Table | Yes | No |
+| [Ryzen AI MAX+ 300](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#strix-halo-zen-5rdna35xdna2-based) | Yes, non-pro | Yes, non-pro | Yes? | Refer to the Detailed Table | Yes | No |
 | [Ryzen AI 400](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-ai-400) | Only Ryzen 9 | Only Ryzen 9 | Yes? | Refer to the Detailed Table | Yes | No |
 
 
@@ -204,24 +204,22 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 ### Phoenix (7040 series, Zen 4/RDNA3/XDNA based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 PRO 7940HS<sup> [1](url1) [2](url2) [3](https://www.notebookcheck.net/AMD-Ryzen-9-PRO-7940HS-Processor-Benchmarks-and-Specs.725627.0.html)</sup> | Unkown | Unkown | Unkown | Unkown | Yes | No
-| Ryzen 9 7940HS<sup> [1](url1) [2](url2) [3](https://www.notebookcheck.net/AMD-Ryzen-9-7940HS-Processor-Benchmarks-and-Specs.680599.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 7 PRO 7840HS<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No | Yes | No
-| Ryzen 7 7840HS<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No? | Yes | No
-| Ryzen 7 7840H<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No? | Yes | No
-| Ryzen 7 PRO 7840U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No | Yes | No
-| Ryzen 7 7840U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | Yes | Yes | No
-| Ryzen 7 7445HS<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No? | Yes | No
-| Ryzen 5 PRO 7640HS<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No | Yes | No
-| Ryzen 5 7640HS<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No? | Yes | No
-| Ryzen 5 7640H<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No? | Yes | No
-| Ryzen 5 PRO 7640U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No | Yes | No
-| Ryzen 5 7640U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | Yes | Yes | No
-| Ryzen 5 PRO 7545U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No | Yes | No
-| Ryzen 5 7545U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | Yes | Yes | No
-| Ryzen 5 PRO 7540U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | No | Yes | No
-| Ryzen 5 7540U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | Yes | Yes | No
-| Ryzen 3 7440U<sup> [1](url1) [2](url2) [3](url3)</sup> | No | No | No | Yes | Yes | No
+| Ryzen 9 PRO 7940HS<sup> [1](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-7000-series/amd-ryzen-9-pro-7940hs.html) [3](https://www.notebookcheck.net/AMD-Ryzen-9-PRO-7940HS-Processor-Benchmarks-and-Specs.725627.0.html)</sup> | Unkown | Unkown | Unkown | Unkown | Yes | No
+| Ryzen 9 7940HS<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-9-7940hs.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-7940hs.c3020) [3](https://www.notebookcheck.net/AMD-Ryzen-9-7940HS-Processor-Benchmarks-and-Specs.680599.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 7 PRO 7840HS<sup> [1](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-7000-series/amd-ryzen-7-pro-7840hs.html) [3](https://www.notebookcheck.com/AMD-Ryzen-7-PRO-7840HS-Prozessor-Benchmarks-und-Specs.725635.0.html)</sup> | No | No | No | No | Yes | No
+| Ryzen 7 7840HS<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7840hs.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-7840hs.c3033) [3](https://www.notebookcheck.com/AMD-Ryzen-7-7840HS-Prozessor-Benchmarks-und-Specs.680861.0.html)</sup> | No | No | No | No? | Yes | No
+| Ryzen 7 PRO 7840U<sup> [1](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-7000-series/amd-ryzen-7-pro-7840u.html) [3](https://www.notebookcheck.com/AMD-Ryzen-7-PRO-7840U-Prozessor-Benchmarks-und-Specs.725651.0.html)</sup> | No | No | No | No | Yes | No
+| Ryzen 7 7840U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7840u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-7840u.c3212) [3](https://www.notebookcheck.com/AMD-Ryzen-7-7840U-Prozessor-Benchmarks-und-Specs.716311.0.html)</sup> | No | No | No | Yes | Yes | No
+| Ryzen 7 7445HS<sup> [1](https://www.amd.com/de/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7445hs.html)</sup> | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 7640HS<sup> [1](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-7000-series/amd-ryzen-5-pro-7640hs.html) [3](https://www.notebookcheck.com/AMD-Ryzen-5-PRO-7640HS-Prozessor-Benchmarks-und-Specs.725649.0.html)</sup> | No | No | No | No | Yes | No
+| Ryzen 5 7640HS<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7640hs.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-7640hs.c3034) [3](https://www.notebookcheck.com/AMD-Ryzen-5-7640HS-Prozessor-Benchmarks-und-Specs.680922.0.html)</sup> | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 7640U<sup> [1](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-7000-series/amd-ryzen-5-pro-7640u.html) [3](https://www.notebookcheck.com/AMD-Ryzen-5-PRO-7640U-Prozessor-Benchmarks-und-Specs.725653.0.html)</sup> | No | No | No | No | Yes | No
+| Ryzen 5 7640U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7640u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-7640u.c3205) [3](https://www.notebookcheck.com/AMD-Ryzen-5-7640U-Prozessor-Benchmarks-und-Specs.716520.0.html)</sup> | No | No | No | Yes | Yes | No
+| Ryzen 5 PRO 7545U<sup> [1](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-7000-series/amd-ryzen-5-pro-7545u.html) [3](https://www.notebookcheck.com/AMD-Ryzen-5-PRO-7545U-Prozessor-Benchmarks-und-Specs.1011435.0.html)</sup> | No | No | No | No | Yes | No
+| Ryzen 5 7545U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7545u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-7545u.c3365) [3](https://www.notebookcheck.com/AMD-Ryzen-5-7545U-Prozessor-Benchmarks-und-Specs.780677.0.html)</sup> | No | No | No | Yes | Yes | No
+| Ryzen 5 PRO 7540U<sup> [1](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-7000-series/amd-ryzen-5-pro-7540u.html) [3](https://www.notebookcheck.com/AMD-Ryzen-5-PRO-7540U-Prozessor-Benchmarks-und-Specs.725655.0.html)</sup> | No | No | No | No | Yes | No
+| Ryzen 5 7540U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7540u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-7540u.c3364) [3](https://www.notebookcheck.com/AMD-Ryzen-5-7540U-Prozessor-Benchmarks-und-Specs.716521.0.html)</sup> | No | No | No | Yes | Yes | No
+| Ryzen 3 7440U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-3-7440u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-3-7440u.c3363) [3](https://www.notebookcheck.com/AMD-Ryzen-3-7440U-Prozessor-Benchmarks-und-Specs.716529.0.html)</sup> | No | No | No | Yes | Yes | No
 ## Notes
 - [Example of R9 7940HS Overclocking](https://www.youtube.com/watch?v=RfuNeC0gbBA) Credits: Eta Prime on youtube
 
