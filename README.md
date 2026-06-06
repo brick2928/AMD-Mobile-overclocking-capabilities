@@ -240,6 +240,10 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 7 7840HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7840hx.html) [3](https://www.notebookcheck.net/AMD-Ryzen-9-7840HX-Processor-Benchmarks-and-Specs.825856.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
 | Ryzen 7 7745HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7745hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-7745hx.c3025) [3](https://www.notebookcheck.net/AMD-Ryzen-7-7745HX-Processor-Benchmarks-and-Specs.680194.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
 | Ryzen 5 7645HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7645hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-7645hx.c3021) [3](https://www.notebookcheck.net/AMD-Ryzen-5-7645HX-Processor-Benchmarks-and-Specs.680213.0.html)</sup>   | Yes | Yes | Yes | Yes | Yes | No
+## Notes
+- Example of R9 7945HX Memory overclocking:
+  <img width="596" height="897" alt="image" src="https://github.com/user-attachments/assets/2efe52cc-9c80-4003-ad60-99d2acbecc3a" />
+  Credits: .izy_ on Discord
 
 ## Ryzen 8000
 ### Hawk Point (8040 series, Zen 4/RDNA3/XDNA based)
