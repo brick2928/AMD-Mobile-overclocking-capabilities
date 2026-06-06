@@ -78,7 +78,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 |AMD 3015Ce|Yes?|No|Yes|Yes, up to 3200MT/s|No|No|
 |AMD 3015e|Yes?|No|Yes|Yes, up to 3200MT/s|No|No|
 ## Notes
-- Example of 3020e memory overclocking:  
+- Example of AMD 3020e Memory overclocking:  
   <img width="305" height="427" alt="image" src="https://github.com/user-attachments/assets/e6158c6d-960c-4f41-9623-cc80fa688fc9" />  
   Credits: abuabed5861 on discord
 
@@ -96,6 +96,9 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 |Ryzen 5 3450U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 3 3350U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 3 3300U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
+## Notes
+- Example of R3 3700U Memory overclocking:
+  <img width="392" height="566" alt="image" src="https://github.com/user-attachments/assets/c9e8acc0-c209-4b48-95b7-8c63190a3aae" />
 
 
 ## Ryzen 4000
@@ -128,6 +131,10 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 7 5700U | No | No | No | Yes, up to 3200MT/s | Yes | No
 | Ryzen 5 5500U | No | No | No | Yes, up to 3200MT/s | Yes | No
 | Ryzen 3 5300U | No | No | No | Yes, up to 3200MT/s | Yes | No
+
+## Notes
+- Example of R3 5300U Memory overclocking:
+  <img width="492" height="694" alt="image" src="https://github.com/user-attachments/assets/043c3670-865f-4ade-83ad-da0471ea3b33" />
 
 ### Cezanne and Barceló (Zen 3/GCN5 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
