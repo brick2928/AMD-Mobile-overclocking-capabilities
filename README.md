@@ -97,7 +97,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 |Ryzen 3 3350U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 3 3300U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 ## Notes
-- Example of R3 3700U Memory overclocking:
+- Example of R3 3700U Memory overclocking:  
   <img width="392" height="566" alt="image" src="https://github.com/user-attachments/assets/c9e8acc0-c209-4b48-95b7-8c63190a3aae" />
 
 
@@ -133,7 +133,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 3 5300U | No | No | No | Yes, up to 3200MT/s | Yes | No
 
 ## Notes
-- Example of R3 5300U Memory overclocking:
+- Example of R3 5300U Memory overclocking:  
   <img width="492" height="694" alt="image" src="https://github.com/user-attachments/assets/043c3670-865f-4ade-83ad-da0471ea3b33" />
 
 ### Cezanne and Barceló (Zen 3/GCN5 based)
@@ -241,7 +241,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 7 7745HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7745hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-7745hx.c3025) [3](https://www.notebookcheck.net/AMD-Ryzen-7-7745HX-Processor-Benchmarks-and-Specs.680194.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
 | Ryzen 5 7645HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7645hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-7645hx.c3021) [3](https://www.notebookcheck.net/AMD-Ryzen-5-7645HX-Processor-Benchmarks-and-Specs.680213.0.html)</sup>   | Yes | Yes | Yes | Yes | Yes | No
 ## Notes
-- Example of R9 7945HX Memory overclocking:
+- Example of R9 7945HX Memory overclocking:  
   <img width="596" height="897" alt="image" src="https://github.com/user-attachments/assets/2efe52cc-9c80-4003-ad60-99d2acbecc3a" />
   Credits: .izy_ on Discord
 
