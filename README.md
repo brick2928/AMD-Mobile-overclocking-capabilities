@@ -214,35 +214,35 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 ### Phoenix (7040 series, Zen 4/RDNA3/XDNA based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 PRO 7940HS<sup> [1](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-7000-series/amd-ryzen-9-pro-7940hs.html) [3](https://www.notebookcheck.net/AMD-Ryzen-9-PRO-7940HS-Processor-Benchmarks-and-Specs.725627.0.html)</sup> | Unkown | Unkown | Unkown | Unkown | Yes | No
-| Ryzen 9 7940HS<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-9-7940hs.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-7940hs.c3020) [3](https://www.notebookcheck.net/AMD-Ryzen-9-7940HS-Processor-Benchmarks-and-Specs.680599.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 7 PRO 7840HS<sup> [1](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-7000-series/amd-ryzen-7-pro-7840hs.html) [3](https://www.notebookcheck.com/AMD-Ryzen-7-PRO-7840HS-Prozessor-Benchmarks-und-Specs.725635.0.html)</sup> | No | No | No | No | Yes | No
-| Ryzen 7 7840HS<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7840hs.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-7840hs.c3033) [3](https://www.notebookcheck.com/AMD-Ryzen-7-7840HS-Prozessor-Benchmarks-und-Specs.680861.0.html)</sup> | No | No | No | No? | Yes | No
-| Ryzen 7 PRO 7840U<sup> [1](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-7000-series/amd-ryzen-7-pro-7840u.html) [3](https://www.notebookcheck.com/AMD-Ryzen-7-PRO-7840U-Prozessor-Benchmarks-und-Specs.725651.0.html)</sup> | No | No | No | No | Yes | No
-| Ryzen 7 7840U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7840u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-7840u.c3212) [3](https://www.notebookcheck.com/AMD-Ryzen-7-7840U-Prozessor-Benchmarks-und-Specs.716311.0.html)</sup> | No | No | No | Yes | Yes | No
-| Ryzen 7 7445HS<sup> [1](https://www.amd.com/de/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7445hs.html)</sup> | No | No | No | No? | Yes | No
-| Ryzen 5 PRO 7640HS<sup> [1](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-7000-series/amd-ryzen-5-pro-7640hs.html) [3](https://www.notebookcheck.com/AMD-Ryzen-5-PRO-7640HS-Prozessor-Benchmarks-und-Specs.725649.0.html)</sup> | No | No | No | No | Yes | No
-| Ryzen 5 7640HS<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7640hs.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-7640hs.c3034) [3](https://www.notebookcheck.com/AMD-Ryzen-5-7640HS-Prozessor-Benchmarks-und-Specs.680922.0.html)</sup> | No | No | No | No? | Yes | No
-| Ryzen 5 PRO 7640U<sup> [1](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-7000-series/amd-ryzen-5-pro-7640u.html) [3](https://www.notebookcheck.com/AMD-Ryzen-5-PRO-7640U-Prozessor-Benchmarks-und-Specs.725653.0.html)</sup> | No | No | No | No | Yes | No
-| Ryzen 5 7640U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7640u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-7640u.c3205) [3](https://www.notebookcheck.com/AMD-Ryzen-5-7640U-Prozessor-Benchmarks-und-Specs.716520.0.html)</sup> | No | No | No | Yes | Yes | No
-| Ryzen 5 PRO 7545U<sup> [1](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-7000-series/amd-ryzen-5-pro-7545u.html) [3](https://www.notebookcheck.com/AMD-Ryzen-5-PRO-7545U-Prozessor-Benchmarks-und-Specs.1011435.0.html)</sup> | No | No | No | No | Yes | No
-| Ryzen 5 7545U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7545u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-7545u.c3365) [3](https://www.notebookcheck.com/AMD-Ryzen-5-7545U-Prozessor-Benchmarks-und-Specs.780677.0.html)</sup> | No | No | No | Yes | Yes | No
-| Ryzen 5 PRO 7540U<sup> [1](https://www.amd.com/en/support/downloads/drivers.html/processors/ryzen-pro/ryzen-pro-7000-series/amd-ryzen-5-pro-7540u.html) [3](https://www.notebookcheck.com/AMD-Ryzen-5-PRO-7540U-Prozessor-Benchmarks-und-Specs.725655.0.html)</sup> | No | No | No | No | Yes | No
-| Ryzen 5 7540U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7540u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-7540u.c3364) [3](https://www.notebookcheck.com/AMD-Ryzen-5-7540U-Prozessor-Benchmarks-und-Specs.716521.0.html)</sup> | No | No | No | Yes | Yes | No
-| Ryzen 3 7440U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-3-7440u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-3-7440u.c3363) [3](https://www.notebookcheck.com/AMD-Ryzen-3-7440U-Prozessor-Benchmarks-und-Specs.716529.0.html)</sup> | No | No | No | Yes | Yes | No
+| Ryzen 9 PRO 7940HS | Unkown | Unkown | Unkown | Unkown | Yes | No
+| Ryzen 9 7940HS| Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 7 PRO 7840HS | No | No | No | No | Yes | No
+| Ryzen 7 7840H | No | No | No | No? | Yes | No
+| Ryzen 7 PRO 7840U | No | No | No | No | Yes | No
+| Ryzen 7 7840U | No | No | No | Yes | Yes | No
+| Ryzen 7 7445HS | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 7640HS | No | No | No | No | Yes | No
+| Ryzen 5 7640HS | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 7640U | No | No | No | No | Yes | No
+| Ryzen 5 7640U | No | No | No | Yes | Yes | No
+| Ryzen 5 PRO 7545U | No | No | No | No | Yes | No
+| Ryzen 5 7545U | No | No | No | Yes | Yes | No
+| Ryzen 5 PRO 7540U| No | No | No | No | Yes | No
+| Ryzen 5 7540U | No | No | No | Yes | Yes | No
+| Ryzen 3 7440U | No | No | No | Yes | Yes | No
 ## Notes
 - [Example of R9 7940HS Overclocking](https://www.youtube.com/watch?v=RfuNeC0gbBA) Credits: Eta Prime on youtube
 
 ### Dragon Range (7045 series, Zen 4/RDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 7945HX3D<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-9-7950hx3d.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-7945hx3d.c3263) [3](https://www.notebookcheck.net/AMD-Ryzen-9-7945HX3D-Processor-Benchmarks-and-Specs.738915.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 9 7945HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-9-7945hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-7945hx.c3027) [3](https://www.notebookcheck.net/AMD-Ryzen-9-7945HX-Processor-Benchmarks-and-Specs.679953.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 9 7940HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-9-7940hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-7940hx.c4239) [3](https://www.notebookcheck.net/AMD-Ryzen-9-7940HX-Processor-Benchmarks-and-Specs.825457.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 9 7845HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-9-7845hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-7845hx.c3026) [3](https://www.notebookcheck.net/AMD-Ryzen-9-7845HX-Processor-Benchmarks-and-Specs.680189.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 7 7840HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7840hx.html) [3](https://www.notebookcheck.net/AMD-Ryzen-9-7840HX-Processor-Benchmarks-and-Specs.825856.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 7 7745HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-7-7745hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-7745hx.c3025) [3](https://www.notebookcheck.net/AMD-Ryzen-7-7745HX-Processor-Benchmarks-and-Specs.680194.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 5 7645HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7645hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-7645hx.c3021) [3](https://www.notebookcheck.net/AMD-Ryzen-5-7645HX-Processor-Benchmarks-and-Specs.680213.0.html)</sup>   | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 9 7945HX3D | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 9 7945HX | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 9 7940HX | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 9 7845HX | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 7 7840HX | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 7 7745HX | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 5 7645HX | Yes | Yes | Yes | Yes | Yes | No
 ## Notes
 - Example of R9 7945HX Memory overclocking:  
   <img width="596" height="897" alt="image" src="https://github.com/user-attachments/assets/2efe52cc-9c80-4003-ad60-99d2acbecc3a" />  
@@ -252,31 +252,31 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 ### Hawk Point (8040 series, Zen 4/RDNA3/XDNA based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 8945HS<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-9-8945hs.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-8945hs.c3399) [3](https://www.notebookcheck.net/AMD-Ryzen-9-8945HS-Processor-Benchmarks-and-Specs.780993.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 7 8845HS<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8845hs.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-8845hs.c3400) [3](https://www.notebookcheck.net/AMD-Ryzen-7-8845HS-Processor-Benchmarks-and-Specs.780991.0.html)</sup> | No | No | No | No? | Yes | No
-| Ryzen 7 8840HS<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8840hs.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-8840hs.c3401) [3](https://www.notebookcheck.net/AMD-Ryzen-7-8840HS-Processor-Benchmarks-and-Specs.780985.0.html)</sup> | No | No | No | No? | Yes | No
-| Ryzen 7 8840U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8840u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-8840u.c3402) [3](https://www.notebookcheck.net/AMD-Ryzen-7-8840U-Processor-Benchmarks-and-Specs.780980.0.html)</sup> | No | No | No | Yes | Yes | No
-| Ryzen 5 8645HS<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-5-8645hs.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-8645hs.c3403) [3](https://www.notebookcheck.net/AMD-Ryzen-5-8645HS-Processor-Benchmarks-and-Specs.780989.0.html)</sup> | No | No | No | No? | Yes | No
-| Ryzen 5 8640HS<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-5-8640hs.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-8640hs.c3404) [3](https://www.notebookcheck.net/AMD-Ryzen-5-8640HS-Processor-Benchmarks-and-Specs.780987.0.html)</sup> | No | No | No | No? | Yes | No
-| Ryzen 5 8640U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-5-8640u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-8640u.c3405) [3](https://www.notebookcheck.net/AMD-Ryzen-5-8640U-Processor-Benchmarks-and-Specs.780976.0.html)</sup> | No | No | No | Yes | Yes | No
-| Ryzen 5 8540U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-5-8540u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-8540u.c3406) [3](https://www.notebookcheck.net/AMD-Ryzen-5-8540U-Processor-Benchmarks-and-Specs.780975.0.html)</sup> | No | No | No | Yes | Yes | No
-| Ryzen 3 8440U<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-3-8440u.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-3-8440u.c3407) [3](https://www.notebookcheck.net/AMD-Ryzen-3-8440U-Processor-Benchmarks-and-Specs.780972.0.html)</sup> | No | No | No | Yes | Yes | No
+| Ryzen 9 8945HS | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 7 8845HS | No | No | No | No? | Yes | No
+| Ryzen 7 8840HS | No | No | No | No? | Yes | No
+| Ryzen 7 8840U | No | No | No | Yes | Yes | No
+| Ryzen 5 8645HS | No | No | No | No? | Yes | No
+| Ryzen 5 8640HS | No | No | No | No? | Yes | No
+| Ryzen 5 8640U | No | No | No | Yes | Yes | No
+| Ryzen 5 8540U | No | No | No | Yes | Yes | No
+| Ryzen 3 8440U | No | No | No | Yes | Yes | No
 
 ### Dragon Range (8045 series, Zen4/RDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 8945HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-9-8945hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-8945hx.c4135) [3](https://www.notebookcheck.net/AMD-Ryzen-9-8945HX-Processor-Benchmarks-and-Specs.998692.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 9 8940HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-9-8940hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-8940hx.c4134) [3](https://www.notebookcheck.net/AMD-Ryzen-9-8940HX-Processor-Benchmarks-and-Specs.998310.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 7 8840HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8840hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-8840hx.c4133) [3](https://www.notebookcheck.net/AMD-Ryzen-7-8840HX-Processor-Benchmarks-and-Specs.997694.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 7 8745HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/8000-series/amd-ryzen-7-8745hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-8745hx.c4132) [3](https://www.notebookcheck.net/AMD-Ryzen-7-8745HX-Processor-Benchmarks-and-Specs.997690.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 9 8945HX | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 9 8940HX | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 7 8840HX | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 7 8745HX | Yes | Yes | Yes | Yes | Yes | No
 
 ## Ryzen 9000
 ### Fire Range (Zen 5/RDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 9955HX3D<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/9000-series/amd-ryzen-9-9955hx3d.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-9955hx3d.c4036) [3](https://www.notebookcheck.net/AMD-Ryzen-9-9955HX3D-Processor-Benchmarks-and-Specs.941514.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
-| Ryzen 9 9955HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/9000-series/amd-ryzen-9-9955hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-9955hx.c4037) [3](https://www.notebookcheck.net/AMD-Ryzen-9-9955HX-Processor-Benchmarks-and-Specs.941515.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
-| Ryzen 9 9850HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/9000-series/amd-ryzen-9-9850hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-9850hx.c4038) [3](https://www.notebookcheck.net/AMD-Ryzen-9-9850HX-Processor-Benchmarks-and-Specs.941946.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
+| Ryzen 9 9955HX3D | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
+| Ryzen 9 9955HX | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
+| Ryzen 9 9850HX | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
 ## Notes  
 ### 9955HX/3D capability to increase tREFI with newer AGESA.
 Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture can be found in [Legion Series Discord Server](https://discord.com/channels/761178912230473768/958336296621867038/1466577982289219697)
@@ -286,35 +286,35 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Mendocino (10 series, Zen 2/RDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 5 40<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/10-series/amd-ryzen-5-40.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-40.c4255) [3](https://www.notebookcheck.net/AMD-Ryzen-5-40-Processor-Benchmarks-and-Specs.1149121.0.html)</sup> | No | No | No | Unknown | Yes | No
-| Ryzen 3 30<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/10-series/amd-ryzen-3-30.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-3-30.c4254) [3](https://www.notebookcheck.net/AMD-Ryzen-3-30-Processor-Benchmarks-and-Specs.1148240.0.html)</sup> | No | No | No | Unknown | Yes | No
+| Ryzen 5 40 | No | No | No | Unknown | Yes | No
+| Ryzen 3 30 | No | No | No | Unknown | Yes | No
 
 ## Ryzen 100 
 ### Rembrandt-R (100 series, Zen 3+/RDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 7 170<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/100-series/amd-ryzen-7-170.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-170.c4260) [3](https://www.notebookcheck.net/AMD-Ryzen-7-170-Processor-Benchmarks-and-Specs.1148247.0.html)</sup> | No | No | No | Unknown | Yes | No
-| Ryzen 7 160<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/100-series/amd-ryzen-7-160.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-160.c4259) [3](https://www.notebookcheck.net/AMD-Ryzen-7-160-Processor-Benchmarks-and-Specs.1149198.0.html)</sup> | No | No | No | Unknown | Yes | No
-| Ryzen 5 150<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/100-series/amd-ryzen-5-150.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-150.c4258) [3](https://www.notebookcheck.net/AMD-Ryzen-5-150-Processor-Benchmarks-and-Specs.1149196.0.html)</sup> | No | No | No | Unknown | Yes | No
-| Ryzen 5 130<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/100-series/amd-ryzen-5-130.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-130.c4257) [3](https://www.notebookcheck.net/AMD-Ryzen-5-130-Processor-Benchmarks-and-Specs.1149193.0.html)</sup> | No | No | No | Unknown | Yes | No
-| Ryzen 3 110<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/100-series/amd-ryzen-3-110.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-3-110.c4256) [3](https://www.notebookcheck.net/AMD-Ryzen-3-110-Processor-Benchmarks-and-Specs.1149188.0.html)</sup> | No | No | No | Unknown | Yes | No
+| Ryzen 7 170 | No | No | No | Unknown | Yes | No
+| Ryzen 7 160 | No | No | No | Unknown | Yes | No
+| Ryzen 5 150 | No | No | No | Unknown | Yes | No
+| Ryzen 5 130 | No | No | No | Unknown | Yes | No
+| Ryzen 3 110 | No | No | No | Unknown | Yes | No
 
 
 ## Ryzen 200
 ### Hawk Point Refresh (200 series, Zen 4/RDNA3/XDNA based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 270<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-9-270.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-9-270.c4009) [3](https://www.notebookcheck.net/AMD-Ryzen-9-270-Processor-Benchmarks-and-Specs.945906.0.html)</sup> | Yes | Yes | Yes | Yes, Refer to Notes | Yes | No
-| Ryzen 7 260<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-7-260.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-260.c4010) [3](https://www.notebookcheck.net/AMD-Ryzen-7-260-Processor-Benchmarks-and-Specs.945912.0.html)</sup> | No | No | No | No? | Yes | No
-| Ryzen 7 PRO 250<sup> <br> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-7-pro-250.html) [3](https://www.notebookcheck.net/AMD-Ryzen-7-PRO-250-Processor-Benchmarks-and-Specs.945904.0.html)</sup> | No | No | No | No? | Yes | No
-| Ryzen 7 <br> 250<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-7-250.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-7-250.c4011) [3](https://www.notebookcheck.net/AMD-Ryzen-7-250-Processor-Benchmarks-and-Specs.945901.0.html)</sup> | No | No | No | No? | Yes | No
-| Ryzen 5 240<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-240.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-240.c4012) [3](https://www.notebookcheck.net/AMD-Ryzen-5-240-Processor-Benchmarks-and-Specs.946292.0.html)</sup> | No | No | No | No? | Yes | No
-| Ryzen 5 PRO 230<sup> <br> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-5-pro-230.html) [3](https://www.notebookcheck.net/AMD-Ryzen-5-PRO-230-Processor-Benchmarks-and-Specs.946378.0.html)</sup> | No | No | No | No? | Yes | No
-| Ryzen 5 230<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-230.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-230.c4013) [3](https://www.notebookcheck.net/AMD-Ryzen-5-230-Processor-Benchmarks-and-Specs.946303.0.html)</sup> | No | No | No | No? | Yes | No
-| Ryzen 5 PRO 220<sup> <br> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-5-pro-220.html) [3](https://www.notebookcheck.net/AMD-Ryzen-5-PRO-220-Processor-Benchmarks-and-Specs.946377.0.html)</sup> | No | No | No | No? | Yes | No
-| Ryzen 5 220<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-5-220.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-220.c4014) [3](https://www.notebookcheck.net/AMD-Ryzen-5-220-Processor-Benchmarks-and-Specs.946309.0.html)</sup> | No | No | No | No? | Yes | No
-| Ryzen 3 PRO 210<sup> <br> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/200-series/amd-ryzen-3-pro-210.html) [3](https://www.notebookcheck.net/AMD-Ryzen-3-PRO-210-Processor-Benchmarks-and-Specs.946376.0.html)</sup> | No | No | No | No? | Yes | No
-| Ryzen 3 210<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/200-series/amd-ryzen-3-210.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-3-210.c4015) [3](https://www.notebookcheck.net/AMD-Ryzen-3-210-Processor-Benchmarks-and-Specs.946313.0.html)</sup> | No | No | No | No? | Yes | No
+| Ryzen 9 270 | Yes | Yes | Yes | Yes, Refer to Notes | Yes | No
+| Ryzen 7 260 | No | No | No | No? | Yes | No
+| Ryzen 7 PRO 250 | No | No | No | No? | Yes | No
+| Ryzen 7 250 | No | No | No | No? | Yes | No
+| Ryzen 5 240 | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 230 | No | No | No | No? | Yes | No
+| Ryzen 5 230 | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 220 | No | No | No | No? | Yes | No
+| Ryzen 5 220 | No | No | No | No? | Yes | No
+| Ryzen 3 PRO 210 | No | No | No | No? | Yes | No
+| Ryzen 3 210 | No | No | No | No? | Yes | No
 ## Notes
 - LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
@@ -323,18 +323,18 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Strix Point and Krackan Point (Zen 5/RDNA3.5/XDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen AI 9 HX PRO 375 <sup>[1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-9-hx-pro-375.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-hx-pro-375.c4001) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-HX-PRO-375-Processor-Benchmarks-and-Specs.972989.0.html)</sup> | Unknown | Unknown | Unknown | Unknown | Yes | No
-| Ryzen AI 9 HX 375 <sup>[1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-9-hx-375.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-hx-375.c3815) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-HX-375-Processor-Benchmarks-and-Specs.870100.0.html)</sup> | Yes | Yes | Yes | Yes, Refer to Notes | Yes | No
-| Ryzen AI 9 HX PRO <br> 370 <sup>[1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-9-hx-pro-370.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-hx-pro-370.c4003) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-HX-PRO-370-Processor-Benchmarks-and-Specs.901773.0.html)</sup> | Unknown | Unknown | Unknown | Unknown | Yes | No
-| Ryzen AI 9 HX 370 <sup>[1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-9-hx-370.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-hx-370.c3655) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-HX-370-Processor-Benchmarks-and-Specs.836729.0.html)</sup> | Yes | Yes | Yes | Yes, Refer to Notes | Yes | No
-| Ryzen AI 9 365 <sup>[1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-9-365.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-365.c3656) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-365-Processor-Benchmarks-and-Specs.843618.0.html)</sup> | Yes | Yes | Yes | Yes, Refer to Notes | Yes | No
-| Ryzen AI 7 PRO 360 <sup>[1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-7-pro-360.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-7-pro-360.c4006) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-7-PRO-360-Processor-Benchmarks-and-Specs.889320.0.html)</sup> | No | No | No | No? Refer to Notes | Yes | No
-| Ryzen AI 7 PRO 350 <sup>[1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-7-pro-350.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-7-pro-350.c4007) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-7-PRO-350-Processor-Benchmarks-and-Specs.950931.0.html)</sup> | No | No | No | No? Refer to Notes | Yes | No
-| Ryzen AI 7 350 <sup>[1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-7-350.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-7-350.c4004) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-7-350-Processor-Benchmarks-and-Specs.949825.0.html)</sup> | No | No | No | No? Refer to Notes | Yes | No
-| Ryzen AI 7 345 <sup>[1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-7-345.html) | No | No | No | No? Refer to Notes | Yes | No
-| Ryzen AI 5 PRO 340 <sup>[1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-300-series/amd-ryzen-ai-5-pro-340.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-5-pro-340.c4008) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-5-PRO-340-Processor-Benchmarks-and-Specs.950930.0.html)</sup> | No | No | No | No? Refer to Notes | Yes | No
-| Ryzen AI 5 340 <sup>[1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-5-340.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-5-340.c4005) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-5-340-Processor-Benchmarks-and-Specs.950403.0.html)</sup> | No | No | No | No? Refer to Notes | Yes | No
-| Ryzen AI 5 330 <sup>[1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-5-330.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-5-330.c4225) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-5-330-Processor-Benchmarks-and-Specs.1049553.0.html)</sup> | No | No | No | No? Refer to Notes | Yes | No
+| Ryzen AI 9 HX PRO 375 | Unknown | Unknown | Unknown | Unknown | Yes | No
+| Ryzen AI 9 HX 375 | Yes | Yes | Yes | Yes, Refer to Notes | Yes | No
+| Ryzen AI 9 HX PRO 370  | Unknown | Unknown | Unknown | Unknown | Yes | No
+| Ryzen AI 9 HX 370 | Yes | Yes | Yes | Yes, Refer to Notes | Yes | No
+| Ryzen AI 9 365 | Yes | Yes | Yes | Yes, Refer to Notes | Yes | No
+| Ryzen AI 7 PRO 360 | No | No | No | No? Refer to Notes | Yes | No
+| Ryzen AI 7 PRO 350 | No | No | No | No? Refer to Notes | Yes | No
+| Ryzen AI 7 350 | No | No | No | No? Refer to Notes | Yes | No
+| Ryzen AI 7 345 | No | No | No | No? Refer to Notes | Yes | No
+| Ryzen AI 5 PRO 340 | No | No | No | No? Refer to Notes | Yes | No
+| Ryzen AI 5 340 | No | No | No | No? Refer to Notes | Yes | No
+| Ryzen AI 5 330 | No | No | No | No? Refer to Notes | Yes | No
 ## Notes
 - LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
@@ -345,15 +345,15 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Strix Halo (Zen 5/RDNA3.5/XDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen AI MAX+ PRO 395<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-max-pro-300-series/amd-ryzen-ai-max-plus-pro-395.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-max-pro-395.c3998) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-Max-PRO-395-Processor-Benchmarks-and-Specs.942332.0.html)</sup> | Unknown | Unknown | Unknown | Yes | Yes | No
-| Ryzen AI MAX+ 395<sup> <br> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-395.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-max-395.c3994) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-Max-395-Processor-Benchmarks-and-Specs.942323.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen AI MAX+ 392<sup> <br> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-392.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-max-392.c4311) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-Max-392-Processor-Benchmarks-and-Specs.1197727.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen AI MAX PRO 390<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-max-pro-300-series/amd-ryzen-ai-max-pro-390.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-max-pro-390.c3999) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-Max-PRO-390-Processor-Benchmarks-and-Specs.943316.0.html)</sup> | Unknown | Unknown | Unknown | Yes | Yes | No
-| Ryzen AI MAX 390<sup> <br> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-390.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-max-390.c3995) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-Max-390-Processor-Benchmarks-and-Specs.942337.0.html) </sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen AI MAX+ 388<sup> <br> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-plus-388.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-max-388.c4312) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-Max-388-Processor-Benchmarks-and-Specs.1197729.0.html)</sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen AI MAX PRO 385<sup> <br> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-max-pro-300-series/amd-ryzen-ai-max-pro-385.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-max-pro-385.c4000) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-Max-PRO-385-Processor-Benchmarks-and-Specs.944127.0.html)</sup> | Unknown | Unknown | Unknown | Yes | Yes | No
-| Ryzen AI MAX 385<sup> <br> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-300-series/amd-ryzen-ai-max-385.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-max-385.c3996) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-Max-385-Processor-Benchmarks-and-Specs.944052.0.html) </sup> | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen AI MAX PRO 380<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-max-pro-300-series/amd-ryzen-ai-max-pro-380.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-max-pro-380.c4002) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-Max-PRO-380-Processor-Benchmarks-and-Specs.944131.0.html)</sup> | Unknown | Unknown | Unknown | Yes | Yes | No
+| Ryzen AI MAX+ PRO 395 | Unknown | Unknown | Unknown | Yes | Yes | No
+| Ryzen AI MAX+ 395 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI MAX+ 392 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI MAX PRO 390 | Unknown | Unknown | Unknown | Yes | Yes | No
+| Ryzen AI MAX 390 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI MAX+ 388 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI MAX PRO 385 | Unknown | Unknown | Unknown | Yes | Yes | No
+| Ryzen AI MAX 385 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI MAX PRO 380 | Unknown | Unknown | Unknown | Yes | Yes | No
 ## Notes
 - LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
@@ -363,19 +363,19 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Gorgon Point (Zen 5/RDNA3.5/XDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen AI 9 <br> HX PRO 475<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-9-hx-pro-475.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-hx-pro-475.c4313) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-HX-PRO-475-Processor-Benchmarks-and-Specs.1198880.0.html)</sup> | No (according to amd) | No (according to amd) | No (according to amd) | Unknown, refer to notes | Yes | No
-| Ryzen AI 9 HX 475<sup> <br> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-hx-475.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-hx-475.c4319) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-HX-475-Processor-Benchmarks-and-Specs.1197731.0.html)</sup> | Yes | Yes | Yes | Yes, refer to Notes | Yes | No
-| Ryzen AI 9 HX PRO 470<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-9-hx-pro-470.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-hx-pro-470.c4314) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-HX-PRO-470-Processor-Benchmarks-and-Specs.1198881.0.html)</sup> | No (according to amd) | No (according to amd) | No (according to amd) |  Unknown, refer to Notes | Yes | No
-| Ryzen AI 9 HX 470 <sup> <br> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-hx-470.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-hx-470.c4320) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-HX-470-Processor-Benchmarks-and-Specs.1197753.0.html)</sup>  | Yes | Yes | Yes | Yes, refer to Notes | Yes | No
-| Ryzen AI 9 PRO 465<sup> <br> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-9-pro-465.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-pro-465.c4315) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-PRO-465-Processor-Benchmarks-and-Specs.1198882.0.html)</sup> | No (according to amd) | No (according to amd) | No (according to amd) | Unknown, refer to Notes | Yes | No
-| Ryzen AI 9 465<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-9-465.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-9-465.c4321) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-9-465-Processor-Benchmarks-and-Specs.1197759.0.html)</sup> | Yes | Yes | Yes | Yes, refer to Notes | Yes | No
-| Ryzen AI 7 PRO 450<sup> <br> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-7-pro-450.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-7-pro-450.c4316) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-7-PRO-450-Processor-Benchmarks-and-Specs.1198883.0.html)</sup> | No | No | No | Unknown | Yes | No
-| Ryzen AI 7 450<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-7-450.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-7-450.c4322) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-7-450-Processor-Benchmarks-and-Specs.1197762.0.html)</sup> | No | No | No | Unknown | Yes | No
-| Ryzen AI 7 445<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-7-445.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-7-445.c4323) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-7-445-Processor-Benchmarks-and-Specs.1197764.0.html)</sup> | No | No | No | Unknown | Yes | No
-| Ryzen AI 5 PRO 440<sup> <br>[1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-5-pro-440.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-5-pro-440.c4317) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-5-PRO-440-Processor-Benchmarks-and-Specs.1198884.0.html)</sup> | No | No | No | Unknown | Yes | No
-| Ryzen AI 5 PRO 435<sup> <br> [1](https://www.amd.com/en/products/processors/laptop/ryzen-pro/ai-400-series/amd-ryzen-ai-5-pro-435.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-5-pro-435.c4318) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-5-PRO-435-Processor-Benchmarks-and-Specs.1198885.0.html)</sup> | No | No | No | Unknown | Yes | No
-| Ryzen AI 5 435<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-5-435.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-5-435.c4324) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-5-435-Processor-Benchmarks-and-Specs.1197770.0.html)</sup> | No | No | No | Unknown | Yes | No
-| Ryzen AI 5 430<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/ai-400-series/amd-ryzen-ai-5-430.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-ai-5-430.c4325) [3](https://www.notebookcheck.net/AMD-Ryzen-AI-5-430-Processor-Benchmarks-and-Specs.1197827.0.html)</sup> | No | No | No | Unknown | Yes | No
+| Ryzen AI 9 HX PRO 475 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown, refer to notes | Yes | No
+| Ryzen AI 9 HX 475 | Yes | Yes | Yes | Yes, refer to Notes | Yes | No
+| Ryzen AI 9 HX PRO 470 | No (according to amd) | No (according to amd) | No (according to amd) |  Unknown, refer to Notes | Yes | No
+| Ryzen AI 9 HX 470 | Yes | Yes | Yes | Yes, refer to Notes | Yes | No
+| Ryzen AI 9 PRO 465 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown, refer to Notes | Yes | No
+| Ryzen AI 9 465 | Yes | Yes | Yes | Yes, refer to Notes | Yes | No
+| Ryzen AI 7 PRO 450 | No | No | No | Unknown | Yes | No
+| Ryzen AI 7 450 | No | No | No | Unknown | Yes | No
+| Ryzen AI 7 445 | No | No | No | Unknown | Yes | No
+| Ryzen AI 5 PRO 440 | No | No | No | Unknown | Yes | No
+| Ryzen AI 5 PRO 435 | No | No | No | Unknown | Yes | No
+| Ryzen AI 5 435 | No | No | No | Unknown | Yes | No
+| Ryzen AI 5 430 | No | No | No | Unknown | Yes | No
 ## Notes
 - LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
