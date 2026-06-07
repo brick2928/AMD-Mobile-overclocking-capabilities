@@ -120,9 +120,12 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 |Ryzen 5 4500U|Yes|No|Yes|Yes, up to 3200MT/s|Depends on device|No
 |Ryzen 3 4300U|Yes|No|Yes|Yes, up to 3200MT/s|Depends on device|No
 ## Notes
+- Example of R9 4900H Memory overclocking:
+  <img width="953" height="589" alt="image" src="https://github.com/user-attachments/assets/7a8c35fd-296c-4923-9a03-ca3caa4723d9" />  
+  Credits: giovani1906 on discord
 - Example of R7 4800H Memory overclocking:  
   <img width="606" height="334" alt="image" src="https://github.com/user-attachments/assets/ee8fb3d6-084c-4839-8a88-73c48e9dc679" />  
-  Credits: SmokelessCPU
+  Credits: SmokelessCPU on discord
 
 ## Ryzen 5000
 ### Lucienne (Zen 2/GCN5 based)
@@ -242,7 +245,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 5 7645HX<sup> [1](https://www.amd.com/en/products/processors/laptop/ryzen/7000-series/amd-ryzen-5-7645hx.html) [2](https://www.techpowerup.com/cpu-specs/ryzen-5-7645hx.c3021) [3](https://www.notebookcheck.net/AMD-Ryzen-5-7645HX-Processor-Benchmarks-and-Specs.680213.0.html)</sup>   | Yes | Yes | Yes | Yes | Yes | No
 ## Notes
 - Example of R9 7945HX Memory overclocking:  
-  <img width="596" height="897" alt="image" src="https://github.com/user-attachments/assets/2efe52cc-9c80-4003-ad60-99d2acbecc3a" />
+  <img width="596" height="897" alt="image" src="https://github.com/user-attachments/assets/2efe52cc-9c80-4003-ad60-99d2acbecc3a" />  
   Credits: .izy_ on Discord
 
 ## Ryzen 8000
