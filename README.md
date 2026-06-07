@@ -38,7 +38,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 
 | CPU Generation | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ------------ | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| [Ryzen 2000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-2000)  | Yes | No | Yes | Yes? | No | No |
+| [Ryzen 2000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-2000)  | Yes? | No | Yes? | Yes? | No | No |
 | [Ryzen 3000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-3000) | Yes | No | Yes | Yes | No | No | 
 | [Ryzen 4000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-4000) | Yes | No | Yes | Yes | Depends on Device | No |
 | [Ryzen 5000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-5000) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Refer to the Detailed Table | Only Ryzen 9, HX, or U | Yes | No |
@@ -49,9 +49,9 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | [Ryzen 10](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-10) | No | No | No | Unknown | Yes | No |
 | [Ryzen 100](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-100) | No | No | No | Unknown | Yes | No |
 | [Ryzen 200](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-200) | Only Ryzen 9 | Only Ryzen 9 | Only Ryzen 9 | Refer to the Detailed Table | Yes | No |
-| [Ryzen AI 300](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-ai-300) | Only Ryzen 9 and non-pro | Only Ryzen 9 and non-pro | Yes? | Refer to the Detailed Table | Yes | No |
-| [Ryzen AI MAX+ 300](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#strix-halo-zen-5rdna35xdna2-based) | Yes, non-pro | Yes, non-pro | Yes? | Refer to the Detailed Table | Yes | No |
-| [Ryzen AI 400](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-ai-400) | Only Ryzen 9 | Only Ryzen 9 | Yes? | Refer to the Detailed Table | Yes | No |
+| [Ryzen AI 300](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-ai-300) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Refer to the Detailed Table | Yes | No |
+| [Ryzen AI MAX+ 300](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#strix-halo-zen-5rdna35xdna2-based) | Yes | Yes | Yes | Refer to the Detailed Table | Yes | No |
+| [Ryzen AI 400](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-ai-400) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Refer to the Detailed Table | Yes | No |
 
 
 # Detailed Table (Ryzen)
@@ -74,13 +74,17 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 |Ryzen 3 3250U|Yes|No|Yes|Yes, up to 3200MT/s|No|No|
 |Ryzen 3 3250C|Yes?|No|Yes?|Yes?|No|No|
 |Ryzen 3 3200U|Yes|No|Yes|Yes, up to 3200MT/s|No|No|
-|AMD 3020e|Yes?|No|Yes|Yes, up to 3200MT/s|No|No|
-|AMD 3015Ce|Yes?|No|Yes|Yes, up to 3200MT/s|No|No|
-|AMD 3015e|Yes?|No|Yes|Yes, up to 3200MT/s|No|No|
+|AMD 3020e |Yes?|No|Yes|Yes, up to 3200MT/s|No|No|
+|AMD 3015Ce |Yes?|No|Yes|Yes, up to 3200MT/s|No|No|
+|AMD 3015e |Yes?|No|Yes|Yes, up to 3200MT/s|No|No|
+
 ## Notes
-- Example of AMD 3020e Memory overclocking:  
+<details>
+<summary> Example of AMD 3020e Memory overclocking: </summary>
   <img width="305" height="427" alt="image" src="https://github.com/user-attachments/assets/e6158c6d-960c-4f41-9623-cc80fa688fc9" />  
+  
   Credits: abuabed5861 on discord
+</details>  
 
 ### Picasso (Zen+/GCN5 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
@@ -97,9 +101,10 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 |Ryzen 3 3350U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 3 3300U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 ## Notes
-- Example of R3 3700U Memory overclocking:  
+<details>
+<summary> Example of R3 3700U Memory overclocking: </summary>
   <img width="392" height="566" alt="image" src="https://github.com/user-attachments/assets/c9e8acc0-c209-4b48-95b7-8c63190a3aae" />
-
+</details>
 
 ## Ryzen 4000
 ### Renoir (Zen 2/GCN5 based)
@@ -108,24 +113,28 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 |Ryzen 9 4900H|Yes|Yes|Yes|Yes|Depends on device|No
 |Ryzen 9 4900HS|Yes|Yes|Yes|Yes|Depends on device|No
-|Ryzen 7 4800H|Yes|No|Yes|Yes, up to 4400MT/s|Depends on device|No
-|Ryzen 7 4800HS|Yes|No|Yes|Yes, up to 4400MT/s|Depends on device|No
+|Ryzen 7 4800H|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 7 4800HS|Yes|No|Yes|Yes|Depends on device|No
 |Ryzen 7 4980U|Yes|No|Yes|Yes|Depends on device|No
 |Ryzen 7 4800U|Yes|No|Yes|Yes|Depends on device|No
 |Ryzen 7 4700U|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 5 4600H|Yes|No|Yes|Yes, up to 4400MT/s|Depends on device|No
-|Ryzen 5 4600HS|Yes|No|Yes|Yes, up to 4400MT/s|Depends on device|No
-|Ryzen 5 4680U|Yes|No|Yes|Yes, up to 3200MT/s|Depends on device|No
+|Ryzen 5 4600H|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 5 4600HS|Yes|No|Yes|Yes|Depends on device|No
+|Ryzen 5 4680U|Yes|No|Yes|Yes, up to 3200MT/|Depends on device|No
 |Ryzen 5 4600U|Yes|No|Yes|Yes, up to 3200MT/s|Depends on device|No
 |Ryzen 5 4500U|Yes|No|Yes|Yes, up to 3200MT/s|Depends on device|No
 |Ryzen 3 4300U|Yes|No|Yes|Yes, up to 3200MT/s|Depends on device|No
 ## Notes
-- Example of R9 4900H Memory overclocking:
+<details>
+<summary> Example of R9 4900H Memory overclocking: </summary>
   <img width="953" height="589" alt="image" src="https://github.com/user-attachments/assets/7a8c35fd-296c-4923-9a03-ca3caa4723d9" />  
   Credits: giovani1906 on discord
-- Example of R7 4800H Memory overclocking:  
+  </details>
+<details>
+ <summary> Example of R7 4800H Memory overclocking: </summary>
   <img width="606" height="334" alt="image" src="https://github.com/user-attachments/assets/ee8fb3d6-084c-4839-8a88-73c48e9dc679" />  
   Credits: SmokelessCPU on discord
+</details>
 
 ## Ryzen 5000
 ### Lucienne (Zen 2/GCN5 based)
@@ -136,8 +145,10 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 3 5300U | No | No | No | Yes, up to 3200MT/s | Yes | No
 
 ## Notes
-- Example of R3 5300U Memory overclocking:  
+<details>
+<summary> Example of R3 5300U Memory overclocking:  </summary>
   <img width="492" height="694" alt="image" src="https://github.com/user-attachments/assets/043c3670-865f-4ade-83ad-da0471ea3b33" />
+</details>
 
 ### Cezanne and Barceló (Zen 3/GCN5 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
@@ -201,7 +212,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 7 7735H | No | No | No | No? | Yes | No
 | Ryzen 7 7736U | No | No | No | Yes | Yes | No
 | Ryzen 7 7735U | No | No | No | Yes | Yes | No
-| Ryzen 7 7435HS | No | No | N/A | No? | Yes | No
+| Ryzen 7 7435HS | No | No | No | No? | Yes | No
 | Ryzen 7 7435H | No | No | No | No? | Yes | No
 | Ryzen 5 7535HS | No | No | No | No? | Yes | No
 | Ryzen 5 7533HS | No | No | No | No? | Yes | No
@@ -217,12 +228,12 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 9 PRO 7940HS | Unkown | Unkown | Unkown | Unkown | Yes | No
 | Ryzen 9 7940HS| Yes | Yes | Yes | Yes | Yes | No
 | Ryzen 7 PRO 7840HS | No | No | No | No | Yes | No
-| Ryzen 7 7840H | No | No | No | No? | Yes | No
+| Ryzen 7 7840H | No | No | No | No | Yes | No
 | Ryzen 7 PRO 7840U | No | No | No | No | Yes | No
 | Ryzen 7 7840U | No | No | No | Yes | Yes | No
-| Ryzen 7 7445HS | No | No | No | No? | Yes | No
+| Ryzen 7 7445HS | No | No | No | No | Yes | No
 | Ryzen 5 PRO 7640HS | No | No | No | No | Yes | No
-| Ryzen 5 7640HS | No | No | No | No? | Yes | No
+| Ryzen 5 7640HS | No | No | No | No | Yes | No
 | Ryzen 5 PRO 7640U | No | No | No | No | Yes | No
 | Ryzen 5 7640U | No | No | No | Yes | Yes | No
 | Ryzen 5 PRO 7545U | No | No | No | No | Yes | No
@@ -244,10 +255,11 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 7 7745HX | Yes | Yes | Yes | Yes | Yes | No
 | Ryzen 5 7645HX | Yes | Yes | Yes | Yes | Yes | No
 ## Notes
-- Example of R9 7945HX Memory overclocking:  
+<details>
+<summary> Example of R9 7945HX Memory overclocking:  </summary>
   <img width="596" height="897" alt="image" src="https://github.com/user-attachments/assets/2efe52cc-9c80-4003-ad60-99d2acbecc3a" />  
   Credits: .izy_ on Discord
-
+</details>
 ## Ryzen 8000
 ### Hawk Point (8040 series, Zen 4/RDNA3/XDNA based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
@@ -278,7 +290,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 9 9955HX | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
 | Ryzen 9 9850HX | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
 ## Notes  
-### 9955HX/3D capability to increase tREFI with newer AGESA.
+### 9955HX/3D capability to increase tREFI with newer AGESA (and also memory overclocking).
 Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture can be found in [Legion Series Discord Server](https://discord.com/channels/761178912230473768/958336296621867038/1466577982289219697)
 <img width="2548" height="1599" alt="image" src="https://github.com/user-attachments/assets/8b3841de-265f-4a98-837a-6d4deb614a9a" />
 
@@ -379,7 +391,6 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ## Notes
 - LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Memory Overclocking
-<sup> [1](url1) [2](url2) [3](url3)</sup>
 
 # Miscellaneous
 ## Random
@@ -400,7 +411,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
       <img width="450" height="650" alt="image" src="https://github.com/user-attachments/assets/48309684-3504-4e27-b96b-504d0e6d2039" />
 
 
-## AOD proof
+## AOD setup
 Below is a image showcasing 4 different bios files, each from a different generation ranging from 2000 to 5000. The bios files showcase that there is no AOD_SETUP string found in any of the BIOS files until ryzen 5000
 <img width="1919" height="1050" alt="Screenshot_2" src="https://github.com/user-attachments/assets/820be143-4469-4591-9be5-36b2d6f7b13c" />
 However, there is a exception. Ryzen 4000 series technically have unlocked cpus like the ryzen 9 4900h, it appears with these unlocked higher end cpus the bios does have AOD_SETUP.
