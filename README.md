@@ -15,7 +15,7 @@ If you have any PRO variant CPUs Please contribute!
 
 # Introduction
 ###  Why does this exist? What even is this repo about?
-AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which chips are fused off from which features, only the way the cpu is "meant to be used". However some cpus can use features such as CO, even though AMD says the opposite. Through this github we aim to help people easily figure out what their CPU is technically capable of doing. Keep in mind we only feature GLOBAL CPUs in this repo, you will not find any china exclusives here (example: 
+AMD Mobile cpus are tricky. AMD does not directly tell the end consumer which chips are fused off from which features, only the way the cpu is "meant to be used". However some cpus can use features such as CO, even though AMD says the opposite. Through this Github repo we aim to help people easily figure out what their CPU is technically capable of doing if they actually try it. Keep in mind we only feature GLOBAL CPUs in this repo, you will not find any china exclusives here.
 
 
 ### What is your source?
@@ -33,7 +33,7 @@ If you think anything is false or wrong, create an issue so we can talk it out.
 [Here](https://github.com/brick2928/Check-Ryzen-Mobile-Capability?tab=readme-ov-file#cpu-undervolting) is a quick guide telling you how to test what your device is capable of!
 
 # Simplified Table
-This table generilizes cpu's by their generation. Usually the capability of the cpu mostly depends on their generation, but there are exceptions. For better accuracy you can refer to the extended section by clicking the CPU generation you are interested in.
+This table generilizes cpu's by their generation. Usually the capability of the cpu mostly depends on their generation, but there are exceptions. For better accuracy you can refer to the detailed section by clicking the CPU generation you are interested in.
 ### Ryzen
 
 | CPU Generation | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
