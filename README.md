@@ -225,7 +225,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 ### Phoenix (7040 series, Zen 4/RDNA3/XDNA based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 PRO 7940HS | Unkown | Unkown | Unkown | Unkown | Yes | No
+| Ryzen 9 PRO 7940HS | Unknown | Unknown | Unknown | Unknown | Yes | No
 | Ryzen 9 7940HS| Yes | Yes | Yes | Yes | Yes | No
 | Ryzen 7 PRO 7840HS | No | No | No | No | Yes | No
 | Ryzen 7 7840H | No | No | No | No | Yes | No
@@ -265,11 +265,11 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 | Ryzen 9 8945HS | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen 7 8845HS | No | No | No | No? | Yes | No
-| Ryzen 7 8840HS | No | No | No | No? | Yes | No
+| Ryzen 7 8845HS | No | No | No | No | Yes | No
+| Ryzen 7 8840HS | No | No | No | No | Yes | No
 | Ryzen 7 8840U | No | No | No | Yes | Yes | No
-| Ryzen 5 8645HS | No | No | No | No? | Yes | No
-| Ryzen 5 8640HS | No | No | No | No? | Yes | No
+| Ryzen 5 8645HS | No | No | No | No | Yes | No
+| Ryzen 5 8640HS | No | No | No | No | Yes | No
 | Ryzen 5 8640U | No | No | No | Yes | Yes | No
 | Ryzen 5 8540U | No | No | No | Yes | Yes | No
 | Ryzen 3 8440U | No | No | No | Yes | Yes | No
@@ -316,7 +316,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Hawk Point Refresh (200 series, Zen 4/RDNA3/XDNA based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 270 | Yes | Yes | Yes | Yes, Refer to Notes | Yes | No
+| Ryzen 9 270 | Yes | Yes | Yes | Yes | Yes | No
 | Ryzen 7 260 | No | No | No | No? | Yes | No
 | Ryzen 7 PRO 250 | No | No | No | No? | Yes | No
 | Ryzen 7 250 | No | No | No | No? | Yes | No
@@ -329,27 +329,27 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen 3 210 | No | No | No | No? | Yes | No
 ## Notes
 - LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
-- Pro CPUs might be incapable of Memory Overclocking
+- Pro CPUs might be incapable of Overclocking
 
 ## Ryzen AI 300
 ### Strix Point and Krackan Point (Zen 5/RDNA3.5/XDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 | Ryzen AI 9 HX PRO 375 | Unknown | Unknown | Unknown | Unknown | Yes | No
-| Ryzen AI 9 HX 375 | Yes | Yes | Yes | Yes, Refer to Notes | Yes | No
+| Ryzen AI 9 HX 375 | Yes | Yes | Yes | Yes | Yes | No
 | Ryzen AI 9 HX PRO 370  | Unknown | Unknown | Unknown | Unknown | Yes | No
-| Ryzen AI 9 HX 370 | Yes | Yes | Yes | Yes, Refer to Notes | Yes | No
-| Ryzen AI 9 365 | Yes | Yes | Yes | Yes, Refer to Notes | Yes | No
-| Ryzen AI 7 PRO 360 | No | No | No | No? Refer to Notes | Yes | No
-| Ryzen AI 7 PRO 350 | No | No | No | No? Refer to Notes | Yes | No
-| Ryzen AI 7 350 | No | No | No | No? Refer to Notes | Yes | No
-| Ryzen AI 7 345 | No | No | No | No? Refer to Notes | Yes | No
-| Ryzen AI 5 PRO 340 | No | No | No | No? Refer to Notes | Yes | No
-| Ryzen AI 5 340 | No | No | No | No? Refer to Notes | Yes | No
-| Ryzen AI 5 330 | No | No | No | No? Refer to Notes | Yes | No
+| Ryzen AI 9 HX 370 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI 9 365 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI 7 PRO 360 | No | No | No | No? | Yes | No
+| Ryzen AI 7 PRO 350 | No | No | No | No? | Yes | No
+| Ryzen AI 7 350 | No | No | No | No? | Yes | No
+| Ryzen AI 7 345 | No | No | No | No? | Yes | No
+| Ryzen AI 5 PRO 340 | No | No | No | No? | Yes | No
+| Ryzen AI 5 340 | No | No | No | No? | Yes | No
+| Ryzen AI 5 330 | No | No | No | No? | Yes | No
 ## Notes
 - LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
-- Pro CPUs might be incapable of Memory Overclocking
+- Pro CPUs might be incapable of Overclocking
 - [Example of R9 HX370 overclocking instance 1](https://www.youtube.com/watch?v=4dGn8DQI5pM) Credits: Eta Prime on youtube
 - [Example of R9 HX370 overclocking instance 2](https://www.youtube.com/watch?v=6gp495r-wxI) Credits: Iceberg Tech on youtube
 - [Example of R9 HX365 overclocking](https://www.youtube.com/watch?v=OHMZqN-m-n4) Credits: Eta Prime on youtube
@@ -368,19 +368,19 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen AI MAX PRO 380 | Unknown | Unknown | Unknown | Yes | Yes | No
 ## Notes
 - LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
-- Pro CPUs might be incapable of Memory Overclocking
+- Pro CPUs might be incapable of Overclocking
 - [Example of R AI MAX+ 395 overclocking](https://www.youtube.com/watch?v=OK2Bq1GBi0g) Credits: Eta Prime
 
 ## Ryzen AI 400
 ### Gorgon Point (Zen 5/RDNA3.5/XDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen AI 9 HX PRO 475 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown, refer to notes | Yes | No
+| Ryzen AI 9 HX PRO 475 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
 | Ryzen AI 9 HX 475 | Yes | Yes | Yes | Yes, refer to Notes | Yes | No
-| Ryzen AI 9 HX PRO 470 | No (according to amd) | No (according to amd) | No (according to amd) |  Unknown, refer to Notes | Yes | No
-| Ryzen AI 9 HX 470 | Yes | Yes | Yes | Yes, refer to Notes | Yes | No
-| Ryzen AI 9 PRO 465 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown, refer to Notes | Yes | No
-| Ryzen AI 9 465 | Yes | Yes | Yes | Yes, refer to Notes | Yes | No
+| Ryzen AI 9 HX PRO 470 | No (according to amd) | No (according to amd) | No (according to amd) |  Unknown | Yes | No
+| Ryzen AI 9 HX 470 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI 9 PRO 465 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
+| Ryzen AI 9 465 | Yes | Yes | Yes | Yes | Yes | No
 | Ryzen AI 7 PRO 450 | No | No | No | Unknown | Yes | No
 | Ryzen AI 7 450 | No | No | No | Unknown | Yes | No
 | Ryzen AI 7 445 | No | No | No | Unknown | Yes | No
@@ -390,7 +390,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen AI 5 430 | No | No | No | Unknown | Yes | No
 ## Notes
 - LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
-- Pro CPUs might be incapable of Memory Overclocking
+- Pro CPUs might be incapable of Overclocking
 
 # Miscellaneous
 ## Random
