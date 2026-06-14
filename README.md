@@ -96,10 +96,12 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 |Ryzen 5 3580U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 5 3550H|Yes|No|Yes|Yes|No|No
 |Ryzen 5 3500C|Yes?|No|Yes?|Yes?|No|No
+|Ryzen 5 3501U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 5 3500U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 5 3450U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 3 3350U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 3 3300U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
+|Ryzen 3 3100U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 ## Notes
 <details>
 <summary> Example of R3 3700U Memory overclocking: </summary>
