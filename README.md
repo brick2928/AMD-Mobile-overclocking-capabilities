@@ -259,7 +259,8 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 <summary> Example of R9 7945HX Memory overclocking:  </summary>
   <img width="596" height="897" alt="image" src="https://github.com/user-attachments/assets/2efe52cc-9c80-4003-ad60-99d2acbecc3a" />  
   Credits: .izy_ on Discord
-</details>
+</details>  
+
 ## Ryzen 8000
 ### Hawk Point (8040 series, Zen 4/RDNA3/XDNA based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
@@ -290,9 +291,11 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 | Ryzen 9 9955HX | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
 | Ryzen 9 9850HX | Yes | Yes | Yes | Yes | Yes | Yes, with newer AGESA
 ## Notes  
-### 9955HX/3D capability to increase tREFI with newer AGESA (and also memory overclocking).
+<details>
+<summary> 9955HX/3D capability to increase tREFI with newer AGESA (and also memory overclocking). </summary>
 Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture can be found in [Legion Series Discord Server](https://discord.com/channels/761178912230473768/958336296621867038/1466577982289219697)
 <img width="2548" height="1599" alt="image" src="https://github.com/user-attachments/assets/8b3841de-265f-4a98-837a-6d4deb614a9a" />
+</details>
 
 ## Ryzen 10
 ### Mendocino (10 series, Zen 2/RDNA2 based)
@@ -392,6 +395,10 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 - LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Overclocking
 
+### Gorgon Halo (Zen 5/RDNA3.5/XDNA2 based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen AI Max+ PRO 495 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
 # Miscellaneous
 ## Random
 - All R9 and HX CPUs are (in regards of fuses) unlocked for overclocking out of the factory. If you have such a cpu, you can enable Precision boost override (+200 MHz) via AMD Adrenalin software
