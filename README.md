@@ -317,6 +317,16 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen 5 130 | No | No | No | Unknown | Yes | No
 | Ryzen 3 110 | No | No | No | Unknown | Yes | No
 
+### Hawk Point Refresh (100 series, Zen 4/RDNA3/XDNA based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen 9 180 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 7 165 | No | No | No | No? | Yes | No
+| Ryzen 7 155 | No | No | No | No? | Yes | No
+| Ryzen 5 125 | No | No | No | No? | Yes | No
+## Notes
+- LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
+- Pro CPUs might be incapable of Overclocking
 
 ## Ryzen 200
 ### Hawk Point Refresh (200 series, Zen 4/RDNA3/XDNA based)
