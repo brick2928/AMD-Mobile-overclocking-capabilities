@@ -402,6 +402,8 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 | Ryzen AI Max+ PRO 495 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
+| Ryzen AI Max PRO 490 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
+| Ryzen AI Max PRO 485 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
 # Miscellaneous
 ## Random
 - All R9 and HX CPUs are (in regards of fuses) unlocked for overclocking out of the factory. If you have such a cpu, you can enable Precision boost override (+200 MHz) via AMD Adrenalin software
