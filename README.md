@@ -334,15 +334,30 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 | Ryzen 9 270 | Yes | Yes | Yes | Yes | Yes | No
 | Ryzen 7 260 | No | No | No | No? | Yes | No
+| Ryzen 7 PRO 253 | No | No | No | No? | Yes | No
+| Ryzen 7 253 | No | No | No | No? | Yes | No
 | Ryzen 7 PRO 250 | No | No | No | No? | Yes | No
 | Ryzen 7 250 | No | No | No | No? | Yes | No
+| Ryzen 7 PRO 249 | No | No | No | No? | Yes | No
+| Ryzen 7 249 | No | No | No | No? | Yes | No
 | Ryzen 5 240 | No | No | No | No? | Yes | No
 | Ryzen 5 PRO 230 | No | No | No | No? | Yes | No
 | Ryzen 5 230 | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 225 | No | No | No | No? | Yes | No
+| Ryzen 5 225 | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 224 | No | No | No | No? | Yes | No
+| Ryzen 5 224 | No | No | No | No? | Yes | No
 | Ryzen 5 PRO 220 | No | No | No | No? | Yes | No
 | Ryzen 5 220 | No | No | No | No? | Yes | No
+| Ryzen 7 PRO 217 | No | No | No | No? | Yes | No
+| Ryzen 7 217 | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 216 | No | No | No | No? | Yes | No
+| Ryzen 5 216 | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 215 | No | No | No | No? | Yes | No
 | Ryzen 3 PRO 210 | No | No | No | No? | Yes | No
 | Ryzen 3 210 | No | No | No | No? | Yes | No
+| Ryzen 3 PRO 205 | No | No | No | No? | Yes | No
+| Ryzen 3 205 | No | No | No | No? | Yes | No
 ## Notes
 - LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Overclocking
