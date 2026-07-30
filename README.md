@@ -296,7 +296,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 ## Notes  
 <details>
 <summary> 9955HX/3D capability to increase tREFI with newer AGESA (and also memory overclocking). </summary>
-Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture can be found in [Legion Series Discord Server](https://discord.com/channels/761178912230473768/958336296621867038/1466577982289219697)
+Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture can be found in Legion Series Discord Server -> https://discord.com/channels/761178912230473768/958336296621867038/1466577982289219697
 <img width="2548" height="1599" alt="image" src="https://github.com/user-attachments/assets/8b3841de-265f-4a98-837a-6d4deb614a9a" />
 </details>
 
@@ -317,6 +317,16 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen 5 130 | No | No | No | Unknown | Yes | No
 | Ryzen 3 110 | No | No | No | Unknown | Yes | No
 
+### Hawk Point Refresh (100 series, Zen 4/RDNA3/XDNA based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen 9 180 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 7 165 | No | No | No | No? | Yes | No
+| Ryzen 7 155 | No | No | No | No? | Yes | No
+| Ryzen 5 125 | No | No | No | No? | Yes | No
+## Notes
+- LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
+- Pro CPUs might be incapable of Overclocking
 
 ## Ryzen 200
 ### Hawk Point Refresh (200 series, Zen 4/RDNA3/XDNA based)
@@ -324,15 +334,30 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 | Ryzen 9 270 | Yes | Yes | Yes | Yes | Yes | No
 | Ryzen 7 260 | No | No | No | No? | Yes | No
+| Ryzen 7 PRO 253 | No | No | No | No? | Yes | No
+| Ryzen 7 253 | No | No | No | No? | Yes | No
 | Ryzen 7 PRO 250 | No | No | No | No? | Yes | No
 | Ryzen 7 250 | No | No | No | No? | Yes | No
+| Ryzen 7 PRO 249 | No | No | No | No? | Yes | No
+| Ryzen 7 249 | No | No | No | No? | Yes | No
 | Ryzen 5 240 | No | No | No | No? | Yes | No
 | Ryzen 5 PRO 230 | No | No | No | No? | Yes | No
 | Ryzen 5 230 | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 225 | No | No | No | No? | Yes | No
+| Ryzen 5 225 | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 224 | No | No | No | No? | Yes | No
+| Ryzen 5 224 | No | No | No | No? | Yes | No
 | Ryzen 5 PRO 220 | No | No | No | No? | Yes | No
 | Ryzen 5 220 | No | No | No | No? | Yes | No
+| Ryzen 7 PRO 217 | No | No | No | No? | Yes | No
+| Ryzen 7 217 | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 216 | No | No | No | No? | Yes | No
+| Ryzen 5 216 | No | No | No | No? | Yes | No
+| Ryzen 5 PRO 215 | No | No | No | No? | Yes | No
 | Ryzen 3 PRO 210 | No | No | No | No? | Yes | No
 | Ryzen 3 210 | No | No | No | No? | Yes | No
+| Ryzen 3 PRO 205 | No | No | No | No? | Yes | No
+| Ryzen 3 205 | No | No | No | No? | Yes | No
 ## Notes
 - LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
 - Pro CPUs might be incapable of Overclocking
@@ -402,6 +427,8 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 | Ryzen AI Max+ PRO 495 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
+| Ryzen AI Max PRO 490 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
+| Ryzen AI Max PRO 485 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
 # Miscellaneous
 ## Random
 - All R9 and HX CPUs are (in regards of fuses) unlocked for overclocking out of the factory. If you have such a cpu, you can enable Precision boost override (+200 MHz) via AMD Adrenalin software
