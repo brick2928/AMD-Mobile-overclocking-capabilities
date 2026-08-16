@@ -60,23 +60,23 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 ### Raven Ridge (Zen/GCN5 based)
 | CPU  | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ------------ | ------------- | --------------- |---------|-------------|-----------------------------|-|
-|Ryzen 7 2800H|Yes?|No|Yes?|Yes?¹|No|No|
-|Ryzen 7 2700U|Yes?|No|Yes?|Yes?¹|No|No|
-|Ryzen 5 2500U|Yes?|No|Yes?|Yes?¹|No|No|
-|Ryzen 5 2600H|Yes?|No|Yes?|Yes?¹|No|No|
-|Ryzen 3 2300U|Yes?|No|Yes?|Yes?¹|No|No|
-|Ryzen 3 2200U|Yes?|No|Yes?|Yes?¹|No|No|
+|Ryzen 7 2800H|Yes|No|Yes|Yes|No|No|
+|Ryzen 7 2700U|Yes|No|Yes|Yes¹|No|No|
+|Ryzen 5 2500U|Yes|No|Yes|Yes¹|No|No|
+|Ryzen 5 2600H|Yes|No|Yes|Yes|No|No|
+|Ryzen 3 2300U|Yes|No|Yes|Yes¹|No|No|
+|Ryzen 3 2200U|Yes|No|Yes|Yes¹|No|No|
 
 ## Ryzen 3000
 ### Dalí (Zen/GCN5 based)
 | CPU  | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ------------ | ------------- | --------------- |---------|-------------|-----------------------------|-|
-|Ryzen 3 3250U|Yes|No|Yes|Yes¹|no|No|
-|Ryzen 3 3250C|Yes?|No|Yes?|Yes?|No|No|
-|Ryzen 3 3200U|Yes|No|Yes|Yes¹|No|No|
-|AMD 3020e|Yes?|No|Yes|Yes¹|no|No|
-|AMD 3015Ce|Yes?|No|Yes|Yes¹|no|No|
-|AMD 3015e|Yes?|No|Yes|Yes¹|no|No|
+|Ryzen 3 3250U|Yes³|No|Yes|Yes¹|no|No|
+|Ryzen 3 3250C|Yes³|No|Yes|Yes¹|No|No|
+|Ryzen 3 3200U|Yes³|No|Yes|Yes¹|No|No|
+|AMD 3020e|Yes³|No|Yes|Yes¹|no|No|
+|AMD 3015Ce|Yes³|No|Yes|Yes¹|no|No|
+|AMD 3015e|Yes³|No|Yes|Yes¹|no|No|
 
 ## Notes
 <details>
@@ -89,19 +89,19 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 ### Picasso (Zen+/GCN5 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-|Ryzen 7 3780U|Yes|No|Yes|Yes¹|no|No
-|Ryzen 7 3750H|Yes|No|Yes|Yes¹|no|No
-|Ryzen 7 3700C|Yes?|No|Yes?|Yes¹|No|No
-|Ryzen 7 3700U|Yes|No|Yes|Yes¹|no|No
-|Ryzen 5 3580U|Yes|No|Yes|Yes¹|no|No
-|Ryzen 5 3550H|Yes|No|Yes|Yes¹|No|No
-|Ryzen 5 3500C|Yes?|No|Yes?|Yes¹|No|No
-|Ryzen 5 3501U|Yes|No|Yes|Yes¹|no|No
-|Ryzen 5 3500U|Yes|No|Yes|Yes¹|no|No
-|Ryzen 5 3450U|Yes|No|Yes|Yes¹|no|No
-|Ryzen 3 3350U|Yes|No|Yes|Yes¹|no|No
-|Ryzen 3 3300U|Yes|No|Yes|Yes¹|no|No
-|Ryzen 3 3100U|Yes|No|Yes|Yes¹|no|No
+|Ryzen 7 3780U|Yes³|No|Yes|Yes¹|no|No
+|Ryzen 7 3750H|Yes³|No|Yes|Yes¹|no|No
+|Ryzen 7 3700C|Yes³|No|Yes|Yes¹|No|No
+|Ryzen 7 3700U|Yes³|No|Yes|Yes¹|no|No
+|Ryzen 5 3580U|Yes³|No|Yes|Yes¹|no|No
+|Ryzen 5 3550H|Yes³|No|Yes|Yes¹|No|No
+|Ryzen 5 3500C|Yes³|No|Yes|Yes¹|No|No
+|Ryzen 5 3501U|Yes³|No|Yes|Yes¹|no|No
+|Ryzen 5 3500U|Yes³|No|Yes|Yes¹|no|No
+|Ryzen 5 3450U|Yes³|No|Yes|Yes¹|no|No
+|Ryzen 3 3350U|Yes³|No|Yes|Yes¹|no|No
+|Ryzen 3 3300U|Yes³|No|Yes|Yes¹|no|No
+|Ryzen 3 3100U|Yes³|No|Yes|Yes¹|no|No
 ## Notes
 <details>
 <summary> 
@@ -111,6 +111,7 @@ This table generilizes cpu's by their generation. Usually the capability of the 
   
   Credits: brick2928
 </details>
+
 <details>
 <summary>
   Example of R5 3500U Memory Overclocking:  
@@ -125,19 +126,19 @@ This table generilizes cpu's by their generation. Usually the capability of the 
 
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-|Ryzen 9 4900H|Yes|Yes|Yes|Yes¹|Yes|No
-|Ryzen 9 4900HS|Yes|Yes|Yes|Yes¹|Yes|No
-|Ryzen 7 4800H|Yes|No|Yes|Yes¹|No|No
-|Ryzen 7 4800HS|Yes|No|Yes|Yes¹|No|No
-|Ryzen 7 4980U|Yes|No|Yes|Yes¹|No|No
-|Ryzen 7 4800U|Yes|No|Yes|Yes¹|No|No
-|Ryzen 7 4700U|Yes|No|Yes|Yes¹|No|No
-|Ryzen 5 4600H|Yes|No|Yes|Yes¹|No|No
-|Ryzen 5 4600HS|Yes|No|Yes|Yes¹|No|No
-|Ryzen 5 4680U|Yes|No|Yes|Yes¹|No|No
-|Ryzen 5 4600U|Yes|No|Yes|Yes¹|No|No
-|Ryzen 5 4500U|Yes|No|Yes|Yes¹|No|No
-|Ryzen 3 4300U|Yes|No|Yes|Yes¹|No|No
+|Ryzen 9 4900H|Yes|Yes|Yes|Yes|Yes|No
+|Ryzen 9 4900HS|Yes|Yes|Yes|Yes|Yes|No
+|Ryzen 7 4800H|Yes³|No|Yes|Yes¹|No|No
+|Ryzen 7 4800HS|Yes³|No|Yes|Yes|No|No
+|Ryzen 7 4980U|Yes³|No|Yes|Yes¹|No|No
+|Ryzen 7 4800U|Yes³|No|Yes|Yes¹|No|No
+|Ryzen 7 4700U|Yes³|No|Yes|Yes¹|No|No
+|Ryzen 5 4600H|Yes³|No|Yes|Yes¹|No|No
+|Ryzen 5 4600HS|Yes³|No|Yes|Yes|No|No
+|Ryzen 5 4680U|Yes³|No|Yes|Yes¹|No|No
+|Ryzen 5 4600U|Yes³|No|Yes|Yes¹|No|No
+|Ryzen 5 4500U|Yes³|No|Yes|Yes¹|No|No
+|Ryzen 3 4300U|Yes³|No|Yes|Yes¹|No|No
 ## Notes
 <details>
 <summary> Example of R9 4900H Memory overclocking: </summary>
@@ -348,7 +349,7 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Hawk Point Refresh (200 series, Zen 4/RDNA3/XDNA based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen 9 270 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen 9 270 | Yes | Yes | Yes | Yes² | Yes | No
 | Ryzen 7 260 | No | No | No | No? | Yes | No
 | Ryzen 7 PRO 253 | No | No | No | No? | Yes | No
 | Ryzen 7 253 | No | No | No | No? | Yes | No
@@ -383,10 +384,10 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 | Ryzen AI 9 HX PRO 375 | Unknown | Unknown | Unknown | Unknown | Yes | No
-| Ryzen AI 9 HX 375 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI 9 HX 375 | Yes | Yes | Yes | Yes² | Yes | No
 | Ryzen AI 9 HX PRO 370  | Unknown | Unknown | Unknown | Unknown | Yes | No
-| Ryzen AI 9 HX 370 | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen AI 9 365 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI 9 HX 370 | Yes | Yes | Yes | Yes² | Yes | No
+| Ryzen AI 9 365 | Yes | Yes | Yes | Yes² | Yes | No
 | Ryzen AI 7 PRO 360 | No | No | No | No? | Yes | No
 | Ryzen AI 7 PRO 350 | No | No | No | No? | Yes | No
 | Ryzen AI 7 350 | No | No | No | No? | Yes | No
@@ -405,13 +406,13 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 | Ryzen AI MAX+ PRO 395 | Unknown | Unknown | Unknown | Yes | Yes | No
-| Ryzen AI MAX+ 395 | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen AI MAX+ 392 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI MAX+ 395 | Yes | Yes | Yes | Yes² | Yes | No
+| Ryzen AI MAX+ 392 | Yes | Yes | Yes | Yes² | Yes | No
 | Ryzen AI MAX PRO 390 | Unknown | Unknown | Unknown | Yes | Yes | No
-| Ryzen AI MAX 390 | Yes | Yes | Yes | Yes | Yes | No
-| Ryzen AI MAX+ 388 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI MAX 390 | Yes | Yes | Yes | Yes² | Yes | No
+| Ryzen AI MAX+ 388 | Yes | Yes | Yes | Yes² | Yes | No
 | Ryzen AI MAX PRO 385 | Unknown | Unknown | Unknown | Yes | Yes | No
-| Ryzen AI MAX 385 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI MAX 385 | Yes | Yes | Yes | Yes² | Yes | No
 | Ryzen AI MAX PRO 380 | Unknown | Unknown | Unknown | Yes | Yes | No
 ## Notes
 - LPDDR lacks native frequency, tCMD, tRFC2 and tRFC4 control
@@ -422,10 +423,10 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 ### Gorgon Point (Zen 5/RDNA3.5/XDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen AI 9 HX PRO 475 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
-| Ryzen AI 9 HX 475 | Yes | Yes | Yes | Yes, refer to Notes | Yes | No
-| Ryzen AI 9 HX PRO 470 | No (according to amd) | No (according to amd) | No (according to amd) |  Unknown | Yes | No
-| Ryzen AI 9 HX 470 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI 9 HX PRO 475 | No? | No? | No? | No? | Yes | No
+| Ryzen AI 9 HX 475 | Yes | Yes | Yes | Yes | Yes | No
+| Ryzen AI 9 HX PRO 470 | No? | No? | No? | No? | Yes | No
+| Ryzen AI 9 HX 470 | Yes | Yes | Yes | Yes² | Yes | No
 | Ryzen AI 9 PRO 465 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
 | Ryzen AI 9 465 | Yes | Yes | Yes | Yes | Yes | No
 | Ryzen AI 7 PRO 450 | No | No | No | Unknown | Yes | No
@@ -445,12 +446,14 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 | Ryzen AI Max+ PRO 495 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
 | Ryzen AI Max PRO 490 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
 | Ryzen AI Max PRO 485 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
+
 # Miscellaneous
 ## Number meanings
-¹ U Type processors on DDR4 are limited to 3200MT/S by AGESA.
-² Overclocking memory frequency on DDR5 platforms is not possible through CBS and requires access to the AOD/AMD overclocking menu. Trying to increase memory frequency beyond what is on the SPD of the ram stick will give the following error:  
+¹ U, C and Ce Type processors on DDR4 are limited to 3200MT/S by AGESA.
+² Overclocking memory frequency on DDR5 platforms is not possible through CBS and requires access to the AOD(AMD overclocking) menu. Trying to increase memory frequency beyond what is on the SPD of the ram stick will give the following error:  
 <img width="2880" height="2160" alt="image" src="https://github.com/user-attachments/assets/2be6284f-3043-415a-8277-016469a223ae" />
-³ 
+³ AMD has supposedly patched out Curve Optimizer capability on older CPUs with newer AGESA, if after a BIOS update Curve Optimizer stops working, try rolling back to a older version.
+
 ## Random
 - All R9 and HX CPUs are (in regards of fuses) unlocked for overclocking out of the factory. If you have such a cpu, you can enable Precision boost override (+200 MHz) via AMD Adrenalin software
 - There are cases where we simply do not have much information regarding specific kind of CPUs (e.g.: Ryzen PRO). In such cases we might source AMD's spec sheet for our information. If that is the case, we will clearly state so. Reliability of these spec sheets are questionable, as there are many cases where amd states a CPU is incapable of a feature even though it is not. Please do not take such information as of our own.
