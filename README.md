@@ -450,9 +450,11 @@ Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture 
 # Miscellaneous
 ## Number meanings
 ¹ U, C and Ce Type processors on DDR4 are limited to 3200MT/S by AGESA.  
+
 ² Overclocking memory frequency on DDR5 platforms is not possible through CBS and requires access to the AOD(AMD overclocking) menu. Trying to increase memory frequency beyond what is on the SPD of the ram stick will give the following error:  
 
-<img width="1000" height="750" alt="image" src="https://github.com/user-attachments/assets/2be6284f-3043-415a-8277-016469a223ae" />  
+<img width="750" height="500" alt="image" src="https://github.com/user-attachments/assets/2be6284f-3043-415a-8277-016469a223ae" />  
+
 ³ AMD has supposedly patched out Curve Optimizer capability on older CPUs with newer AGESA, if after a BIOS update Curve Optimizer stops working, try rolling back to a older version.
 
 ## Random
