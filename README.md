@@ -39,7 +39,7 @@ This table generalizes CPU's by their generation. Usually the capability of the 
 | [Ryzen 2000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-2000)  | Yes? | No | Yes? | Yes? | No | No |
 | [Ryzen 3000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-3000) | Yes | No | Yes | Yes | No | No | 
 | [Ryzen 4000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-4000) | Yes | No | Yes | Yes | Refer to the detailed table | No |
-| [Ryzen 5000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-5000) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Ryzen 9, HX, or U | Yes | No |
+| [Ryzen 5000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-5000) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Only Ryzen 9, HX, or U | Yes | No |
 | [Ryzen 6000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-6000) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Only Ryzen 9, HX, or U | Yes | No |
 | [Ryzen 7000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-7000) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Yes | Yes | No |
 | [Ryzen 8000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-8000) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Yes | Yes | No |
