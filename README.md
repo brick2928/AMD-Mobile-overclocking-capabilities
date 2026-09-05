@@ -38,7 +38,7 @@ This table generilizes CPU's by their generation. Usually the capability of the 
 | ------------ | ------------- | --------------- |---------|-------------|-----------------------------|-|
 | [Ryzen 2000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-2000)  | Yes? | No | Yes? | Yes? | No | No |
 | [Ryzen 3000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-3000) | Yes | No | Yes | Yes | No | No | 
-| [Ryzen 4000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-4000) | Yes | No | Yes | Yes | Depends on Device | No |
+| [Ryzen 4000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-4000) | Yes | No | Yes | Yes | Refer to the detailed table | No |
 | [Ryzen 5000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-5000) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Ryzen 9, HX, or U | Yes | No |
 | [Ryzen 6000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-6000) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Only Ryzen 9, HX, or U | Yes | No |
 | [Ryzen 7000](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#ryzen-7000) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Yes | Yes | No |
@@ -50,6 +50,7 @@ This table generilizes CPU's by their generation. Usually the capability of the 
 | [Ryzen AI 300](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-ai-300) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Yes | Yes | No |
 | [Ryzen AI MAX+ 300](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#strix-halo-zen-5rdna35xdna2-based) | Yes | Yes | Yes | Yes | Yes | No |
 | [Ryzen AI 400](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-ai-400) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Yes | Yes | No |
+| [Ryzen AI MAX+ 400]() | No | No | No | Unkown | Yes | No
 
 
 # Detailed Table (Ryzen)
@@ -118,19 +119,19 @@ Credits: hibiki61 on discord
 
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory tuning capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-|Ryzen 9 4900H|Yes|Yes|Yes|Yes|Depends on device|No
-|Ryzen 9 4900HS|Yes|Yes|Yes|Yes|Depends on device|No
-|Ryzen 7 4800H|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 7 4800HS|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 7 4980U|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 7 4800U|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 7 4700U|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 5 4600H|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 5 4600HS|Yes|No|Yes|Yes|Depends on device|No
-|Ryzen 5 4680U|Yes|No|Yes|Yes, up to 3200MT/|Depends on device|No
-|Ryzen 5 4600U|Yes|No|Yes|Yes, up to 3200MT/s|Depends on device|No
-|Ryzen 5 4500U|Yes|No|Yes|Yes, up to 3200MT/s|Depends on device|No
-|Ryzen 3 4300U|Yes|No|Yes|Yes, up to 3200MT/s|Depends on device|No
+|Ryzen 9 4900H|Yes|Yes|Yes|Yes|Yes|No
+|Ryzen 9 4900HS|Yes|Yes|Yes|Yes|Yes|No
+|Ryzen 7 4800H|Yes|No|Yes|Yes|No|No
+|Ryzen 7 4800HS|Yes|No|Yes|Yes|No|No
+|Ryzen 7 4980U|Yes|No|Yes|Yes|No|No
+|Ryzen 7 4800U|Yes|No|Yes|Yes|No|No
+|Ryzen 7 4700U|Yes|No|Yes|Yes|No|No
+|Ryzen 5 4600H|Yes|No|Yes|Yes|No|No
+|Ryzen 5 4600HS|Yes|No|Yes|Yes|No|No
+|Ryzen 5 4680U|Yes|No|Yes|Yes, up to 3200MT/|No|No
+|Ryzen 5 4600U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
+|Ryzen 5 4500U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
+|Ryzen 3 4300U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 ## Notes
 <details>
 <summary> Example of R9 4900H Memory tuning: </summary>
@@ -393,17 +394,25 @@ Credits: mmnz on discord
 | Ryzen AI 7 445 | No | No | No | Yes | Yes | No
 | Ryzen AI 5 435 | No | No | No | Yes | Yes | No
 | Ryzen AI 5 430 | No | No | No | Yes | Yes | No
-## Notes
+
+### Gorgon Halo (Zen 5/RDNA3.5/XDNA2 based)
+| CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory overclocking capable? | AOD_SETUP Exists? | tREFI Changable?|
+| ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
+| Ryzen AI Max+ PRO 495 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
+| Ryzen AI Max PRO 490 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
+| Ryzen AI Max PRO 485 | No (according to amd) | No (according to amd) | No (according to amd) | Unknown | Yes | No
 
 # Miscellaneous
 ## Random
 - LPDDR memory:LPDDR memory frequency steppings are way more spreadt out, in comparison to normal DDR memory. Keep in mind the LPDDR memory 
-  <details>
-    <summary> LPDDR memory frequency steppings. </summary>
-  <img width="1233" height="656" alt="image" src="https://github.com/user-attachments/assets/76b202fb-7364-425a-b126-257b63aca1c5" />
+<details>
+<summary> LPDDR memory frequency steppings. </summary>
+<img width="1233" height="656" alt="image" src="https://github.com/user-attachments/assets/76b202fb-7364-425a-b126-257b63aca1c5" />
+(In this case the 8553MT/s stepping was removed by the OEM)
+</details>
 
-  </details>
 - All R9 and HX CPUs are (in regards of fuses) unlocked for overclocking out of the factory. If you have such a CPU, you should be able to enable Precision boost override (+200 MHz) via AMD Adrenalin software
+
   ### Soldered DDR (Not LPDDR)
    Not all soldered ram is LPDDR, its possible to have soldered normal DDR ram. Here is everything you should know about them:
    ### Power down mode
@@ -421,9 +430,27 @@ Credits: mmnz on discord
 
 ## AOD setup
 Below is a image showcasing 4 different bios files, each from a different generation ranging from 2000 to 5000. The bios files showcase that there is no AOD_SETUP string found in any of the BIOS files until ryzen 5000
+
 <img width="1919" height="1050" alt="Screenshot_2" src="https://github.com/user-attachments/assets/820be143-4469-4591-9be5-36b2d6f7b13c" />
+
 However, there is a exception. Ryzen 4000 series technically have unlocked CPUs like the ryzen 9 4900h, it appears with these unlocked higher end CPUs the bios does have AOD_SETUP.
 
+<details>
+<summary> These are the settings that are within AOD: </summary>
+<img width="4000" height="3000" alt="image" src="https://github.com/user-attachments/assets/46b17b45-b23c-45bd-8b78-868bdf4d8c13" />
+</details>
+
+Under the [DDR and Infinity Fabric Frequency/Timings] menu, the memory tuning options are just a 1:1 copy of what you also have in CBS. However AOD table takes priority over CBS memory settings. In a case where both the AOD memory and CBS memory settings are set to enabled, AOD will be applied and CBS will be ignored. 
+
+AOD holds important settings such as:
+- VDDIO
+- VSOC
+- Uncore/SoC OC Mode
+- PBO (Frequency Override(CPU and GPU), Curve Optimizer(All core, Per core, Per CCD, iGPU), Scalar,
+- Infinity Fabric Frequency
+- VDDP
+
+On machines that do not have the AOD_SETUP table, these settings do not exist within your BIOS. This means you cannot use tools like Smokeless UMAF to expose or enable them. Some AOD settings can still be enabled through SMU commands, such as Curve Optimizer. That is how we test those features on CPUs without the AOD table. You can do the same using [Universal x86 Tuning Utility](https://github.com/JamesCJ60/Universal-x86-Tuning-Utility).
 
 
 
