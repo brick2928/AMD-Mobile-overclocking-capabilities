@@ -387,7 +387,7 @@ Credits: mmnz on discord
 ### Gorgon Point (Zen 5/RDNA3.5/XDNA2 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory tuning capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
-| Ryzen AI 9 HX 475 | Yes | Yes | Yes | Yes, refer to Notes | Yes | No
+| Ryzen AI 9 HX 475 | Yes | Yes | Yes | Yes | Yes | No
 | Ryzen AI 9 HX 470 | Yes | Yes | Yes | Yes | Yes | No
 | Ryzen AI 9 465 | Yes | Yes | Yes | Yes | Yes | No
 | Ryzen AI 7 450 | No | No | No | Yes | Yes | No
@@ -417,13 +417,13 @@ Credits: mmnz on discord
    Not all soldered ram is LPDDR, its possible to have soldered normal DDR ram. Here is everything you should know about them:
    ### Power down mode
     - Power down mode: Soldered DDR has a constantly activated power-down mode.
-    - This power-down mode cannot be disabled via Smokeless UMAF becuase soldered DDR appears to ignore the DDR overclock menu until a second so-dimm stick is added.
-    - Adding a second So-Dimm stick (if possible) will bring the memory back to its normal behaviour (conservative power down mode, not ignoring DDR overclock options).
+    - This power-down mode cannot be disabled via Smokeless UMAF becuase soldered DDR appears to ignore the DDR overclock menu frequency settings until a second SO-DIMM stick is added, however timings inputs still go through.
+    - Adding a second SO-DIMM stick (if possible) will bring the memory back to its normal behaviour (conservative power down mode, not ignoring DDR overclock options).
    ### Overclocking
-    - Unlike LPDDR, Soldered DDR can accept so-dimm sticks on top of them meaning you can run a mix of soldered DDR and so-dimm (if the motherboard has a so-dimm slot). 
-    - Any SPD reading software will not work to grab the information of the soldered DDR, as the SPD information is stored in the firmware. Your best bet on AMD is using zentimings.
-    - Unless you have really bad dies soldered to your system, usually soldered ram will outperform its so-dimm counterpart.
-    - If you mix soldered DDR and so-dimm, the soldered ram should not bottleneck you in regards of memory frequency overclocking (as long as you dont have some top of the line so-dimm stick like samsung b-die).
+    - Unlike LPDDR, Soldered DDR can accept SO-DIMM sticks on top of them meaning you can run a mix of soldered DDR and SO-DIMM (if the motherboard has a SO-DIMM slot). 
+    - Any SPD reading software will not work to grab the information of the soldered DDR, as the SPD information is stored in the firmware. Your best bet on AMD is using ZenTimings.
+    - Unless you have really bad dies soldered to your system, usually soldered ram will outperform its SO-DIMM counterparts.
+    - If you mix soldered DDR and SO-DIMM, the soldered ram should not bottleneck you in regards of memory frequency overclocking (as long as you dont have some top of the line SO-DIMM stick like samsung b-die).
     - Here is a picture of what I have achieved on my system:  
       <img width="450" height="650" alt="image" src="https://github.com/user-attachments/assets/48309684-3504-4e27-b96b-504d0e6d2039" />
 
@@ -436,7 +436,7 @@ Below is a image showcasing 4 different bios files, each from a different genera
 However, there is a exception. Ryzen 4000 series technically have unlocked CPUs like the ryzen 9 4900h, it appears with these unlocked higher end CPUs the bios does have AOD_SETUP.
 
 <details>
-<summary> These are the settings that are within AOD: </summary>
+<summary> These are the subemnus that are within AOD: </summary>
 <img width="4000" height="3000" alt="image" src="https://github.com/user-attachments/assets/46b17b45-b23c-45bd-8b78-868bdf4d8c13" />
 </details>
 
