@@ -89,12 +89,12 @@ This table generilizes CPU's by their generation. Usually the capability of the 
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory tuning capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 |Ryzen 7 3780U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
-|Ryzen 7 3750H|Yes|No|Yes|Yes, up to 3200MT/s|No|No
-|Ryzen 7 3700C|Yes?|No|Yes?|Yes?|No|No
+|Ryzen 7 3750H|Yes|No|Yes|Yes|No|No
+|Ryzen 7 3700C|Yes?|No|Yes?|Yes, up to 3200MT/s|No|No
 |Ryzen 7 3700U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 5 3580U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 5 3550H|Yes|No|Yes|Yes|No|No
-|Ryzen 5 3500C|Yes?|No|Yes?|Yes?|No|No
+|Ryzen 5 3500C|Yes?|No|Yes?|Yes, up to 3200MT/s|No|No
 |Ryzen 5 3501U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 5 3500U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 5 3450U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
@@ -123,12 +123,12 @@ Credits: hibiki61 on discord
 |Ryzen 9 4900HS|Yes|Yes|Yes|Yes|Yes|No
 |Ryzen 7 4800H|Yes|No|Yes|Yes|No|No
 |Ryzen 7 4800HS|Yes|No|Yes|Yes|No|No
-|Ryzen 7 4980U|Yes|No|Yes|Yes|No|No
-|Ryzen 7 4800U|Yes|No|Yes|Yes|No|No
-|Ryzen 7 4700U|Yes|No|Yes|Yes|No|No
+|Ryzen 7 4980U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
+|Ryzen 7 4800U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
+|Ryzen 7 4700U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 5 4600H|Yes|No|Yes|Yes|No|No
 |Ryzen 5 4600HS|Yes|No|Yes|Yes|No|No
-|Ryzen 5 4680U|Yes|No|Yes|Yes, up to 3200MT/|No|No
+|Ryzen 5 4680U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 5 4600U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 5 4500U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
 |Ryzen 3 4300U|Yes|No|Yes|Yes, up to 3200MT/s|No|No
@@ -177,7 +177,7 @@ Credits: hibiki61 on discord
 | Ryzen 5 5500H | No | No | No | No | Yes | No
 | Ryzen 3 5425U | No | No | No | Yes, up to 3200MT/s | Yes | No
 | Ryzen 3 5400U | No | No | No | Yes, up to 3200MT/s | Yes | No
-| Ryzen 3 5125C | No | No | No | Yes? | Yes | No
+| Ryzen 3 5125C | No | No | No | Yes, up to 3200MT/s | Yes | No
 
   
 ## Ryzen 6000
@@ -200,7 +200,9 @@ Credits: hibiki61 on discord
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory tuning capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 | Ryzen 5 7520U | No | No | No | Yes | Yes | No
+| Ryzen 5 7520C | No | No | No | Yes | Yes | No
 | Ryzen 5 7320U | No | No | No | Yes | Yes | No
+| Ryzen 5 7320C | No | No | No | Yes | Yes | No
 
 ### Barcelo-R (7030 series, Zen 3/GCN5 based)
 | CPU   | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory tuning capable? | AOD_SETUP Exists? | tREFI Changable?|
@@ -232,7 +234,6 @@ Credits: hibiki61 on discord
 | ----------- | ------------- | --------------- |---------|-------------|-----------------------------|-|
 | Ryzen 9 7940HS| Yes | Yes | Yes | Yes | Yes | No
 | Ryzen 7 7840HS| No | No | No | Yes | Yes | No
-| Ryzen 7 7840H | No | No | No | Yes | Yes | No
 | Ryzen 7 7840U | No | No | No | Yes | Yes | No
 | Ryzen 7 7445HS | No | No | No | Yes | Yes | No
 | Ryzen 5 7640HS | No | No | No | Yes | Yes | No
