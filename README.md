@@ -1,37 +1,37 @@
 # DISCLAIMER
-This github repo is a community project, and is not backed by AMD. All of the information you see here was found by end consumers just like you! As much as we are confident in our findings, we can only be so sure as a unofficial source. Please take everything you find with a "grain of salt"  
+This GitHub repo is a community project, and is not backed by AMD. All of the information you see here was found by end consumers just like you! As much as we are confident in our findings, we can only be so sure as a unofficial source. Please take everything you find with a "grain of salt"  
 
-**This github repo assumes that your OEM has done no customization to your device and has just hidden all of the advanced options without touching them. Any of this information is bound to be false if your OEM decides to remove any of these options. This is very unlikely on laptops, though always possible. This more often happens on desktop motherboards with cheaper/weaker chipsets**
+**This GitHub repo assumes that your OEM has done no customization to your device and has just hidden all of the advanced options without touching them. Any of this information is bound to be false if your OEM decides to remove any of these options. This is very unlikely on laptops, though always possible. This more often happens on desktop motherboards with cheaper/weaker chipsets**
 
 # Navigation
 - If you aren't sure what this repo is about, please read the "introduction" part.
-- If you want to have quick answer as to what your CPU is capable of, refer to the [Simplified Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#simplified-table), it will tell you what your CPU is capable of depending on your CPU generation.
-- If you want to find the specific information for your CPU, search for your CPU via CTRL+F and write its full name. This will bring you to the Detailed Table where we state what each CPU is capable of instead of generilizing them according to their generation
+- If you want to have a quick answer as to what your CPU is capable of, refer to the [Simplified Table](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#simplified-table), it will tell you what your CPU is capable of depending on your CPU generation.
+- If you want to find the specific information for your CPU, search for your CPU via CTRL+F and write its full name. This will bring you to the Detailed Table where we state what each CPU is capable of instead of generalizing them according to their generation
 - Most of our proof is in the "Notes" section under whichever CPU generation you are looking at. Information which does not belong to a specific kind of CPU generation will be put under the [Miscellaneous](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#miscellaneous) section at the bottom. 
-- The [Miscellaneous](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#miscellaneous) holds interestting information, we recommend everyone to have a quick look at it. 
+- The [Miscellaneous](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities/tree/main#miscellaneous) holds interesting information, we recommend everyone to have a quick look at it. 
 
 
 # Introduction
 ###  Why does this exist? What even is this repo about?
-AMD Mobile CPUs are tricky. AMD does not directly tell the end consumer which chips are fused off from which features, only the way the CPU is "meant to be used". However some CPUs can use features such as CO, even though AMD says the opposite. Through this Github repo we aim to help people easily figure out what their CPU is technically capable of doing if they actually try it. Keep in mind we only feature GLOBAL CPUs in this repo, you will not find any china exclusives here.
+AMD Mobile CPUs are tricky. AMD does not directly tell the end consumer which chips are fused off from which features, only the way the CPU is "meant to be used". However some CPUs can use features such as CO, even though AMD says the opposite. Through This GitHub repo we aim to help people easily figure out what their CPU is technically capable of doing if they actually try it. Keep in mind we only feature GLOBAL CPUs in this repo, you will not find any China exclusives here.
 
 
 ### What is your source?
 Our source is just attempt and trial by a lot of people on the internet. We gather information from other peoples experiences and put them here for everyone to have a quick way of accessing this information.
 A picture will be provided as proof in the "Notes" section if applicable.
-Keep in mind: newer the generation of the CPU, the less confidence we have! Except in situations where we have direct proof - contributions matter to us.
+Keep in mind: the newer the generation of the CPU, the less confidence we have! Except in situations where we have direct proof - contributions matter to us.
 
 We got help from [this wikipedia page](https://en.wikipedia.org/wiki/List_of_AMD_Ryzen_processors#Mobile_processors) to get the full list of Mobile AMD Ryzen processors. 
 
 ### Please contribute!!
-Do you see the question marks? That is us indicating that we arent sure of our findings, or we are going off of assumptions.
-If you have the hardware for which we have written "unknown" or a question mark, you can check what your CPU is capable of and share your findings via creating a Issue!
+Do you see the question marks? That is us indicating that we aren't sure of our findings, or we are going off of assumptions.
+If you have the hardware for which we have written "unknown" or a question mark, you can check what your CPU is capable of and share your findings via creating an Issue!
 If you think anything is false or wrong, create an issue so we can talk it out.  
 
 [Here](https://github.com/brick2928/Check-Ryzen-Mobile-Capability?tab=readme-ov-file#CPU-undervolting) is a quick guide telling you how to test what your device is capable of!
 
 # Simplified Table
-This table generilizes CPU's by their generation. Usually the capability of the CPU mostly depends on their generation, but there are exceptions. For better accuracy you can refer to the detailed section by clicking the CPU generation you are interested in.
+This table generalizes CPU's by their generation. Usually the capability of the CPU mostly depends on their generation, but there are exceptions. For better accuracy you can refer to the detailed section by clicking the CPU generation you are interested in.
 ### Ryzen
 
 | CPU Generation | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory tuning capable? | AOD_SETUP Exists? | tREFI Changable?|
@@ -50,7 +50,7 @@ This table generilizes CPU's by their generation. Usually the capability of the 
 | [Ryzen AI 300](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-ai-300) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Yes | Yes | No |
 | [Ryzen AI MAX+ 300](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#strix-halo-zen-5rdna35xdna2-based) | Yes | Yes | Yes | Yes | Yes | No |
 | [Ryzen AI 400](https://github.com/brick2928/AMD-Mobile-overclocking-capabilities#ryzen-ai-400) | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Only Ryzen 9 or HX | Yes | Yes | No |
-| [Ryzen AI MAX+ 400]() | No | No | No | Unkown | Yes | No
+| [Ryzen AI MAX+ 400]() | No | No | No | Unknown | Yes | No
 
 
 # Detailed Table (Ryzen)
@@ -300,7 +300,7 @@ Credits: red_angrybird01 on discord.
 ## Notes  
 <details>
 <summary> 9955HX/3D capability to increase tREFI with newer AGESA (and also Memory tuning). </summary>
-Folowwing picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture can be found in Legion Series Discord Server -> https://discord.com/channels/761178912230473768/958336296621867038/1466577982289219697
+Following picture shows a 9955HX3D system with higher tREFI than JEDEC. Picture can be found in Legion Series Discord Server -> https://discord.com/channels/761178912230473768/958336296621867038/1466577982289219697
 <img width="2548" height="1599" alt="image" src="https://github.com/user-attachments/assets/8b3841de-265f-4a98-837a-6d4deb614a9a" />
 </details>
 
@@ -405,26 +405,26 @@ Credits: mmnz on discord
 
 # Miscellaneous
 ## Random
-- LPDDR memory:LPDDR memory frequency steppings are way more spreadt out, in comparison to normal DDR memory. Keep in mind the LPDDR memory 
+- LPDDR memory: LPDDR memory frequency steppings are way more spreadt out, in comparison to normal DDR memory. Keep in mind the LPDDR memory 
 <details>
 <summary> LPDDR memory frequency steppings. </summary>
 <img width="1233" height="656" alt="image" src="https://github.com/user-attachments/assets/76b202fb-7364-425a-b126-257b63aca1c5" />
 (In this case the 8553MT/s stepping was removed by the OEM)
 </details>
 
-- All R9 and HX CPUs are (in regards of fuses) unlocked for overclocking out of the factory. If you have such a CPU, you should be able to enable Precision boost override (+200 MHz) via AMD Adrenalin software
+- All R9 and HX CPUs are (regarding fuses) unlocked for overclocking out of the factory. If you have such a CPU, you should be able to enable Precision boost override (+200 MHz) via AMD Adrenalin software
 
   ### Soldered DDR (Not LPDDR)
    Not all soldered ram is LPDDR, its possible to have soldered normal DDR ram. Here is everything you should know about them:
    ### Power down mode
     - Power down mode: Soldered DDR has a constantly activated power-down mode.
-    - This power-down mode cannot be disabled via Smokeless UMAF becuase soldered DDR appears to ignore the DDR overclock menu frequency settings until a second SO-DIMM stick is added, however timings inputs still go through.
+    - This power-down mode cannot be disabled via Smokeless UMAF because soldered DDR appears to ignore the DDR overclock menu frequency settings until a second SO-DIMM stick is added, however timings inputs still go through.
     - Adding a second SO-DIMM stick (if possible) will bring the memory back to its normal behaviour (conservative power down mode, not ignoring DDR overclock options).
    ### Overclocking
     - Unlike LPDDR, Soldered DDR can accept SO-DIMM sticks on top of them meaning you can run a mix of soldered DDR and SO-DIMM (if the motherboard has a SO-DIMM slot). 
     - Any SPD reading software will not work to grab the information of the soldered DDR, as the SPD information is stored in the firmware. Your best bet on AMD is using ZenTimings.
     - Unless you have really bad dies soldered to your system, usually soldered ram will outperform its SO-DIMM counterparts.
-    - If you mix soldered DDR and SO-DIMM, the soldered ram should not bottleneck you in regards of memory frequency overclocking (as long as you dont have some top of the line SO-DIMM stick like samsung b-die).
+    - If you mix soldered DDR and SO-DIMM, the soldered ram should not bottleneck you in regards of memory frequency overclocking (as long as you don't have some top of the line SO-DIMM stick like samsung b-die).
     - Here is a picture of what I have achieved on my system:  
       <img width="450" height="650" alt="image" src="https://github.com/user-attachments/assets/48309684-3504-4e27-b96b-504d0e6d2039" />
 
@@ -434,10 +434,10 @@ Below is a image showcasing 4 different bios files, each from a different genera
 
 <img width="1919" height="1050" alt="Screenshot_2" src="https://github.com/user-attachments/assets/820be143-4469-4591-9be5-36b2d6f7b13c" />
 
-However, there is a exception. Ryzen 4000 series technically have unlocked CPUs like the ryzen 9 4900h, it appears with these unlocked higher end CPUs the bios does have AOD_SETUP.
+However, there is a exception. Ryzen 4000 series technically have unlocked CPUs like the Ryzen 9 4900H, it appears with these unlocked higher end CPUs the bios does have AOD_SETUP.
 
 <details>
-<summary> These are the subemenus that are within AOD: </summary>
+<summary> These are the submenus that are within AOD: </summary>
 <img width="4000" height="3000" alt="image" src="https://github.com/user-attachments/assets/46b17b45-b23c-45bd-8b78-868bdf4d8c13" />
 </details>
 
