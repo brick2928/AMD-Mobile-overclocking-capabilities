@@ -437,7 +437,7 @@ Below is a image showcasing 4 different bios files, each from a different genera
 However, there is a exception. Ryzen 4000 series technically have unlocked CPUs like the ryzen 9 4900h, it appears with these unlocked higher end CPUs the bios does have AOD_SETUP.
 
 <details>
-<summary> These are the subemnus that are within AOD: </summary>
+<summary> These are the subemenus that are within AOD: </summary>
 <img width="4000" height="3000" alt="image" src="https://github.com/user-attachments/assets/46b17b45-b23c-45bd-8b78-868bdf4d8c13" />
 </details>
 
