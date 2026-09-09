@@ -59,12 +59,12 @@ This table generalizes CPU's by their generation. Usually the capability of the 
 ### Raven Ridge (Zen/GCN5 based)
 | CPU  | Curve Optimizer capable? | Precision Boost Override capable? |iGPU CO capable?| Memory tuning capable? | AOD_SETUP Exists? | tREFI Changable?|
 | ------------ | ------------- | --------------- |---------|-------------|-----------------------------|-|
-|Ryzen 7 2800H|Yes?|No|Yes?|Yes|No|No|
-|Ryzen 7 2700U|Yes?|No|Yes?|Yes|No|No|
-|Ryzen 5 2600H|Yes?|No|Yes?|Yes|No|No|
-|Ryzen 5 2500U|Yes?|No|Yes?|Yes|No|No|
-|Ryzen 3 2300U|Yes?|No|Yes?|Yes|No|No|
-|Ryzen 3 2200U|Yes?|No|Yes?|Yes|No|No|
+|Ryzen 7 2800H|Yes?|No|Yes?|Yes (up to 3200MT/s?)|No|No|
+|Ryzen 7 2700U|Yes?|No|Yes?|Yes (up to 3200MT/s?)|No|No|
+|Ryzen 5 2600H|Yes?|No|Yes?|Yes (up to 3200MT/s?)|No|No|
+|Ryzen 5 2500U|Yes?|No|Yes?|Yes (up to 3200MT/s?)|No|No|
+|Ryzen 3 2300U|Yes?|No|Yes?|Yes (up to 3200MT/s?)|No|No|
+|Ryzen 3 2200U|Yes?|No|Yes?|Yes (up to 3200MT/s?)|No|No|
 
 ## Ryzen 3000
 ### Dalí (Zen/GCN5 based)
